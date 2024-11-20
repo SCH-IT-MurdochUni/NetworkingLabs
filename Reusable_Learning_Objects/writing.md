@@ -1,9 +1,11 @@
+```
 __        __    _ _   _             
 \ \      / / __(_) |_(_)_ __   __ _ 
  \ \ /\ / / '__| | __| | '_ \ / _` |
   \ V  V /| |  | | |_| | | | | (_| |
    \_/\_/ |_|  |_|\__|_|_| |_|\__, |
                               |___/ 
+```
 
 My students often ask about how a writing task should be completed, particularly with regard to the structure and style. You will be judged on the clarity of your writing throughout life so you must work on this skillset continuously if you want your ideas and thoughts to be taken seriously. Good writing is often a result of clear thinking, but many use writing to improve the clarity of their thinking. Tim Ferriss condenses down quite a few ideas in the following video on [https://www.youtube.com/watch?v#65U5byDZ55M How to Use Writing to Sharpen Your Thinking]. There is a summary of [https://bigthink.com/personal-growth/jordan-petersons-ten-step-process-for-stronger-writing Jordan Peterson's thoughts on writing ] also. The following are my recommendations, with most of the ideas rehashed from Strunk and White's, <u>The Elements of Style</u> [1]. If you need some added motivation on why you should hone these skills then please see [https://www.youtube.com/watch?v#p9YMeFEfLbs&t#281s this]
 
