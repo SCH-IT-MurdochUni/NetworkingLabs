@@ -18,8 +18,6 @@ If you are happy reading something a little longer, William Zinsser's "On Writin
 
 Strunk and White's, <u>The Elements of Style</u> [1], has stood the test of time as being a great book to improve your writing. If you do not have a copy, please borrow one from a library or consider buying one. It is not long, but I feel it is an indispensable guide for anyone. If you have not read this book and are a technical IT person, you may prejudge an English language style guide to be pretentious and complex but I have highlighted some excerpts below which should show you that this is not the case. Please obtain and read the entire book. 
 
-If you want the e-book, it is available from Amazon [https://www.amazon.com/Elements-Style-Fourth-William-Strunk-ebook/dp/B07NPN5HTP/ref#pd_sim_351_7?_encoding#UTF8&pd_rd_i#B07NPN5HTP&pd_rd_r#32e23f13-5b50-11e9-8784-3d0308570a1e&pd_rd_w#Qpjza&pd_rd_wg#hkhU5&pf_rd_p#a098ee4c-2e0f-4821-b463-d4b049053104&pf_rd_r#F11YHCEHSQRMP30BNXF0&psc#1&refRID#F11YHCEHSQRMP30BNXF0 The Elements of Style]. Be prepared for the best 67 cents you have spent in your life!
-
 #### Omit needless words ####
 
 ```
