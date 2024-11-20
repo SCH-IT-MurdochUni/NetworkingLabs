@@ -14,7 +14,7 @@ If you are attempting this activity from the South St campus, you may need to re
 
 Let's start by installing and configuring the Apache webserver. Start by deploying the Ubuntu Operating system. Once you have booted into Ubuntu, open a terminal and type:
 
-	sudo 	apt update
+	sudo apt update
 
 This command will consult the repositories about the latest software available for the distribution. Type
 
