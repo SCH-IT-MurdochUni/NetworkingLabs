@@ -1,5 +1,16 @@
-[[File:windows_running_ubuntu.jpg|right|thumb|x300px|alt#Windows running Ubuntu| Windows running Ubuntu]]
-[[File:ubuntu_running_windows.jpg|right|thumb|x300px|alt#Ubuntu running Windows| Ubuntu running Windows]]
+```
+  ___  _     _        _       _                       _     _                  
+ / _ \| |__ | |_ __ _(_)_ __ (_)_ __   __ _    __ _  | |   (_)_ __  _   ___  __
+| | | | '_ \| __/ _` | | '_ \| | '_ \ / _` |  / _` | | |   | | '_ \| | | \ \/ /
+| |_| | |_) | || (_| | | | | | | | | | (_| | | (_| | | |___| | | | | |_| |>  < 
+ \___/|_.__/ \__\__,_|_|_| |_|_|_| |_|\__, |  \__,_| |_____|_|_| |_|\__,_/_/\_\
+                                      |___/                                    
+ _____            _                                      _   
+| ____|_ ____   _(_)_ __ ___  _ __  _ __ ___   ___ _ __ | |_ 
+|  _| | '_ \ \ / / | '__/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __|
+| |___| | | \ V /| | | | (_) | | | | | | | | |  __/ | | | |_ 
+|_____|_| |_|\_/ |_|_|  \___/|_| |_|_| |_| |_|\___|_| |_|\__|
+```
 
 This lab is designed to get you up and running in a Linux environment as quickly as possible. In this week the goal is to get the Linux environment on your Windows or OSX operating system running on the computer sitting in front of you. Internal South St students are encouraged to do this in the labs, and then go home and re-do the task on their own computer. External students, as well as Singapore and Dubai-based students, will complete this on their own computers in class.
 
