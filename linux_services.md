@@ -1,8 +1,4 @@
-[[File:LAMP.png|right|thumb|x300px|alt#LAMP|LAMP]]
-
-In this lab, we will look at how command-line Linux servers can offer services. You may have heard of LAMP, which stands for Linux, Apache, MySQL, PHP and this is a very common software combination that has delivered the vast majority of Internet Services to the world. For example, this [https://csn.murdoch.edu.au/mediawiki/index.php Wiki], which is the same software stack as [https://www.wikipedia.org Wikipedia], runs LAMP. This page that you are looking at right now runs on a cloud-based server that does not have a Graphical User Interface (GUI).
-
-This lab will also continue our exploration of the command line, superusers, networking, and firewalls. We will continue to expand your knowledge of the command line by extracting compressed files and moving them between Internet-connected machines. 
+In this lab, we will look at how command-line Linux servers can offer services. This lab will also continue our exploration of the command line, superusers, networking, and firewalls. We will continue to expand your knowledge of the command line by extracting compressed files and moving them between Internet-connected machines. 
 
 If you are an External student, an online student, or a transnational student then complete this before proceeding: [[Linux Services#External Online & Transnational students]]. The reason that you must do this as an external, online on transnational student is because we need to set you up with two virtual machines on on your personal laptop/desktop.
 
