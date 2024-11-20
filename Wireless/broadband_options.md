@@ -13,8 +13,9 @@
       |_|                          
 ```
 
-In this activity you will work collaboratively in groups of 3-4 on a single document. You goal is to lay out the broadband options for a customer based on their location. You will need to consider the wired broadband options available, as well as the wireless broadband options. Make use of this channel in the class Teams site here [https://teams.microsoft.com/l/channel/19%3a55eae3ba0b1040ddb05470098c22c687%40thread.tacv2/Week%25201%2520broadband%2520options?groupId#93eed79c-89a3-4739-8d56-03582c6632d1&tenantId#c00d4c1b-cf7b-4e93-b7c7-10113a9bc230 here]
-Upload a document and then start collaborating with your team mates to lay out the best broadband options for these areas. You will have 90 minutes to write up a document, and in the final 30 minutes, each group will present their document to the class at the front. Remember to be as supportive as possible to those that are presenting, we want a community of learners that help each other in this unit.
+In this activity you will work collaboratively in groups of 3-4 on a single document. You goal is to lay out the broadband options for a customer based on their location. You will need to consider the wired broadband options available, as well as the wireless broadband options. 
+
+Use a shared Office 365 document in Teams then start collaborating with your team mates to lay out the best broadband options for these areas. You will have 90 minutes to write up a document, and in the final 30 minutes, each group will present their document to the class at the front. Remember to be as supportive as possible to those that are presenting, we want a community of learners that help each other in this unit.
 
 [[File:Exemplar.png|right|800px|thumbnail| Exemplar work: the key is to get working quickly together with your shared document. Screenshot in anything valuable and fill in the provided table and a summarising paragraph at the end. Note that this example is deliberately blurry because we just want to give you a feel for what you might present at the end.]]
 
