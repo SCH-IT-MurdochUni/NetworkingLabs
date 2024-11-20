@@ -1,4 +1,16 @@
-[[File:linuxsysinfo.png|right|450px|thumbnail| This is neofetch, sudo apt install neofetch. You would then need to put it in vim /etc/update-motd.d/00 to have this info generated when you login]]
+```
+ ____            _       _   _               _     _                  
+/ ___|  ___ _ __(_)_ __ | |_(_)_ __   __ _  | |   (_)_ __  _   ___  __
+\___ \ / __| '__| | '_ \| __| | '_ \ / _` | | |   | | '_ \| | | \ \/ /
+ ___) | (__| |  | | |_) | |_| | | | | (_| | | |___| | | | | |_| |>  < 
+|____/ \___|_|  |_| .__/ \__|_|_| |_|\__, | |_____|_|_| |_|\__,_/_/\_\
+                  |_|                |___/                            
+ ____                             _____                 _   _                 
+/ ___|  ___ _ ____   _____ _ __  |  ___|   _ _ __   ___| |_(_) ___  _ __  ___ 
+\___ \ / _ \ '__\ \ / / _ \ '__| | |_ | | | | '_ \ / __| __| |/ _ \| '_ \/ __|
+ ___) |  __/ |   \ V /  __/ |    |  _|| |_| | | | | (__| |_| | (_) | | | \__ \
+|____/ \___|_|    \_/ \___|_|    |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
+```
 
 The goal of this week is to write a script that will backup the contents of /home/ubuntu/Documents into /home/ubuntu/backup. This backup script should use cron to schedule it every hour. The name of the backup file should be the date of the backup. We will also export the backup to the cloud. The lab below is not a step by step guide. It is expected that you will have watched the videos. Each section below describes how to do an individual piece of the solution. It is your job to combine them to achieve the backup function described above. You should be constantly testing your script as you add functionality to it. 
 

@@ -1,4 +1,17 @@
-[[File:Ubuntu_Desktop.png|right|thumb|x300px|alt#Ubuntu Desktop| Ubuntu Desktop]]
+```
+ _   _ _                 _           ____            _    _              
+| | | | |__  _   _ _ __ | |_ _   _  |  _ \  ___  ___| | _| |_ ___  _ __  
+| | | | '_ \| | | | '_ \| __| | | | | | | |/ _ \/ __| |/ / __/ _ \| '_ \ 
+| |_| | |_) | |_| | | | | |_| |_| | | |_| |  __/\__ \   <| || (_) | |_) |
+ \___/|_.__/ \__,_|_| |_|\__|\__,_| |____/ \___||___/_|\_\\__\___/| .__/ 
+                                                                  |_|    
+ _____               _ _ _            _           _   _             
+|  ___|_ _ _ __ ___ (_) (_) __ _ _ __(_)___  __ _| |_(_) ___  _ __  
+| |_ / _` | '_ ` _ \| | | |/ _` | '__| / __|/ _` | __| |/ _ \| '_ \ 
+|  _| (_| | | | | | | | | | (_| | |  | \__ \ (_| | |_| | (_) | | | |
+|_|  \__,_|_| |_| |_|_|_|_|\__,_|_|  |_|___/\__,_|\__|_|\___/|_| |_|
+                                                                    
+```
 
 In this lab, you will become more familiar with the Ubuntu Desktop environment, but we will try to emphasise the use of the command line as many Internet servers do not have Desktop Graphical User Interfaces (GUIs). Towards the end of this lab, we will show you all of the different ways that software can be installed and introduce you to file permissions. 
 

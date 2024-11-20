@@ -1,4 +1,11 @@
-# Overview #
+```
+ ____  _   _ ____  
+|  _ \| \ | / ___| 
+| | | |  \| \___ \ 
+| |_| | |\  |___) |
+|____/|_| \_|____/ 
+                   
+```
 
 In this week's lab, we will acquire a domain name from your provider of choice, link it with the public IP address of your cloud machine, and then obtain a TLS certificate for free through Let's Encrypt.
 

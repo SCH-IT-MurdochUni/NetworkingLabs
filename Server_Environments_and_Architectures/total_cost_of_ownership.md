@@ -1,4 +1,17 @@
-[[File:TCO.jpg|right|thumb|x500px|alt#TCO|TCO  image: Uwe Kils [https://creativecommons.org/licenses/by-sa/3.0/deed.en  Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)] ]]
+```
+ _____     _        _    ____          _            __ 
+|_   _|__ | |_ __ _| |  / ___|___  ___| |_    ___  / _|
+  | |/ _ \| __/ _` | | | |   / _ \/ __| __|  / _ \| |_ 
+  | | (_) | || (_| | | | |__| (_) \__ \ |_  | (_) |  _|
+  |_|\___/ \__\__,_|_|  \____\___/|___/\__|  \___/|_|  
+                                                       
+  ___                               _     _       
+ / _ \__      ___ __   ___ _ __ ___| |__ (_)_ __  
+| | | \ \ /\ / / '_ \ / _ \ '__/ __| '_ \| | '_ \ 
+| |_| |\ V  V /| | | |  __/ |  \__ \ | | | | |_) |
+ \___/  \_/\_/ |_| |_|\___|_|  |___/_| |_|_| .__/ 
+                                           |_|    
+```
 
 In this exercise, you will practice calculating the total cost of ownership (TCO) to support your decision as to which printer to purchase for your organisation. We use printers as an example because a large portion of the TCO is not the purchase price and yet this is often a powerful motivator for home users to choose one model or brand over another. We assume you have access to a spreadsheet application.  If you don’t have one installed a web-based solution such as Google Sheets will be fine.
 
