@@ -1,8 +1,8 @@
- _     _                    ____                  _               
-| |   (_)_ __  _   ___  __ / ___|  ___ _ ____   _(_) ___ ___  ___ 
-| |   | | '_ \| | | \ \/ / \___ \ / _ \ '__\ \ / / |/ __/ _ \/ __|
-| |___| | | | | |_| |>  <   ___) |  __/ |   \ V /| | (_|  __/\__ \
-|_____|_|_| |_|\__,_/_/\_\ |____/ \___|_|    \_/ |_|\___\___||___/
+     _     _                    ____                  _               
+    | |   (_)_ __  _   ___  __ / ___|  ___ _ ____   _(_) ___ ___  ___ 
+    | |   | | '_ \| | | \ \/ / \___ \ / _ \ '__\ \ / / |/ __/ _ \/ __|
+    | |___| | | | | |_| |>  <   ___) |  __/ |   \ V /| | (_|  __/\__ \
+    |_____|_|_| |_|\__,_/_/\_\ |____/ \___|_|    \_/ |_|\___\___||___/
 
 In this lab, we will look at how command-line Linux servers can offer services. This lab will also continue our exploration of the command line, superusers, networking, and firewalls. We will continue to expand your knowledge of the command line by extracting compressed files and moving them between Internet-connected machines. 
 
