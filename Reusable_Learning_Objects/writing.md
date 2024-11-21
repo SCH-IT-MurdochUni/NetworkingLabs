@@ -9,9 +9,9 @@ __        __    _ _   _
 
 My students often ask about how a writing task should be completed, particularly with regard to the structure and style. You will be judged on the clarity of your writing throughout life so you must work on this skillset continuously if you want your ideas and thoughts to be taken seriously. Good writing is often a result of clear thinking, but many use writing to improve the clarity of their thinking. Tim Ferriss condenses down quite a few ideas in the following video on [https://www.youtube.com/watch?v#65U5byDZ55M How to Use Writing to Sharpen Your Thinking]. 
 
-The following are my recommendations, with most of the ideas rehashed from Strunk and White's, <u>The Elements of Style</u> [1]. If you need some added motivation on why you should hone these skills then please see [https://www.youtube.com/watch?v#p9YMeFEfLbs&t#281s this]
+The following are my recommendations, with most of the ideas rehashed from Strunk and White's, <u>The Elements of Style</u> [1]. If you need some added motivation on why you should hone these skills then please see [this](https://www.youtube.com/watch?v#p9YMeFEfLbs&t#281s) 
 
-If you are happy reading something a little longer, William Zinsser's "On Writing Well" is excellent. If you want something amusing, "Eats Shoots & Leaves" by Lynne Truss is very good. For something that will help you to navigate the complexities of quite specialised technical writing, the HackaDay style guide is excellent: https://github.com/Hack-a-Day/hackaday_style_guide
+If you are happy reading something a little longer, William Zinsser's "On Writing Well" is excellent. If you want something amusing, "Eats Shoots & Leaves" by Lynne Truss is very good. For something that will help you to navigate the complexities of quite specialised technical writing, the (HackaDay style guide)[https://github.com/Hack-a-Day/hackaday_style_guide] is excellent.
 
 
 ## Writing well ##
