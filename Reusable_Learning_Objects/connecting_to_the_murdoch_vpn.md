@@ -1,3 +1,24 @@
+```
+  ____                            _   _               _        
+ / ___|___  _ __  _ __   ___  ___| |_(_)_ __   __ _  | |_ ___  
+| |   / _ \| '_ \| '_ \ / _ \/ __| __| | '_ \ / _` | | __/ _ \ 
+| |__| (_) | | | | | | |  __/ (__| |_| | | | | (_| | | || (_) |
+ \____\___/|_| |_|_| |_|\___|\___|\__|_|_| |_|\__, |  \__\___/ 
+                                              |___/            
+ _   _            __  __               _            _     
+| |_| |__   ___  |  \/  |_   _ _ __ __| | ___   ___| |__  
+| __| '_ \ / _ \ | |\/| | | | | '__/ _` |/ _ \ / __| '_ \ 
+| |_| | | |  __/ | |  | | |_| | | | (_| | (_) | (__| | | |
+ \__|_| |_|\___| |_|  |_|\__,_|_|  \__,_|\___/ \___|_| |_|
+                                                          
+__     ______  _   _ 
+\ \   / /  _ \| \ | |
+ \ \ / /| |_) |  \| |
+  \ V / |  __/| |\  |
+   \_/  |_|   |_| \_|
+                     
+```
+
 To connect to the murdoch VPN you will have to be a member enrolled in one of the following units:
 
 '''ICT291, ICT302, ICT369, ICT372, ICT535, ICT611 or added by a staff member.'''
@@ -8,17 +29,11 @@ Before you can start using Murdoch's Cisco AnyConnect VPN service the Azure Mult
 To configure your Azure MFA, go to https://aka.ms/mfasetup and login with your Murdoch staff/student number and password. 
 
 
-[[File:Mfalogin.jpg]]
-
-
 You will be asked to supply more information to keep your account secure - click Next to proceed.
 
 At '''Step 1''' you will be asked to select a default verification method and given the options of Authentication phone, Office phone or '''Mobile app'''.
 
 Please select '''Mobile App''' and then check the '''Receive notifications for verification option'''
-
-
-[[File:MFA 5AdditionalSecurityVerification MobileApp.png|550px]]
 
 The Office phone method is not supported, and the Authentication phone method is not recommended
 
@@ -26,7 +41,7 @@ Proceed by clicking Set up - you will then be prompted to set up the Microsoft A
 
 
 
-##Install the Microsoft Authenticator App:##
+## Install the Microsoft Authenticator App:##
 
 Microsoft Authenticator is required to validate your credentials via your smart phone. To install this app search for Microsoft Authenticator in the App Store or Google Play and click install 
 
@@ -36,9 +51,7 @@ The app will prompt you to scan a QR code to complete setup. Using another compu
 
 Scan the QR code or enter the 6 digit code and Microsoft Authenticator will complete setup
 
-
-##Cisco AnyConnect Client Installation:##
-
+## Cisco AnyConnect Client Installation:##
 
 Download the '''client installation package''', for your version of operation system.
 
@@ -62,10 +75,10 @@ For IOS devices please go to the App Store and search for Cisco Anyconnect.
 
 For Android devices please go to the Google Play Store and search for Cisco Anyconnect.
 
-##Connecting to the VPN Service##
+## Connecting to the VPN Service##
 
 
-###Enter Credentials on your computer###
+### Enter Credentials on your computer###
 
 
 [[File:Client.jpg|550px]]
@@ -80,7 +93,7 @@ Change your Group to '''Murdoch_Unit_ICT'''
 Enter your student number i.e. 31234567@student.murdoch.edu.au and your Murdoch password and press "OK" 
 
 
-###Authorize on your second factor###
+### Authorize on your second factor###
 
 [[File:Approve signin.png|550px]]
 
@@ -93,10 +106,10 @@ You will prompted to enter a verification code, or to approve the signin. This w
 '''Use verification code from app or token:''' Your app will display a 6 code digit that will need to be entered in to the AnyConnect client 
 MFA Code
 
-##Testing##
+## Testing##
 When you are successfully connected, you should be able to ping 10.51.32.251.
 
-##FAQ##
+## FAQ##
 '''Q: Will I be able to connect to VPN without access to my additional security verification option?'''
 
 Without access to your secondary verification option, VPN access will not be possible.
