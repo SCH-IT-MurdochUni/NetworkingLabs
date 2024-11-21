@@ -92,7 +92,7 @@ There is nothing wrong, really, with any word — all are good, but some are bet
 others. A matter of ear, a matter of reading the books that sharpen the ear." [1]
 ```
 
-If you need more convincing, you can read another author's favorite excerpts from the book in the article here: http://www.jstor.org.libproxy.murdoch.edu.au/stable/25594676
+If you need more convincing, you can read another author's favorite excerpts from the book in the article [here](http://www.jstor.org.libproxy.murdoch.edu.au/stable/25594676)
 In short, make sure you read the whole book and start trying to integrate some of the ideas that resonate with you into your writing.
 
 I think the following Aristotle quote provides a nice summary of this section. 
@@ -111,10 +111,7 @@ The most important aspect of these tools is that you use them to try to locate y
 
 ## Structure ##
 
-The image to the right [2] describes the overall structure that will work for most essays. Note that introductions should narrow in focus from beginning to end. The conclusion of a document should end with broader implications and future directions. The best way to structure the content within the body is described in greater detail below. Remember that there is no absolute right or wrongs here, you will have to use your best judgement.  
-
-[[File:Essay_document_structure.png|right|thumb|x400px|alt#5 Generic structure of essay from [https://www.monash.edu/rlo/quick-study-guides/writing-essays Monash University] | 
-Generic structure of essay from [https://www.monash.edu/rlo/quick-study-guides/writing-essays Monash University] [2]]]
+The image to the right [2] describes the overall structure that will work for most essays. Note that introductions should narrow in focus from beginning to end. The conclusion of a document should end with broader implications and future directions. The best way to structure the content within the body is described in greater detail below. Remember that there is no absolute right or wrongs here, you will have to use your best judgement. This is a great generic guide [here](https://www.monash.edu/rlo/quick-study-guides/writing-essays Monash University).
 
 Many students don't put enough thought into how they structure their document. Remember that if your thoughts are unclear, then there is no way that when you come to write it will be any clearer. The lesson here is that clarity in your thought process will lead to clarity in the narrative of your writing. Clarity of thought on a topic should hopefully improve as you read more, so the pre-requisite for all of this is that you have done a lot of reading on the topic and have had the time to sit back and reflect on what you have read. The takeaway message: read a lot and read with as much lead time on your deadline as possible. 
 
