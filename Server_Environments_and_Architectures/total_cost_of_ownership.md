@@ -20,6 +20,17 @@ While this may seem to some like a tedious exercise, almost everything at the bu
 * Employ your own IT support staff or subcontract the work
 * Use Lenovo, HP, Dell AND/OR Apple as a laptop vendor
 
+<div style="float: right; margin: 0 10px 10px 0; width: 500px;">
+
+![TCO](../IMGs/TCO.jpg)
+
+<p style="font-size: smaller;">
+TCO image: Uwe Kils  
+<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank">Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</a>
+</p>
+
+</div>
+
 As an example that is [in]visible to you, Moodle, the LMS system which delivers your course materials at Murdoch has changed from running on local Murdoch South St hardware to being outsourced to a private contractor in the Eastern States of Australia and now runs back to Murdoch South st again. Undoubtedly a TCO was run at each of these decision points. 
 
 You should find this activity useful in your life too. Buying a new/used car or evaluating the decision to buy or rent your house or business premises can all use TCOs to help evaluate the decision. 
