@@ -20,7 +20,7 @@ While this may seem to some like a tedious exercise, almost everything at the bu
 * Employ your own IT support staff or subcontract the work
 * Use Lenovo, HP, Dell AND/OR Apple as a laptop vendor
 
-<div style="float: right; margin: 0 10px 10px 0; width: 500px;">
+<div style="float: right; margin: 0 10px 10px 0; width: 200px;">
 
 ![TCO](../IMGs/TCO.jpg)
 
