@@ -27,19 +27,19 @@ You should find this activity useful in your life too. Buying a new/used car or 
 Remember that running a TCO does not eliminate the ability for you to incorporate your feel for the quality of one solution over another. As an example, comparing an equivalent Hyundai to a Honda may tell you that the Honda is $x
 more than the Hyundai. It doesn't stop you from buying a Honda, but it will put a figure or financial number on home much extra you are paying for the reliability, quality or whatever you feel about the Honda. 
 
-##Which printers?##
+## Which printers? ##
 You will choose the printers to compare.  Ideally, you should choose a low cost printer such as a budget inkjet and a more expensive laser printer to compare the TCO.  This is often the choice for home users.
 
 Alternatively, you could compare an entry level laser printer designed for a single user against a large networked high capacity laser printer aimed at a work group. 
 
 If you are working on this exercise on your own (external student) you will need to complete it for the two printers yourself.  If you are completing this exercise as part of a supervised workshop with an instructor you may choose to work with a partner.  In this case, you and your partner should each choose a printer and complete the TCO calculation for your printer.  You can then compare results and importantly consider differences that you may have made in your assumptions.
 
-##Getting Started##
+## Getting Started ##
 In order to determine the TCO you need to know what costs are involved.  Obviously to print you need a printer and paper so you need to know the fixed cost (one purchase for its life) of the printer and the variable cost of the paper (the cost varies depending on how much you print).
 
 But there are other costs. Take your time to think carefully about the costs associated with a laser or inkjet printer and list them out.  It might be efficient for you to do this in a spreadsheet. Once you think you have all the costs associated with printing listed out, compare your list with your classmates and update your list as necessary. It is important that you capture the large expense items.  While we refer to the “total” cost of ownership, in practice accounting for tens of dollars for a purchase that will cost thousands of dollars doesn’t make much sense as your time is also an expense.
 
-##Requirements and Assumptions##
+## Requirements and Assumptions ##
 
 Costs will vary depending on the assumptions you make.  So you need to be very explicit in your assumptions and apply them equally to alternatives you are considering.
 
@@ -55,7 +55,7 @@ How many pages does the printer need to print each week?  This will affect the n
 
 If you are working with others your list should be quite complete.  However, you may wish to download the spreadsheet template provided and compare your costs with those listed by the unit coordinator.  If you are completing this exercise on your own we strongly recommend that you check your work against the unit coordinator's suggested inclusions.
 
-##Gathering specifications and costs##
+## Gathering specifications and costs ##
 With a list of expense items associated with your printers, you should now find the unit costs for all the items.
 
 For example, you listed paper as a variable cost.  You will be able to find the cost of paper the web.  If you listed electricity as a cost you could visit the power company website to determine that cost of electricity.
@@ -66,7 +66,7 @@ If necessary, download the provided template and use that as a starting point.  
 
 You will need to refer to the manuals or search online for the printer specifications to determine some information such as power consumption or the number of pages an ink cartridge can print.
 
-##Calculating consumption##
+## Calculating Consumption ##
 Using your assumptions you can calculate how much of each fixed and variable cost will apply for the period you are considering.
 For example, if we are looking at a 5 year period and we assume that we will print 400 pages per week then our total paper consumption will be 5 (years) x 52 (weeks) x 400 (pages) #  104,000 pages.  From this number, we can work out how many other consumables we require.
 
@@ -78,10 +78,10 @@ If you don’t already have some reasonable assumptions use the following:
 
 Calculate the quantity of resources that will be consumed during the period of interest.
 
-##Calculating cost##
+## Calculating cost ##
 * Knowing the number of consumables used over the time period and the cost of each individual consumable, determine the cost for each type of consumable and then add these to determine the total cost of ownership.
 
-##Reflection questions##
+## Reflection questions ##
 * Based on the TCO which printer is the “best”?
 * Would your answer be the same for a home user who prints 5 pages per week?
 * What other factors could/should we have considered apart from the TCO?
