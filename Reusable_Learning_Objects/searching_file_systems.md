@@ -1,3 +1,17 @@
+```
+ ____                      _     _             
+/ ___|  ___  __ _ _ __ ___| |__ (_)_ __   __ _ 
+\___ \ / _ \/ _` | '__/ __| '_ \| | '_ \ / _` |
+ ___) |  __/ (_| | | | (__| | | | | | | | (_| |
+|____/ \___|\__,_|_|  \___|_| |_|_|_| |_|\__, |
+                                         |___/ 
+ _____ _ _                     _                     
+|  ___(_) | ___  ___ _   _ ___| |_ ___ _ __ ___  ___ 
+| |_  | | |/ _ \/ __| | | / __| __/ _ \ '_ ` _ \/ __|
+|  _| | | |  __/\__ \ |_| \__ \ ||  __/ | | | | \__ \
+|_|   |_|_|\___||___/\__, |___/\__\___|_| |_| |_|___/
+                     |___/                           
+```
 
 These following are some notes on how to search for files on filesystems. Use these to search the Gutenberg Archive [[:Media:gutenberg.tar.bz2]].
 
@@ -65,11 +79,11 @@ I use the following on the command line to look for frequent elements. You need 
 
 ## Questions ##
 
-Please highlight the text below for spoilers/answers. 
+Please click the spoilers for answers below: 
 
-* How many times does the string "verdigris" appear, enter a number only:<details><summary>Spoiler</summary>9</details>
-* What is the surname of the author of the filename “1107.txt”, the answer is case sensitive: <details><summary>Spoiler</summary>Shakespeare</details>
-* What is the surname of the book author, of the file that is exactly 255258 bytes. The answer is case sensitive: <details><summary>Spoiler</summary>Lobo</details>
-* What is the filename of the file with the 3rd oldest creation date: <details><summary>Spoiler</summary>1498.txt</details>
-* Find the word that follows the follows the text “Next day there was a surprise for Jack”: (Case sensitive-no spaces) <details><summary>Spoiler</summary>Halliday</details> 
+1. How many times does the string "verdigris" appear, enter a number only:<details><summary>Spoiler</summary>9</details>
+2. What is the surname of the author of the filename “1107.txt”, the answer is case sensitive: <details><summary>Spoiler</summary>Shakespeare</details>
+3. What is the surname of the book author, of the file that is exactly 255258 bytes. The answer is case sensitive: <details><summary>Spoiler</summary>Lobo</details>
+4. What is the filename of the file with the 3rd oldest creation date: <details><summary>Spoiler</summary>1498.txt</details>
+5. Find the word that follows the follows the text “Next day there was a surprise for Jack”: (Case sensitive-no spaces) <details><summary>Spoiler</summary>Halliday</details> 
 
