@@ -67,9 +67,9 @@ I use the following on the command line to look for frequent elements. You need 
 
 Please highlight the text below for spoilers/answers. 
 
-* How many times does the string "verdigris" appear, enter a number only:<details><summary>Click to reveal spoiler</summary>9</details>
-* What is the surname of the author of the filename “1107.txt”, the answer is case sensitive: <span style#"color: black; background: black;">Shakespeare</span>
-* What is the surname of the book author, of the file that is exactly 255258 bytes. The answer is case sensitive: <span style#"color: black; background: black;">Lobo</span>
-* What is the filename of the file with the 3rd oldest creation date: <span style#"color: black; background: black;">1498.txt</span>
-* Find the word that follows the follows the text “Next day there was a surprise for Jack”: <span style#"color: black; background: black;">Halliday</span> (Case sensitive-no spaces)
+* How many times does the string "verdigris" appear, enter a number only:<details><summary>Spoiler</summary>9</details>
+* What is the surname of the author of the filename “1107.txt”, the answer is case sensitive: <details><summary>Spoiler</summary>Shakespeare</details>
+* What is the surname of the book author, of the file that is exactly 255258 bytes. The answer is case sensitive: <details><summary>Spoiler</summary>Lobo</details>
+* What is the filename of the file with the 3rd oldest creation date: <details><summary>Spoiler</summary>1498.txt</details>
+* Find the word that follows the follows the text “Next day there was a surprise for Jack”: (Case sensitive-no spaces) <details><summary>Spoiler</summary>Halliday</details> 
 
