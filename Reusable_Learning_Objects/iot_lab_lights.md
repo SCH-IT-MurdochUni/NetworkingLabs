@@ -1,3 +1,12 @@
+```
+ ___    _____   _     _       _     _   _             
+|_ _|__|_   _| | |   (_) __ _| |__ | |_(_)_ __   __ _ 
+ | |/ _ \| |   | |   | |/ _` | '_ \| __| | '_ \ / _` |
+ | | (_) | |   | |___| | (_| | | | | |_| | | | | (_| |
+|___\___/|_|   |_____|_|\__, |_| |_|\__|_|_| |_|\__, |
+                        |___/                   |___/ 
+```
+
 In this lab, we will learn how to control the lab lighting using a computer. This should reveal some of the amazing possibilities of the IoT, as well as some of the potential for misuse if security is not handled correctly. We will learn about this while playing with a little bash scripting on Ubuntu Linux. We will briefly chat about:
 * The Internet of Things (IoT)
 * Linux
