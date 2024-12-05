@@ -6,17 +6,17 @@ In this lab, we will learn how to control the lab lighting using a computer. Thi
 * Machine to Machine Communications 
 
 <div style="float: right; width: 400px; margin: 0 10px 10px 0;">
-  <img src="./IMGs/Light_off.png" alt="The light you will turn on. Please note the location of the fixture number, but remember to use your own" style="width: 100%;">
+  <img src="../IMGs/Light_off.png" alt="The light you will turn on. Please note the location of the fixture number, but remember to use your own" style="width: 100%;">
   <p style="text-align: center;">The light you will turn on. Please note the location of the fixture number, but remember to use your own</p>
 </div>
 
 <div style="float: right; width: 400px; margin: 0 10px 10px 0;">
-  <img src="./IMGs/Light_on.png" alt="When you execute the command correctly, the light should turn on" style="width: 100%;">
+  <img src="../IMGs/Light_on.png" alt="When you execute the command correctly, the light should turn on" style="width: 100%;">
   <p style="text-align: center;">When you execute the command correctly, the light should turn on</p>
 </div>
 
 <div style="float: right; width: 400px; margin: 0 10px 10px 0;">
-  <img src="../IMGs/Temp_sensor.jpg" alt="Temperature Sensor" style="width: 100%;">
+  <img src="../IMGs/Temp_sensor.png" alt="Temperature Sensor" style="width: 100%;">
   <p style="text-align: center;">Temperature Sensor</p>
 </div>
 
