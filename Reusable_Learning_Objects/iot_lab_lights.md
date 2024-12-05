@@ -5,9 +5,21 @@ In this lab, we will learn how to control the lab lighting using a computer. Thi
 * Coding
 * Machine to Machine Communications 
 
-[[File:light_off.png|right|400px|thumbnail| The light you will turn on. Please note the location of the fixture number, but remember to use your own]]
+<div style="float: right; width: 400px; margin: 0 10px 10px 0;">
+  <img src="./IMGs/Light_off.png" alt="The light you will turn on. Please note the location of the fixture number, but remember to use your own" style="width: 100%;">
+  <p style="text-align: center;">The light you will turn on. Please note the location of the fixture number, but remember to use your own</p>
+</div>
 
-[[File:light_on.png|right|400px|thumbnail| When you execute the command correctly, the light should turn on]]
+<div style="float: right; width: 400px; margin: 0 10px 10px 0;">
+  <img src="./IMGs/Light_on.png" alt="When you execute the command correctly, the light should turn on" style="width: 100%;">
+  <p style="text-align: center;">When you execute the command correctly, the light should turn on</p>
+</div>
+
+<div style="float: right; width: 400px; margin: 0 10px 10px 0;">
+  <img src="../IMGs/Temp_sensor.jpg" alt="Temperature Sensor" style="width: 100%;">
+  <p style="text-align: center;">Temperature Sensor</p>
+</div>
+
 
 ## Turning the lights on and off ##
 
@@ -119,7 +131,7 @@ fi
 
 You can change/test the temperature of the sensor by holding the sensor or leaving it alone to cool down.
 
-#### Challenging Tasks####
+#### Challenging Tasks ####
 * Can you modify the code to change to a different colour based on the temperature, you can also play with the fade?
 * Can you then loop over this code block for 10 minutes or 600 seconds, it may be helpful to use the sleep command again and retest the temperature every second?
 * Can you change more than just your own light?
