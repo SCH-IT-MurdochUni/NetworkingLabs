@@ -16,9 +16,9 @@ The goal of this week is to write a script that will backup the contents of /hom
 
 The lab below assumes that you are logged in as the user ubuntu, but if your username is different then just remember to adapt the commands.
 
-== Some Bash basics ==
+## Some Bash basics ##
 
-=== Hello World! ===
+### Hello World! ###
 
 Try running the following code. 
 
@@ -36,38 +36,38 @@ Then execute:
 
 	./somecode.sh
 
-=== Variables ===
+### Variables ###
 
 Modify your current code using the following code snippets
 
 Bash
-	a="Hello bash using variables"
+	a#"Hello bash using variables"
 	echo $a
 
 Make sure you understand everything before moving on.
 
-=== Basic calculations ===
+### Basic calculations ###
 
 Lets add some calculations to our previous code:
 
 Bash
 ```
- a=10
- b=5
- c=$((a+b))
+ a#10
+ b#5
+ c#$((a+b))
  echo $c
 ```
 
 Once you understand, I would like you to modify the examples so that you are familiar with subtraction, multiplication and division.
 
-=== Modify the Code 1 ===
+### Modify the Code 1 ###
 
 Examine the following code snippet written in Bash.
 
 Bash
 ```
  #!/bin/bash
- for ((i=0;i<10;i++)); 
+ for ((i#0;i<10;i++)); 
  do 
    echo $i
  done
@@ -75,9 +75,9 @@ Bash
 
 Modify the code snippet to sum each number in the sequence. 
 
-== Creating the backup script == 
+## Creating the backup script ## 
 
-=== Create files and folders ===
+### Create files and folders ###
 
 Create a bunch of files and folders within /home/ubuntu/Documents with:
 
@@ -98,7 +98,7 @@ Create a bunch of files and folders within /home/ubuntu/Documents with:
 
 These are the files and directories that your script will backup. So with the commands above we are deliberately creating files and subdirectories within /home/ubuntu/Documents
 
-=== Creating a basic script ===
+### Creating a basic script ###
 
 Create a file with all of the commands you will use. To reiterate, we are creating a backup script, the goal is to list the commands required to recursively copy all the files from /home/ubuntu/Documents and put them in /home/ubuntu/backup. You would need to create the backup directory. The recursive copy command that you will need to backup all the files and subdirectories are shown in the videos this week. 
 
@@ -112,7 +112,7 @@ Give the file execute permissions, you should know this command now. Then test b
 
 Remember that you cannot recursively copy from one set of folders into the same set of folders so best to copy from /home/murdoch/Documents into /home/murdoch/backup.
 
-=== Making the script available system wide ===
+### Making the script available system wide ###
 
 Your script is in the current user's home directory which may not be accessible to other users.  Scripts which are to be used by all system users are better stored in a common location where individual users have the rights to read and execute them but not to delete them.
 
@@ -132,21 +132,21 @@ Linux can find your script even though you didn't tell it where to look because 
  
 	echo $PATH
 
-=== Creating an archive ===
+### Creating an archive ###
 
 The current backup script is a little primitive. Let's zip up all of the files and provide a date as the filename. Integrate the following subsections into a bash script that will zip up the desired files and folders, and provide a dd/mm/yy filename.
 
-=== Zipping ===
+### Zipping ###
 
 The following command will zip all files in the current directory and name the archive as zippedfile.
 
 	zip zippedfile *
 
-=== Adding the date ===
+### Adding the date ###
 
 You can create a variable in your script called now and insert the date into it, using dd/mm/yy format with:
 
-	now=$(date +"%d_%m_%y")
+	now#$(date +"%d_%m_%y")
 
 You can then use that date in a file name. For example:
 
@@ -159,7 +159,7 @@ Remember most command-line utilities such as zip have inbuilt help.
 
 	zip --help
 
-===  Cron ===
+###  Cron ###
 
 Edit Cron with the following 
 
@@ -176,7 +176,7 @@ My crontab file looked like:
 
 It is likely that the entry you are making is not the only entry that will be present on your system.
 
-=== A quick Power Mangement detour ===
+### A quick Power Mangement detour ###
 
 Set aside your backup script for a moment. Sit back and think about the skills you have just developed. Use the following code on your Linux virtual machine running locally, not your cloud-based machine. We are going to do some power management. The suspend and Hibernate states on computers use a fraction of the power or energy as compared when running. 
 
@@ -187,7 +187,7 @@ The bash below will send your Linux device into a suspend state. Lets see if we 
 
 Once you understand how this works, try getting cron to run this at a scheduled time in the future. Think carefully about how we might be able to use something like this to sleep computers at 6:00pm for 12 hours, until 6:00 am the next morning.
 
-=== Exporting your backup to the Cloud ===
+### Exporting your backup to the Cloud ###
 
 Once we have a script that will zip up a set of files, provide a date based file name and do this automatically using cron, then you can look at exporting this backup to the cloud.
 
@@ -197,7 +197,7 @@ You can scp this file onto your Linux server in the cloud with the following.
 
 Once you have successfully integrated this into your code then you can move on.
 
-=== Solution ===
+### Solution ###
 
 The script that I used is below. There are some sticky issues that are difficult for students to understand so this is a challenge. As cron runs as root, it assumes the working directory, so I generally got around by providing complete paths. I also needed to have ssh'd once from my root user to my cloud server so 
 
@@ -206,7 +206,7 @@ The script that I used is below. There are some sticky issues that are difficult
 This is needed to accept the certificate. 
 
 ```
-now=$(date +"%d_%m_%y")
+now#$(date +"%d_%m_%y")
 cp -R /home/david/Documents/* /home/david/backup/
 zip -r $now.zip /home/david/backup/*
 cp $now.zip /home/david/
@@ -214,11 +214,11 @@ scp -i /home/david/thursday.pem $now.zip ubuntu@53.117.232.219:/home/ubuntu/
 </pre>
 ```
 
-== Challenge 1 ==
+## Challenge 1 ##
 
 Take the script that you have created and get it to run at boot time. You can check out the weekly video which will describe how to run scripts at boot time.
 
-== Challenge 2 ==
+## Challenge 2 ##
 
 See the image at the top of the page. Explore neofetch and figlet. Think about how they could be used to display information when users login. See if you can work out how to use them in the Linux message of the day to craft a unique greeting when a user logs in. See [[Linux_MOTD]]
 
