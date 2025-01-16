@@ -1,4 +1,18 @@
-[[File:lecture.png|right|thumb|x250px|alt#The old lecture you would receive from Linux when first elevating your privileges |The old lecture you would receive from Linux when first elevating your privileges]]
+```
+ _     _                  
+| |   (_)_ __  _   ___  __
+| |   | | '_ \| | | \ \/ /
+| |___| | | | | |_| |>  < 
+|_____|_|_| |_|\__,_/_/\_\
+                          
+ ____                     _         _                 
+|  _ \ ___ _ __ _ __ ___ (_)___ ___(_) ___  _ __  ___ 
+| |_) / _ \ '__| '_ ` _ \| / __/ __| |/ _ \| '_ \/ __|
+|  __/  __/ |  | | | | | | \__ \__ \ | (_) | | | \__ \
+|_|   \___|_|  |_| |_| |_|_|___/___/_|\___/|_| |_|___/
+                                                      
+```
+
 The ability to change the permissions of files to fit the intended need and purpose is crucial to running a secure system. This lab will test you on your understanding and ability to manipulate file permissions in Linux.
 
 Log in to your Ubuntu machine and open a terminal by clicking the Ubuntu icon in the top left of the Desktop screen.
@@ -11,7 +25,6 @@ Create three different users: Alice, Bob and Mallory. Create a directory called 
 To complete this, you will need to use group membership.
 
 Commands Required:  Square brackets indicate optional fields.  Keep in mind that some of these commands may require [sudo]. 
-[[File:permissions.jpg|right|thumb|x350px|alt#Linux Permissions|Linux Permissions]]
 ```
  sudo
  ls [-l]
