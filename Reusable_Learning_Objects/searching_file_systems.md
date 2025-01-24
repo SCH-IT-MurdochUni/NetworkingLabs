@@ -13,7 +13,7 @@
                      |___/                           
 ```
 
-These following are some notes on how to search for files on filesystems. Use these to search the Gutenberg Archive [[:Media:gutenberg.tar.bz2]].
+These following are some notes on how to search for files on filesystems. Download the file that is provided to you in LMS. The one called: gutenberg.tar.bz2.
 
 ## Extracting the Archive ## 
 
