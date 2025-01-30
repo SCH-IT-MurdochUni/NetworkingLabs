@@ -13,6 +13,8 @@ __        ___           _
                                                   
 ```
 
+## PowerShell Introduction ##
+
 PowerShell is the newest and most powerful offering from Microsoft providing a command shell and configuration toolkit built on the .NET framework. More interesting still, is the fact that PowerShell also supports the management of network devices and Linux machines, and also can be installed on Linux. As you will see at the end of this lab, Linux can also be installed on Windows too.
 
 Windows has a long history of supporting command line and scripting tools. Even before PowerShell arrived on the scene, the Windows Scripting Host (WSH) provided support for power users to develop their own scripts and interact directly with operating system objects.
@@ -23,26 +25,24 @@ Let’s look at a few small examples. We will use the PowerShell integrated scri
 
 The ISE will have 2 panes. The top pane is an editor for writing scripts, and the bottom pane is simply a command shell. You can type commands directly into that pane in the same way that you would use a command line. Try the “get-help” command in this pane to see it in action.
 
-PowerShell was designed for automating tasks in the Windows environment. Furthermore, as of 2016, Microsoft released PowerShell as open source, which means that you can run PowerShell on Linux as can you can see in the image to the right
-
-Microsoft PowerShell on Linux
-Microsoft PowerShell on Linux
-PowerShell “Hello World”[edit]
-Any windows server machine, such as one that you access through: https://portal.azure.com/ will work for this activity. If you are running Windows natively then you can choose to use that, alternatively, you can load up a Windows Server image and the RDP in. After this, start by opening Windows Powershell ISE. Remember to right-click and "Run as Administrator".
+PowerShell was designed for automating tasks in the Windows environment. Any windows server machine, such as one that you access through: https://portal.azure.com/ will work for this activity. If you are running Windows natively then you can choose to use that, alternatively, you can load up a Windows Server image and the RDP in. After this, start by opening Windows Powershell ISE. Remember to right-click and "Run as Administrator".
 
 Our very first PS script is a one liner. Using the write-host command create a script to write “Hello World” to the console. If you are unsure, you can first try “get-help write-host” in the command prompt pane. Now let’s move onto using a variable in this script. We can create a variable using the below syntax:
 
-$myVariable=”ISEA” 
+    $myVariable=”ISEA” 
+
 Now try and display this variable in the same way that you displayed the “Hello World” text. Ask your tutor if you get stuck. It is likely that running scripts may be disabled on your system. See if you can work out how to enable the execution of powershell scripts. http://www.faqforge.com/windows/windows-powershell-running-scripts-is-disabled-on-this-system/
 
 You should have an ISE window like this, if not then remember to click the script arrow near the top right.
 You should have an ISE window like this, if not then remember to click the script arrow near the top right.
 You may be able to add:
 
-write-host $myVariable
+    write-host $myVariable
+
 There are many more commands that we can use. If we want to see a big list we can invoke the:
 
-get-command
+    get-command
+
 operation on the command prompt in the bottom pane. You may then get individual help on specific commands.
 
 As you’ll see many of these have aliases that are identical to Linux, try things like rm, cp, mv, ps or kill
@@ -51,19 +51,26 @@ Powershell Basic Backup[edit]
 Before we get started let's install the iis webserver. Click this link to see the instructions.
 
 Now we will play with the following script. Make sure you change the username component then save it as unknown_script.ps1 and then execute it. What do you think it is doing?
-
+```
 $source = "C:\inetpub\wwwroot\"
 $destination = "C:\Users\User\Documents\"
 Copy-item $source $destination -Recurse
+```
+
 If you get an error message about the server execution policy then you can rectify this by typing the following into the command line:
-
+```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
 Take a look at the contents of
-
+```
  C:\Users\User\Documents
-Inserting dates and zipping[edit]
-The following is a pretty good starting point. Lets just get PowerShell to dynamically insert a date and time and then we can schedule the backup. Run the following code snippet independently. I created in the Powershell editor and saved it as powershell_backup_script.ps1 and then executed it from the powershell command line by typing its name. Make sure that the username, in this case Administrator, is correct.
+```
 
+### Inserting dates and zipping ###
+
+The following is a pretty good starting point. Lets just get PowerShell to dynamically insert a date and time and then we can schedule the backup. Run the following code snippet independently. I created in the Powershell editor and saved it as powershell_backup_script.ps1 and then executed it from the powershell command line by typing its name. Make sure that the username, in this case Administrator, is correct.
+```
  $source = "C:\inetpub\wwwroot\"
  $destination = "C:\Users\Administrator\Date_Backup.zip"
 
@@ -72,9 +79,12 @@ The following is a pretty good starting point. Lets just get PowerShell to dynam
  Add-Type -assembly "system.io.compression.filesystem"
 
  [io.compression.zipfile]::CreateFromDirectory($Source, $destination)
+```
+
 Try running the snippet below. Make sure you understand what it is doing before moving on.
 
-Naming a file dynamically with the date[edit]
+#### Naming a file dynamically with the date ####
+```
 $a = Get-Date
 echo $a
 
@@ -82,27 +92,35 @@ echo "this is a string"
 
 $a = $(get-date -f yyyy-MM-dd)
 echo $a
+```
+
 Hack the two code snippets together to create a powershell script that will create a zip file of a directory and copy this to another directory. Hint: When assigning values to a variable you can join strings and variables together using the "+" operator.
 
-Schedule the task[edit]
+### Schedule the task ###
 Use the example commands below to schedule task to run every 10 minutes. The command-line tool to do this is schtasks. Try it out on the command line:
 
-schtasks
+    schtasks
+
 The following command schedules, example.ps1, to run every 10 minutes. The command uses the /sc parameter to specify a minute schedule and the /mo parameter to specify an interval of 10 minutes. /tn is the name of the task and /tr is the task that will run.
 
-schtasks /create /sc minute /mo 10 /tn "Backup Script" /tr "powershell.exe -file C:\Users\Administrator\example.ps1"
+    schtasks /create /sc minute /mo 10 /tn "Backup Script" /tr "powershell.exe -file C:\Users\Administrator\example.ps1"
+
 Schedule your backup task to run and monitor the file creation time in the directory to verify it is periodically writing a new backup.
 
 The following command shows you all the processes that are scheduled to run.
 
-schtasks
+    schtasks
+
 In Linux we have often used grep. You have probably entered the following command on a linux system many times.
 
-ps -e | grep searchterm
+    ps -e | grep searchterm
+
 Windows is the same. Below we are just replacing grep with findstr
 
-schtasks | findstr Backup
-Listing and Killing a process[edit]
+    schtasks | findstr Backup
+
+#### Listing and Killing a process
+
 Open notepad from the command line.
 
 We can get a list of processes using the “Get-Process” command. This simply displays a list of all processes running. Since the output might be a bit hard to follow, we will sort it using the “Sort-Object ID” command. Use the pipe symbol for separation “|”.
