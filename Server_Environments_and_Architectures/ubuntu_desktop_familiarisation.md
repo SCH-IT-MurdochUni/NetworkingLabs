@@ -24,7 +24,7 @@ Familiarise yourself with the Ubuntu Desktop environment. Work with the students
 * Open the file manager and navigate up and down the directory structure
 * Install a program from the Ubuntu Software Centre
 
-[[File:terminal_and_filebrowser.png|right|thumb|x400px|alt#If you place the terminal and the file browser side by side then it may help to visualise the changes that you make on the command line|If you place the terminal and the file browser side by side then it may help to visualise the changes that you make on the command line]]
+If you place the terminal and the file browser side by side then it may help to visualise the changes that you make on the command line.
 
 ## CLI Familiarisation ## 
 
@@ -205,7 +205,7 @@ Then:
 This should provide you with the email addresses in the case that you have a complaint to make.
 
 ### Public and Private IP addresses ###
-[[File:ip_a.png|right|thumb|x500px|alt#Output from an ip a|Output from an ip a]]
+
 On your computer, issue an:
 
 	 ip a
