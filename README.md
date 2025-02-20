@@ -25,4 +25,4 @@
 ```
 
 
-This is the main page where I am documenting all of my teaching materials. I hope to develop these over time.
+This is the main page where we will document many of our lab based teaching materials. These will be iteratively improved over time.
