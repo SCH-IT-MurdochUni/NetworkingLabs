@@ -62,17 +62,17 @@ If you are still unsure, consult with your tutor about which image to download.
 
 ## Start Virtualbox
 
-If you are working from home, download and install virtualbox: https://www.virtualbox.org/wiki/Downloads. After it is 
+If you are working from home, download and install virtualbox: https://www.virtualbox.org/wiki/Downloads. After it is installed, start Virtualbox, then:
 
-
-''Start the VirtualBox program, and click new''
-Image:Vbox2.png| ''Get and Launch Ubuntu''
-Image:Vbox3.png| ''Choose 2048 MB Memory if you have enough to spare'' 
-Image:Vbox4.png| ''Follow the defaults as shown''
-Image:Vbox6.png| ''Follow the defaults as shown''
-Image:Vbox7.png| ''Follow the defaults as shown''
-Image:Vbox8.png| ''Click start to start the virtual machine'' 
-Image:Vbox9.png| ''Virtual Box will tell you that you are starting a machine with no boot media. You need to point Virtualbox towards your Ubuntu .iso file so that it can boot from this'' 
+```
+ *Get and Launch Ubuntu
+ *Choose 2048 MB Memory if you have enough to spare'' 
+ *Follow the defaults as shown''
+ *Follow the defaults as shown''
+ *Follow the defaults as shown''
+ *Click start to start the virtual machine'' 
+ *Virtual Box will tell you that you are starting a machine with no boot media. You need to point Virtualbox towards your Ubuntu .iso file so that it can boot from this'' 
+```
 
 Note that what we are doing here is mapping the iso as a virtual cd drive. After doing this, the Ubuntu machine should start booting. Eventually, you should be able to click Install Ubuntu.
 
