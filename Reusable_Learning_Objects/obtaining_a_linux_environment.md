@@ -109,7 +109,7 @@ To perform these tasks, we want your Linux Virtual machine's network interface t
 
 If you have an Apple M1 based computer, then great, these processors are amazing, but they do not run on x86_64 instruction sets that traditional Intel and AMD based processors would run. Instead they run a bespoke architecture based on the ARM instruction set. The ARM instruction set is currently used in mobile platforms, like phones and tablets but is also making its way into the server market. 
 
-To get virtualisation setup on your Apple M1, ICT171 student Liam O'Rourke has generously produced this content to help M1 Mac users: https://echo360.net.au/media/7ab80f6f-b405-431d-bcec-a9f60a88eba7/public 
+To get virtualisation setup on your Apple M1, a past ICT171 has generously produced this content to help M1 Mac users: https://echo360.net.au/media/7ab80f6f-b405-431d-bcec-a9f60a88eba7/public 
 
 You are using a different, but free virualisation tool on the Mac, and will be installing the ARM based version of Ubuntu. As with all these detours, working through these things is the learning so please don't view it as a barrier to your learning.
 
@@ -146,9 +146,7 @@ Remember that VirtualBox is just one of many approaches to doing this. If you ar
 
 If you don't like VMware, feel free to research about and try one of the others. In this unit, we want to teach you ways of working with servers, but ultimately leave the tool choice up to you. This is why when we come to Cloud Computing, you will use both Amazon EC2 as well as Microsoft Azure.
 
-If you find yourself with more free time and you feel like you are pretty advanced, then please work through [[Linux MOTD]] for your system.
-
-[[File:get_mac_terminal.png|right|thumb|x300px|alt#Terminal in MacOS| Terminal in MacOS]]
+If you find yourself with more free time and you feel like you are pretty advanced, then please work through for your system.
 
 ## I can't get the lab to work but still need a Linux Environment ##
 
@@ -176,13 +174,8 @@ Then you need to follow the following steps to install WSL. See "Run Powershell 
  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 Now you should be able to go back and click on the start bar and open Ubuntu. When you are successful, you will be asked to create a user account. See "Windows running Ubuntu" slideshow below.
-<gallery mode#"slideshow">
-Image:Get_and_launch_ubuntu.png|''[[commons:Get and Launch Ubuntu| Get and Launch Ubuntu]]'' (Get and Launch Ubuntu)
-Image:run_powershell_as_admin.png|''[[commons:Run Powershell as Admin| Run Powershell as Admin]]'' (Run Powershell as Admin)
-Image:windows_wsl_running.png|''[[commons:Windows running Ubuntu| Windows running Ubuntu]]'' (Windows running Ubuntu)
-</gallery>
 
 ## The network doesn't work in my VM at school or Work ##
 
-A lot of school and work networks will not allow you to use the bridged network mode for your VM. The reason is that it will look odd for your authenticated WiFi network session to be requesting two IP addresses. The solution is to hide your Virtual Machine behind your host operating system by using NAT. You will need to use NAT with whatever network adapter your connection is going through. Most likely this is your WiFi network adapter. The following is a pdf that should provide the steps: [[File:nat_network_guide.pdf|left|alt#Ubuntu Server Cli| Ubuntu Server Cli]]
+A lot of school and work networks will not allow you to use the bridged network mode for your VM. The reason is that it will look odd for your authenticated WiFi network session to be requesting two IP addresses. The solution is to hide your Virtual Machine behind your host operating system by using NAT. You will need to use NAT with whatever network adapter your connection is going through. Most likely this is your WiFi network adapter.
 
