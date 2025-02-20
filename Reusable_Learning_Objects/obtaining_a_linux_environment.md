@@ -127,11 +127,11 @@ If you get stuck on this step or do not feel confident, then ask your tutor. Als
 
 If you would like your guest VM to be able to resize the screen you may want to try installing the following extensions you will need to execute these in a terminal session.
 
- sudo apt install virtualbox-guest-utils 
+    sudo apt install virtualbox-guest-utils 
 
 If your virtual machine also has a GUI you should also do the following command. Do not use the following command if you are using a cli only machine. 
 
- sudo apt install virtualbox-guest-x11
+    sudo apt install virtualbox-guest-x11
 
 You will need to reboot after you do this. If you are using VMware, then these steps tend to happen automatically.
 
