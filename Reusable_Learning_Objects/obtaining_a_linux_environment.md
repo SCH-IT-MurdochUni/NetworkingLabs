@@ -42,14 +42,14 @@ We will now use the .iso image file, that you Download below in Virtual box.
 
 ### Beginner
 
+This is a lightweight variant of Ubuntu linux that should be low on storage memory for your system.
+
+*  https://lubuntu.me/downloads/
+
 If you have a powerful computer with more than 8GB of RAM, then try one of the regular Ubuntu images below.
 
 *  Perth: http://ubuntu.mirror.serversaustralia.com.au/ubuntu-releases/noble/
 *  Singapore or Dubai http://download.nus.edu.sg/mirror/ubuntu-releases/24.04/
-
-If you have an underpowered machine with less than 8GB RAM then you should get Lubuntu, which is lightweight Ubuntu.
-
-*  https://lubuntu.me/downloads/
 
 ### Advanced 
 
