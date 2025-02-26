@@ -46,17 +46,9 @@ This is a lightweight variant of Ubuntu linux that should be low on storage memo
 
 *  https://lubuntu.me/downloads/
 
-If you have a powerful computer with more than 8GB of RAM, then try one of the regular Ubuntu images below.
+If you have a powerful computer with more than 8GB of RAM, then you can try a regular ubunt image: 
 
-*  Perth: http://ubuntu.mirror.serversaustralia.com.au/ubuntu-releases/noble/
-*  Singapore or Dubai http://download.nus.edu.sg/mirror/ubuntu-releases/24.04/
-
-### Advanced 
-
-Try something new. I have been enjoying Parrot Linux and Arch Linux, but do your research and pick something that resonates with you. 
-* Lubuntu Linux: 
-* Parrot Linux 
-* Arch Linux
+* https://ubuntu.com/download/desktop
 
 If you are still unsure, consult with your tutor about which image to download.
 

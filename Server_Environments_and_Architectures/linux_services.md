@@ -218,7 +218,7 @@ Compress them using the techniques in this lab and then scp them to your lab par
 
 To complete the lab above you may need two virtual machines. So start by cloning your current virtual machine in VirtualBox. You will need to stop it first, then right click and clone it. 
 	
-We then need to ensure that your two machines sit on the same network. To do this, you can follow the description below, or you can use this video guide: https://www.youtube.com/watch?v#98bz_It3UL8
+We then need to ensure that your two machines sit on the same network. To do this, you can follow the description below.
 
 In the Virtual Box application click File->Preferences, then click on Network.
 
