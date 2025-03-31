@@ -83,7 +83,7 @@ Read the following code and see if you can work out what is going on. Open a new
 ```
 #!/bin/bash
 
-temp#$(temp)
+temp=$(temp)
 echo $temp
 ```
 
@@ -116,7 +116,7 @@ Computer programs can take different actions/paths based on circumstances. Run t
 ```
 #!/bin/bash
 
-temp#$(temp)
+temp=$(temp)
 echo $temp
 
 if [ $temp -gt 26 ]

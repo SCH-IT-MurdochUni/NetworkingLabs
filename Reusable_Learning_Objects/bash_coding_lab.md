@@ -133,8 +133,6 @@ BASH
 
 Add the Following Content:
 
-BASH
-
 ```
 #!/bin/bash
 
@@ -152,6 +150,11 @@ done
 
 # Conditional Statement
 read -p "Enter a number between 1 and 10: " number
+
+if ! [[ "$number" =~ ^[0-9]+$ ]]; then
+    echo "Invalid input: Please enter a numeric value."
+    continue
+fi
 
 if [ "$number" -le 5 ]; then
     echo "You entered a number less than or equal to 5."
@@ -189,7 +192,6 @@ Create a New Script:
 Add the Following Content:
 
 ```
-BASH
 #!/bin/bash
 
 echo "System Resource Monitoring"
