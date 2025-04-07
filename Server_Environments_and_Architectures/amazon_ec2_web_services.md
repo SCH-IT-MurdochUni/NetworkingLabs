@@ -86,7 +86,7 @@ This command should download the weekly reading into your /home/ubuntu directory
 
 	sudo cp EECS-2009-28.pdf /var/www/html/
 
-Now we can try to access that pdf file remotely via a web browser.
+Now we can try to access that pdf file remotely via a web browser. You will need to add that file name preciscely to the end of your website string.
 
 If you have difficulties accessing the file via a browser, here are some potential issues:
 * At times Apache has changed the default directory from which it serves HTML.  /var/www or /var/www/html are common.  One way to find out where the files are being served from is to locate the existing "index.html" file and place your files in the same directory.
@@ -98,7 +98,7 @@ If you have difficulties accessing the file via a browser, here are some potenti
 
 Once these files have been uploaded, you should create a link to the file by modifying the HTML in index.html. You can insert the following html into index.html as an example of how to create hyper-links to files. 
 
-	<a href#"filename.pdf">Click here</a>
+	<a href="filename.pdf">Click here</a>
 
 You should ensure that the path for your pdfs matches the path that is shown below. Hint - you may need to add a directory and move some files around. Hints:
 
