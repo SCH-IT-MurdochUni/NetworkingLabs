@@ -14,7 +14,6 @@ __        __   _       ____                  _
 ```
 
 
-[[File:nocloud.png|right|thumb|x500px|alt#There is no Cloud| Markus Meier, FSFE [https://creativecommons.org/licenses/by-sa/4.0/deed.en Creative Commons Attribution-Share Alike 4.0 International]]]
 This lab will introduce you to Amazon EC2 web services. By the end of this lab you will have a virtual machine running at a location of your choosing and serving files via an Apache web server. In subsequent weeks we will link this virtual machine to DNS.
 
 This lab assumes that you have viewed the weekly videos and that you have an account with Amazon EC2. The lab is written around you using your Linux VM that are running, or the lab machines, but it should work just fine on MacOS or Windows. Just like Linux, you will need to ensure that you are executing your ssh commands in the same directory as the .pem file that you download from Amazon.
@@ -42,8 +41,14 @@ For the purposes of the signup, being a Business or School and using your Murdoc
 * Create a new "key pair".  AWS uses key files rather than a username and password to verify your identity when logging into your virtual machine.  If you lose this file it is unlikely you will be able to mange your virtual machine so it is important to keep it safe.  Give it a meaningful name like "webserver-key" so that you can identify it later.
 * Launch Instance - Click on "Launch Instance" and your server will start. After this you can use "View Instance" to monitor it's progress.
 
-##Console Access to the Virtual Machine##
-Now that your server is running in the cloud you need to login to the command line of your virtual machine. If you select your virtual machine and click the "connect" button.  Follow the instructions there to connect to your virtual machine from your desktop. The command provided works in both Linux as well as on Windows Powershell.
+## Console Access to the Virtual Machine ##
+Now that your server is running in the cloud you need to login to the command line of your virtual machine. If you select your virtual machine and click the "connect" button. Then click on SSH client and note the string provided. 
+
+Open Powershell, the Linux command line or the MacOS terminal on yur device. Then use 'cd' to move to the directory where you downloaded your key. Then you can paste the string that was provided to you above. It shuold look something like: 
+
+    ssh -i "yourkeyname.pem" ubuntu@ec2-12-123-1-35.ap-southwest-5.compute.amazonaws.com
+
+You should now have SSH access to your cloud machine. 
 
 ## Install Apache ##
 
@@ -56,7 +61,6 @@ Install the Apache Web Server using:
 	sudo apt install apache2
 
 Test by visiting your new webserver. On your machine sitting in front of you, you should be able to type the Amazon machine's IP into your web browser.
-[[File:find_public_IP.png|right|thumb|x200px|alt#Finding the Public IP address in EC2|Finding the Public IP address in EC2]]
 
 ## Edit index.html on the Webserver and test ##
 
@@ -66,9 +70,7 @@ Once the machine has been launched, try to modify /var/www/html/index.html with
 
 If you get permission problems with this command, think carefully about the best approach to editing it.
 
-This will ensure that your page is unique. Browse to your web page using a web browser to ensure it is working. You can find the Public IP address of your webserver on the AWS console page. You can see an example of where I have found my Public IP address to the right.
-
-[[File:Accessing_the_page.png|right|thumb|x200px|alt#Accessing your Apache webpage in EC2, note that we had to prepend http:// to the IP address as by default modern web browsers will look for https:// |Accessing your Apache webpage in EC2, note that we had to prepend http:// to the IP address as by default modern web browsers will look for https:// ]]
+This will ensure that your page is unique. Browse to your web page using a web browser to ensure it is working. You can find the Public IP address of your webserver on the AWS console page.
 
 Paste that IP address, with https:// before the IP address into your browser.
 
@@ -84,8 +86,7 @@ This command should download the weekly reading into your /home/ubuntu directory
 
 	sudo cp EECS-2009-28.pdf /var/www/html/
 
-Now we can try to access that pdf file remotely via a web browser. Look carefully at the image to the right:
-[[File:accessing_the_pdf.png|right|thumb|x200px|alt#Notice how we have just appended the file name to the IP address in the browser|Notice how we have just appended the file name to the IP address in the browser]]
+Now we can try to access that pdf file remotely via a web browser.
 
 If you have difficulties accessing the file via a browser, here are some potential issues:
 * At times Apache has changed the default directory from which it serves HTML.  /var/www or /var/www/html are common.  One way to find out where the files are being served from is to locate the existing "index.html" file and place your files in the same directory.
@@ -111,22 +112,12 @@ Test your configuration. Get your lab partner to try to download one of your fil
 Once you have done this successfully, congratulations! You can now access any of the files you uploaded from anywhere in the world. Please do be aware that the web page you have created is not secure and any materials that you upload onto that webpage can be viewed by anyone.
 
 ## Budgets and Costs - Super Important! ##
-[[File:my_billing_dashboard.png|right|thumb|x300px|alt#My Billing Dashboard| My Billing Dashboard]]
 
 If you won't be using your instance anymore, you may wish to shut it down or terminate (delete) it to decrease the chances of inadvertently running multiple instances and incurring EC2 usage charges. It is easy to launch instances in different countries and not notice them running. Remember that cloud-based services are often billed on the run-time of your server.  Be particularly careful if you launch an expensive instance featuring large memory, fast CPUs or GPU processors. 
 
 At the most simple level, you want to ''click on your name in EC2 and go to My Billing Dashboard''. See the image to the right. You should be able to reconcile the costs that you see here.
 
 You will also want to set a budget, with an alert as well. Make sure that you follow the slideshow below, to set an actual budget and an alert. To get started ''click on your name in EC2 and go to My Billing Dashboard'' then look for the AWS budgets link, as indicated in the first image in the slideshow below. Then follow the text description below the slideshow to setup a budget with alerts.
-
-<gallery mode#"slideshow">
-Image:Click_on_AWS_Budgets.png| ''[[Image:Click on AWS Budgets| Click on AWS Budgets]]'' (Click on AWS budgets)
-Image:click_on_create_budget.png|''[[Image:click on create_budget| Click on create budget]]'' (Click on Create Budget)
-Image:Choose_cost_budget.png|''[[Image:choose_cost_budget| Choose cost_budget]]'' (Choose cost budget)
-Image:Set_a_budget.png|''[[Image:set_a_budget| set a budget]]'' (Set a budget)
-Image:Set_an_alert_threshold.png|''[[Image:set_an_alert_threshold| set an alert threshold]]'' (Set an alert threshold)
-Image:Click_and_create_the_budget.png|''[[Image:click and create the budget| click_and_create_the_budget]]'' (Click and create the budget)
-</gallery>
 
 ## Challenges ##
 
