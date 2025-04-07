@@ -72,7 +72,7 @@ If you get permission problems with this command, think carefully about the best
 
 This will ensure that your page is unique. Browse to your web page using a web browser to ensure it is working. You can find the Public IP address of your webserver on the AWS console page.
 
-Paste that IP address, with https:// before the IP address into your browser.
+Paste that IP address, with http:// before the IP address into your browser. Note that modern browsers will try to force https:// so you will need to ensure that you are actually visiting the http site.
 
 ## Linking to files from your webserver ##
 
