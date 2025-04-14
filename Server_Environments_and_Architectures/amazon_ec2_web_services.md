@@ -18,7 +18,7 @@ This lab will introduce you to Amazon EC2 web services. By the end of this lab y
 
 This lab assumes that you have viewed the weekly videos and that you have an account with Amazon EC2. The lab is written around you using your Linux VM that are running, or the lab machines, but it should work just fine on MacOS or Windows. Just like Linux, you will need to ensure that you are executing your ssh commands in the same directory as the .pem file that you download from Amazon.
 
-##Log in to the Amazon EC2 Management Console##
+## Log in to the Amazon EC2 Management Console ##
 
 To start the lab, log into the Amazon EC2 management console: http://aws.amazon.com/ec2/
 
