@@ -19,7 +19,6 @@
                        |___/|_|        
 ```
 
-[[File:lets_encrypt.png|right|thumb|x450px|alt#The Let's Encrypt Website|The Let's Encrypt Website]]
 Much of this information is sourced from: https://letsencrypt.org/getting-started/
 
 ## Pre-requisites ##
@@ -40,30 +39,6 @@ You should, for testing purposes have TCP port 22, 80 and 443 available through 
 
 	https://certbot.eff.org/
 
-Select I'm using "Apache" on "Ubuntu 20.04". This will provide you with the instructions, which I have re-provided below. These instructions add additional repositories that will allow your Ubuntu instance to download the correct packages. 
-
-Install snapd
-
-	sudo snap install core
-	sudo snap refresh core
-
-Remove certbot-auto and any Certbot OS packages
-	sudo apt remove certbot
-
-If you previously used Certbot through the certbot-auto script, you should also remove its installation by following the instructions here.
-
-Install Certbot
-
-	sudo snap install --classic certbot
-
-Execute the following instruction on the command line on the machine to ensure that the certbot command can be run.
-
-	sudo ln -s /snap/bin/certbot /usr/bin/certbot
-	sudo certbot --apache
-
-You should not need to run Certbot again, unless you change your configuration. You can test automatic renewal for your certificates by running this command:
-
-	sudo certbot renew --dry-run
-
+Select I'm using "Apache" on "Linux (snap)". This will provide you with the instructions that you can follow.  
 To confirm that your site is set up properly, visit your website in your browser and look for the lock icon. Click on the lock icon to see if you can tell who issued the certificate.
 
