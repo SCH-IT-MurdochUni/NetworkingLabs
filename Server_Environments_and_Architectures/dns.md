@@ -36,21 +36,19 @@ Obtain a domain name from a Domain Name Registrar such as AWS Route 53, Namechea
 
 After you have purchased your domain name, you want to link it to your cloud machine. The most straightforward strategy from here is to create an A record pointing to your cloud-based machine's Public Internet-facing IP address. After these changes have been made, sometimes it will take a few hours for the DNS changes to propagate throughout the Internet. You should not proceed until you can verify that the domain name entered in a web browser URL goes to your website. 
 
-#Testing#
+### Testing ###
 Can you now browse to the website? Can you enter your domain name into a browser and reach your page? If not, troubleshoot.
 *  Is the domain resolving correctly?  (ping, nslookup) - Note: ping will not be successful unless a rule for ICMP has been added to the Security Group for your AWS Instance.
 
-#Experimenting#
+### Experimenting ###
 * Who issued the certificates for murdoch.edu.au and for csn.murdoch.edu.au? Don't assume they are the same group. Click the lock sign next to the URL to find out. 
 * Can you create an A record that points to another students server? You can use a subdomain. 
 * What happens if you create two A records with the same host name but different IP addresses?
-* *  Point the host-name at your web server and a public site.  Which one is resolved?
-* *  Shutdown your server.
-* * *  Does the DNS eventually failover to the second IP address?
-* * *  How could this be used?
-* * *  Why does it take so long?
-
-[[File:my_billing_dashboard.png|right|thumb|x300px|alt#My Billing Dashboard| My Billing Dashboard]]
+    * Point the host-name at your web server and a public site.  Which one is resolved?
+    * Shutdown your server.
+    * Does the DNS eventually failover to the second IP address?
+    * How could this be used?
+    * Why does it take so long?
 
 ## Budgets and Costs - Super Important! ##
 
@@ -59,13 +57,3 @@ If you won't be using your instance anymore, you may wish to shut it down or ter
 At the most simple level, you want to ''click on your name in EC2 and go to My Billing Dashboard''. See the image to the right. You should be able to reconcile the costs that you see here.
 
 You will also want to set a budget, with an alert as well. Make sure that you follow the slideshow below, to set an actual budget and an alert. To get started ''click on your name in EC2 and go to My Billing Dashboard'' then look for the AWS budgets link, as indicated in the first image in the slideshow below. Then follow the text description below the slideshow to setup a budget with alerts.
-
-<gallery mode#"slideshow">
-Image:Click_on_AWS_Budgets.png| ''[[Image:Click on AWS Budgets| Click on AWS Budgets]]'' (Click on AWS budgets)
-Image:click_on_create_budget.png|''[[Image:click on create_budget| Click on create budget]]'' (Click on Create Budget)
-Image:Choose_cost_budget.png|''[[Image:choose_cost_budget| Choose cost_budget]]'' (Choose cost budget)
-Image:Set_a_budget.png|''[[Image:set_a_budget| set a budget]]'' (Set a budget)
-Image:Set_an_alert_threshold.png|''[[Image:set_an_alert_threshold| set an alert threshold]]'' (Set an alert threshold)
-Image:Click_and_create_the_budget.png|''[[Image:click and create the budget| click_and_create_the_budget]]'' (Click and create the budget)
-</gallery>
-
