@@ -18,9 +18,9 @@ DigitalOcean - DNS QuickStart & How-Tos: https://docs.digitalocean.com/products/
 
 # Ensure you have access to a Cloud-based virtual machine #
 
-Launch an Ubuntu machine in your cloud service provided cloud. Ensure that you open SSH, port 22, HTTP, port 80 and HTTPS, 443, in the firewall. If you are unsure the lab [[Amazon EC2 Web Services]] or the videos in LMS that step you through Digital Ocean and Microsoft Azure.
+Launch an Ubuntu machine in your cloud service provided cloud. Ensure that you open SSH, port 22, HTTP, port 80 and HTTPS, 443, in the firewall. If you are unsure the lab [Amazon EC2 Web Services](amazon_ec2_web_services.md) or the videos in LMS that step you through Digital Ocean and Microsoft Azure.
 
-The configuration of the virtual machine is not the focus of this lab.  We recommend that you keep it simple so that we can move past this "revision element" and on to the substance of the lab. If you lack confidence in setting up a virtual machine, then redo the existing [[Amazon EC2 Web Services]] lab and commit some serious time to building your confidence.
+The configuration of the virtual machine is not the focus of this lab.  We recommend that you keep it simple so that we can move past this "revision element" and on to the substance of the lab. If you lack confidence in setting up a virtual machine, then redo the existing [Amazon EC2 Web Services](amazon_ec2_web_services.md) lab and commit some serious time to building your confidence.
 
 If you are completing this lab at home or on your own, follow the steps for last weeks lab.  Once your cloud-based virtual machine is configured and running  you should ssh into the server and install the Apache webserver as follows:
  
