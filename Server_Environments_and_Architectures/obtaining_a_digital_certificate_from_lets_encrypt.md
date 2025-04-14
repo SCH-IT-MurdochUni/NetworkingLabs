@@ -39,6 +39,7 @@ You should, for testing purposes have TCP port 22, 80 and 443 available through 
 
 	https://certbot.eff.org/
 
-Select I'm using "Apache" on "Linux (snap)". This will provide you with the instructions that you can follow.  
+Select I'm using "Apache" on "Linux (snap)". This will provide you with the instructions that you can follow. Complete all the steps on the command prompt.
+
 To confirm that your site is set up properly, visit your website in your browser and look for the lock icon. Click on the lock icon to see if you can tell who issued the certificate.
 
