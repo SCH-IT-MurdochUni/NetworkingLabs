@@ -27,7 +27,7 @@ One of the most important things you can do is keep your mind focused. Here are 
 * Minimize Distractions: Find a quiet study space, turn off notifications on your devices, and set specific study times to create a routine.
 * Set Goals: Break your study sessions into manageable goals and reward yourself when you achieve them.
 * Stay Organized: Keep your study materials and notes organized to avoid wasting time looking for information.
-* Generating Question Sets: Create question sets or problems to work on. This can be more effective than reading linearly through a textbook designed as a reference book 3.
+* Generating Question Sets: Create question sets or problems to work on. This can be more effective than reading linearly through a textbook designed as a reference book.
 
 ### Generating Question Sets with AI ###
 
