@@ -17,9 +17,9 @@ Wher preparing for you exams, you are hopefully starting froma a position of hav
 
 As you study for your exams please also make sure that you take care of your whole self or well-being. This includes eating healthy food, whatever that means to you, doing what you can to get in some daily physical activity, and ensuring that you are getting to bed at a consisent time and meeting your sleep targets. 
 
-One of the most important things that you can do is to eep your mind focused. The [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
+One of the most important things that you can do is to eep your mind focused. The [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a common method that you can use to stay focused. Another method is to generating question sets, or problems for you to work on. This can be a good way to stay focused as reading linearly through a text book, that may have been desgigned as a reference book may be problematic. 
 
-Generating question sets can be a good way to stay focused. Reading linearly through a text book, that may have been desgigned as a reference book may be problematic. 
+## Generating Quesiton Sets with AI ##
 
 To generate question sets, you can use your favourite AI tool, and perhaps should experiment with different types. You should starty by trying to generate question sets based on the unit description, learning outcomes and assessment descriptinos found on the handbook. 
 
@@ -31,6 +31,8 @@ Generate me written/multi choice questions based on a university unit with the f
 ...[insert unit descriptions here]....
 
 ```
+
+Obviously you can be far more targeted about your weaknesses or areas where you know that you may recieve questions. Asking for detailed problem sets, around subnetting, sample programiming problems, are all prompts that you can engineer. Try to think of AI as an always on study partner, but one whose work needs checking. 
 
 ## Critiquing AI ##
 
