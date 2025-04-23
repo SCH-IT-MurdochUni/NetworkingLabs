@@ -18,7 +18,7 @@ When preparing for your exams, start by completing all the lab exercises and rev
 
 ### Well-being During Study ###
 
-As you study, take care of your overall well-being. This includes eating healthy food, engaging in daily physical activity, and ensuring you get enough sleep by going to bed at a consistent time.
+As you study, take care of your overall well-being. This includes eating healthy food, engaging in daily physical activity, and ensuring you get enough sleep by going to bed at a consistent time. Setting an alarm clock to tell you to got to bed and keeping this consistent is more important than setting an alarm clock to wake you up to study when you are sleep deprived and stressed. 
 
 ### Staying Focused ###
 One of the most important things you can do is keep your mind focused. Here are some additional tips to help you stay focused:
