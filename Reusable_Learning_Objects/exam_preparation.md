@@ -14,11 +14,11 @@
 
 ```
 
-When preparing for your exams, start by completing all the lab exercises and reviewing the content presented within the unit. After this, look for any sample or practice papers provided by the unit coordinator 1.
+When preparing for your exams, start by completing all the lab exercises and reviewing the content presented within the unit. After this, look for any sample or practice papers provided by the unit coordinator.
 
 ### Well-being During Study ###
 
-As you study, take care of your overall well-being. This includes eating healthy food, engaging in daily physical activity, and ensuring you get enough sleep by going to bed at a consistent time 2.
+As you study, take care of your overall well-being. This includes eating healthy food, engaging in daily physical activity, and ensuring you get enough sleep by going to bed at a consistent time.
 
 ### Staying Focused ###
 One of the most important things you can do is keep your mind focused. Here are some additional tips to help you stay focused:
@@ -31,7 +31,7 @@ One of the most important things you can do is keep your mind focused. Here are 
 
 ### Generating Question Sets with AI ###
 
-To generate question sets, use your favorite AI tool and experiment with different types. Start by generating question sets based on the unit description, learning outcomes, and assessment descriptions found in the handbook 4. Here is a sample prompt:
+To generate question sets, use your favorite AI tool and experiment with different types. Start by generating question sets based on the unit description, learning outcomes, and assessment descriptions found in the handbook. Here is a sample prompt:
 
 ```
 Generate written/multiple-choice questions based on a university unit with the following unit description, 
@@ -41,7 +41,7 @@ I ask for them.
 [insert unit description and learning outcomes here]
 ```
 
-You can be more targeted about your weaknesses or areas where you expect questions. Asking for detailed problem sets around specific topics can be helpful. Think of AI as an always-on study partner, but remember to check its work 5.
+You can be more targeted about your weaknesses or areas where you expect questions. Asking for detailed problem sets around specific topics can be helpful. Think of AI as an always-on study partner, but remember to check its work.
 
 ### Critiquing AI ###
 
@@ -52,6 +52,6 @@ Remeber that you may not know if the generative AI tool you are using is correct
 Here are some common mistakes students make during exams:
 
 * Failing to carefully read the question.
-* Describing everything they know about the topic, rather than answering the question 9.
+* Describing everything they know about the topic, rather than answering the question.
 * Poor Time Management: Spending too much time on one question and not leaving enough time for others.
 * Ignoring Instructions: Not following specific instructions given in the exam, such as word limits or format requirements.
