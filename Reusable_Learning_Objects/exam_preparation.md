@@ -13,37 +13,43 @@
                |_|                                      
 
 ```
-Wher preparing for you exams, you are hopefully starting froma a position of having completed all the lab exercises, and having gone through all the content presented within the unit. After this, you should look for any sample or practice papers that have been provided by the unit coordinator.
 
-As you study for your exams please also make sure that you take care of your whole self or well-being. This includes eating healthy food, whatever that means to you, doing what you can to get in some daily physical activity, and ensuring that you are getting to bed at a consisent time and meeting your sleep targets. 
+When preparing for your exams, start by completing all the lab exercises and reviewing the content presented within the unit. After this, look for any sample or practice papers provided by the unit coordinator 1.
 
-One of the most important things that you can do is to eep your mind focused. The [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a common method that you can use to stay focused. Another method is to generating question sets, or problems for you to work on. This can be a good way to stay focused as reading linearly through a text book, that may have been desgigned as a reference book may be problematic. 
+### Well-being During Study ###
 
-## Generating Quesiton Sets with AI ##
+As you study, take care of your overall well-being. This includes eating healthy food, engaging in daily physical activity, and ensuring you get enough sleep by going to bed at a consistent time 2.
 
-To generate question sets, you can use your favourite AI tool, and perhaps should experiment with different types. You should starty by trying to generate question sets based on the unit description, learning outcomes and assessment descriptinos found on the handbook. 
+### Staying Focused ###
+One of the most important things you can do is keep your mind focused. Here are some additional tips to help you stay focused:
 
-Here is a sample prompt:
+* [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique): Use this common method to stay focused by working in short, timed intervals with breaks in between.
+* Minimize Distractions: Find a quiet study space, turn off notifications on your devices, and set specific study times to create a routine.
+* Set Goals: Break your study sessions into manageable goals and reward yourself when you achieve them.
+* Stay Organized: Keep your study materials and notes organized to avoid wasting time looking for information.
+* Generating Question Sets: Create question sets or problems to work on. This can be more effective than reading linearly through a textbook designed as a reference book 3.
+
+### Generating Question Sets with AI ###
+
+To generate question sets, use your favorite AI tool and experiment with different types. Start by generating question sets based on the unit description, learning outcomes, and assessment descriptions found in the handbook 4. Here is a sample prompt:
 
 ```
-Generate me written/multi choice questions based on a university unit with the following unit description, 
-learning outcomes and assessments. I am preparing for a final exam, so don't give me the answers until 
-I ask for one.
+Generate written/multiple-choice questions based on a university unit with the following unit description, learning outcomes, and assessments. I am preparing for a final exam, so don't give me the answers until I ask for them.
 
-...[insert unit description and learning outcomes here]....
-
+[insert unit description and learning outcomes here]
 ```
 
-Obviously you can be far more targeted about your weaknesses or areas where you know that you may recieve questions. Asking for detailed problem sets, around subnetting, sample programiming problems, are all prompts that you can engineer. Try to think of AI as an always on study partner, but one whose work needs checking. 
+You can be more targeted about your weaknesses or areas where you expect questions. Asking for detailed problem sets around specific topics can be helpful. Think of AI as an always-on study partner, but remember to check its work 5.
 
-## Critiquing AI ##
+### Critiquing AI ###
 
-One of the issues is that you may not know if the generative AI tool that you are using is correct. Remember that you are not aiming for memorisation, you are aiming for understanding. If you you have to wrote memorise something then you may not understand it. If you understand the topic really well, you likely won't have to be trying to wrote memoris much. 
+Remeber that you may not know if the generative AI tool you are using is correct. Remember, you are aiming for understanding, not memorization. If you understand the topic well, you likely won't need to memorize much. Be [Socratic in your questioning](https://en.wikipedia.org/wiki/Socratic_questioning) and quizzing of AI. If you are uncertain, share your query on the unit Teams site for discussion with teaching staff and fellow tutors.
 
-Try to get as [Socratic in the way that you question and quiz AI](https://en.wikipedia.org/wiki/Socratic_questioning). Keep asking it questions and be thoughtful about material being presented to you. If you are uncertain and after some effort, cannot be confident in your knowledge, please share your query in the unit Teams site so that the topic can be discussed with the teaching staff and yoru fellow tutors. 
+### Common Exam Mistakes ###
 
-## Common Exam Mistakes ##
+Here are some common mistakes students make during exams:
 
-These are some common mistakes I see students making.
-* Failing to carefully read the question
-* Telling me everything they know about the topic, rather than answering the question
+* Failing to carefully read the question.
+* Describing everything they know about the topic, rather than answering the question 9.
+* Poor Time Management: Spending too much time on one question and not leaving enough time for others.
+* Ignoring Instructions: Not following specific instructions given in the exam, such as word limits or format requirements.
