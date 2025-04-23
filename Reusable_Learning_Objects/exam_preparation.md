@@ -34,7 +34,9 @@ One of the most important things you can do is keep your mind focused. Here are 
 To generate question sets, use your favorite AI tool and experiment with different types. Start by generating question sets based on the unit description, learning outcomes, and assessment descriptions found in the handbook 4. Here is a sample prompt:
 
 ```
-Generate written/multiple-choice questions based on a university unit with the following unit description, learning outcomes, and assessments. I am preparing for a final exam, so don't give me the answers until I ask for them.
+Generate written/multiple-choice questions based on a university unit with the following unit description, 
+learning outcomes, and assessments. I am preparing for a final exam, so don't give me the answers until 
+I ask for them.
 
 [insert unit description and learning outcomes here]
 ```
