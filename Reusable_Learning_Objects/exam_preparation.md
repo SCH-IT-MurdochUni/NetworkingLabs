@@ -45,7 +45,9 @@ You can be more targeted about your weaknesses or areas where you expect questio
 
 ### Critiquing AI ###
 
-Remeber that you may not know if the generative AI tool you are using is correct. Remember, you are aiming for understanding, not memorization. If you understand the topic well, you likely won't need to memorize much. Be [Socratic in your questioning](https://en.wikipedia.org/wiki/Socratic_questioning) and quizzing of AI. If you are uncertain, share your query on the unit Teams site for discussion with teaching staff and fellow tutors.
+You may not know if the generative AI tool you are using is correct. Your goal is understanding, not memorization. If you understand the topic well, you likely won't need to memorize much. Be [Socratic in your questioning](https://en.wikipedia.org/wiki/Socratic_questioning) and quizzing of AI. If you are uncertain, share your query on the unit Teams site for discussion with teaching staff and fellow tutors.
+
+Critiquing AI and drilling down into why the Generative AI algorithm may be providing a reponse will strengthen your written communication skills as well as your critical thinking skills.
 
 ### Common Exam Mistakes ###
 
