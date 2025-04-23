@@ -26,9 +26,11 @@ To generate question sets, you can use your favourite AI tool, and perhaps shoul
 Here is a sample prompt:
 
 ```
-Generate me written/multi choice questions based on a university unit with the following unit description, learning outcomes and assessments. I am preparing for a final exam, so don't give me the answers until I ask for one.
+Generate me written/multi choice questions based on a university unit with the following unit description, 
+learning outcomes and assessments. I am preparing for a final exam, so don't give me the answers until 
+I ask for one.
 
-...[insert unit descriptions here]....
+...[insert unit description and learning outcomes here]....
 
 ```
 
