@@ -171,21 +171,14 @@ My crontab file looked like:
 
 ```
  # m h dom mon dow user command
-   9 * *   *   *   root /usr/bin/testscript
+   9 * *   *   *   ubuntu /usr/bin/testscript
 ```
 
 It is likely that the entry you are making is not the only entry that will be present on your system.
 
-### A quick Power Mangement detour ###
+### A Quick Power Mangement detour ###
 
-Set aside your backup script for a moment. Sit back and think about the skills you have just developed. Use the following code on your Linux virtual machine running locally, not your cloud-based machine. We are going to do some power management. The suspend and Hibernate states on computers use a fraction of the power or energy as compared when running. 
-
-The bash below will send your Linux device into a suspend state. Lets see if we can test this on the command line first:
-
-	sudo bash -c "echo `date '+%s' -d '+ 30 seconds'` > /sys/class/rtc/rtc0/wakealarm"
-	sudo systemctl suspend
-
-Once you understand how this works, try getting cron to run this at a scheduled time in the future. Think carefully about how we might be able to use something like this to sleep computers at 6:00pm for 12 hours, until 6:00 am the next morning.
+Set aside your backup script for a moment. Sit back and think about the skills you have just developed. Use the following code on your Linux virtual machine running locally, not your cloud-based machine. The suspend and Hibernate states on computers use a fraction of the power or energy as compared when running. Think carefully about how we might be able to use something like this to sleep computers at 6:00pm for 12 hours, until 6:00 am the next morning.
 
 ### Exporting your backup to the Cloud ###
 
