@@ -68,11 +68,13 @@ Examine the following code snippet written in Bash.
 Bash
 ```
  #!/bin/bash
- for ((i#0;i<10;i++)); 
+ for ((i=;i<10;i++)); 
  do 
    echo $i
  done
 ```
+
+1+1
 
 Modify the code snippet to sum each number in the sequence. 
 
