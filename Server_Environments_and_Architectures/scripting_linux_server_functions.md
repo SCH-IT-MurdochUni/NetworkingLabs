@@ -40,9 +40,10 @@ Then execute:
 
 Modify your current code using the following code snippets
 
-Bash
-	a#"Hello bash using variables"
-	echo $a
+```
+a="Hello bash using variables"
+echo $a
+```
 
 Make sure you understand everything before moving on.
 
@@ -52,9 +53,9 @@ Lets add some calculations to our previous code:
 
 Bash
 ```
- a#10
- b#5
- c#$((a+b))
+ a=10
+ b=5
+ c=$((a+b))
  echo $c
 ```
 
