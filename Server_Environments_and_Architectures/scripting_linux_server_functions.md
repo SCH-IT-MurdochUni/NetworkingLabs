@@ -206,7 +206,7 @@ The script that I used is below. There are some sticky issues that are difficult
 This is needed to accept the certificate. 
 
 ```
-now#$(date +"%d_%m_%y")
+now=$(date +"%d_%m_%y")
 cp -R /home/david/Documents/* /home/david/backup/
 zip -r $now.zip /home/david/backup/*
 cp $now.zip /home/david/
