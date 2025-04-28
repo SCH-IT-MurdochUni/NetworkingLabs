@@ -68,7 +68,7 @@ Examine the following code snippet written in Bash.
 Bash
 ```
  #!/bin/bash
- for ((i=;i<10;i++)); 
+ for ((i=0;i<10;i++)); 
  do 
    echo $i
  done
