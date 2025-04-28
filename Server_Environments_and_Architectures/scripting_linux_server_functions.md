@@ -65,7 +65,6 @@ Once you understand, I would like you to modify the examples so that you are fam
 
 Examine the following code snippet written in Bash.
 
-Bash
 ```
  #!/bin/bash
  for ((i=0;i<10;i++)); 
@@ -147,7 +146,7 @@ The following command will zip all files in the current directory and name the a
 
 You can create a variable in your script called now and insert the date into it, using dd/mm/yy format with:
 
-	now#$(date +"%d_%m_%y")
+	now=$(date +"%d_%m_%y")
 
 You can then use that date in a file name. For example:
 
