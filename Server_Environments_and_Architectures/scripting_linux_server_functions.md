@@ -74,8 +74,6 @@ Bash
  done
 ```
 
-1+1
-
 Modify the code snippet to sum each number in the sequence. 
 
 ## Creating the backup script ## 
