@@ -163,8 +163,8 @@ The code above may not  work if you copy and paste it as a block into the comman
 
 You should really be puting the code block above into ap powershell file and executing it using the powershell ISE.
 
-*Extra-task: Modify the script so that it will loop 10 times
-*Extra-task: Change the line that says testing, such that the program counts every iteration
+* Extra-task: Modify the script so that it will loop 10 times
+* Extra-task: Change the line that says testing, such that the program counts every iteration
 
 ### Final Example: Take a break
 
