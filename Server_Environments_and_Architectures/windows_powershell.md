@@ -140,7 +140,9 @@ Remember that if you need to kill a process you can use the following. List the 
 Kill this process from the command line. You can do this with the name or the Process ID (PID). The /f is for "force"
 
     taskkill /im process.ps1 /f 
+
 OR
+
     taskkill /pid 1234 /f
 
 ### Powershell Loops
@@ -155,7 +157,6 @@ For( $i=0; $i -lt $count; $i++ )
   Start-Sleep -s 1
 }
 write-host “Success"
-
 ```
 
 The code above may not  work if you copy and paste it as a block into the command line. The problem is when you press <Enter> Powershell tries to execute just that line and commands like the FOR loop don't make sense if you split up the components. If you are typing this into powershell, use <Shift><Enter> at the end of each line and this will insert a <Line Feed> that does not start execution. After typing the last statement you should press <Enter> to execute it.
