@@ -158,13 +158,15 @@ write-host “Success"
 
 ```
 
-Hint: The code above will work if you copy and paste it as a block. You may have trouble if you type it line by line. The problem is when you press <Enter> Powershell tries to execute just that line and commands like the FOR loop don't make sense if you split up the components. If you are typing this into powershell, use <Shift><Enter> at the end of each line and this will insert a <Line Feed> that does not start execution. After typing the last statement you should press <Enter> to execute it.
+The code above may not  work if you copy and paste it as a block into the command line. The problem is when you press <Enter> Powershell tries to execute just that line and commands like the FOR loop don't make sense if you split up the components. If you are typing this into powershell, use <Shift><Enter> at the end of each line and this will insert a <Line Feed> that does not start execution. After typing the last statement you should press <Enter> to execute it.
 
-Extra-task: Modify the script so that it will loop 10 times
+You should really be puting the code block above into ap powershell file and executing it using the powershell ISE.
 
-Extra-task: Change the line that says testing, such that the program counts every iteration
+*Extra-task: Modify the script so that it will loop 10 times
+*Extra-task: Change the line that says testing, such that the program counts every iteration
 
-Final Example: Take a break[edit]
+### Final Example: Take a break
+
 In this example, we’ll use the code snippet below to display a message every 30 minutes asking you to take a break. We’ll do this by using the task scheduling feature in Windows.
 
 ```
