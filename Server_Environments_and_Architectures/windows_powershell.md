@@ -119,13 +119,14 @@ Windows is the same. Below we are just replacing grep with findstr
 
     schtasks | findstr Backup
 
-#### Listing and Killing a process
+### Listing and Killing a process
 
 Open notepad from the command line.
 
 We can get a list of processes using the “Get-Process” command. This simply displays a list of all processes running. Since the output might be a bit hard to follow, we will sort it using the “Sort-Object ID” command. Use the pipe symbol for separation “|”.
 
-Get-Process | Sort-Object ID
+    Get-Process | Sort-Object ID
+
 That one liner will give us a list of all processes, sorted by process ID. But that’s still not helping us to find a specific process in the list. The “findstr” command is similar to “grep” from Linux.
 
 Can you build up on the command to only list processes that have the name “notepad”?
@@ -134,16 +135,18 @@ Hint: There are two different ways that you can accomplish this task.
 
 Remember that if you need to kill a process you can use the following. List the programs that are running on your Windows System:
 
-tasklist
+    tasklist
+
 Kill this process from the command line. You can do this with the name or the Process ID (PID). The /f is for "force"
 
-taskkill /im process.ps1 /f 
+    taskkill /im process.ps1 /f 
 OR
+    taskkill /pid 1234 /f
 
-taskkill /pid 1234 /f
-Powershell Loops[edit]
+### Powershell Loops
+
 As you can see from the big list of commands (“get-commands”), PowerShell supports "for" and "while" loops as well as conditional statements. We will try out a basic for loop below. Instead of hardcoding the parameters for the loop, we based it on the size of an array, so if the array was bigger, then we would have more iterations of the loop.
-
+```
 $array = 1..5
 $count = $array.Count
 For( $i=0; $i -lt $count; $i++ )
@@ -152,6 +155,9 @@ For( $i=0; $i -lt $count; $i++ )
   Start-Sleep -s 1
 }
 write-host “Success"
+
+```
+
 Hint: The code above will work if you copy and paste it as a block. You may have trouble if you type it line by line. The problem is when you press <Enter> Powershell tries to execute just that line and commands like the FOR loop don't make sense if you split up the components. If you are typing this into powershell, use <Shift><Enter> at the end of each line and this will insert a <Line Feed> that does not start execution. After typing the last statement you should press <Enter> to execute it.
 
 Extra-task: Modify the script so that it will loop 10 times
@@ -161,37 +167,48 @@ Extra-task: Change the line that says testing, such that the program counts ever
 Final Example: Take a break[edit]
 In this example, we’ll use the code snippet below to display a message every 30 minutes asking you to take a break. We’ll do this by using the task scheduling feature in Windows.
 
+```
 $a = new-object -comobject wscript.shell
 $b = $a.popup(“You should take a break and get a glass of water”, 1)
+```
+
 Modify the code so that the popup will remain for 10 seconds.
 
 Once you have modified the code, save it to a known location. In the examples that follow we saved the file to the folder C:\Users\user because that was our home directory. You should substitute your own directory as you apply commands.
 
 The following schtasks command should schedule your desired task every minute. You may wish to do this for testing purposes.
 
-schtasks /create /sc minute /mo 1 /tn "Pop Up" /tr "powershell.exe -file C:\Users\Administrator\popup.ps1"
+    schtasks /create /sc minute /mo 1 /tn "Pop Up" /tr "powershell.exe -file C:\Users\Administrator\popup.ps1"
+
 You can list the scheduled tasks with
 
-schtasks /query
+    schtasks /query
+
 You can refine the list of scheduled tasks with
 
-schtasks /query | findstr Pop
+    schtasks /query | findstr Pop
+
 You can disable a scheduled task with:
 
-Disable-ScheduledTask -TaskName "Pop Up"
-Shutting down & Saving Power[edit]
+    Disable-ScheduledTask -TaskName "Pop Up"
+
+### Shutting down & Saving Power
+
 Public access computers or computers where we know that people will not be using them after a certain hour. We can shut them down.
 
 Explore the shutdown command options by typing the following in the powershell window:
 
-shutdown
+    shutdown
+
 Shutdown /r would restart your computer but shutdown /s will completely shut it down
 
 If you are using a windows machine sitting in front of your, then see if you can use schtasks to hibernate your computer:
 
-shutdown /h
+    shutdown /h
+
 On you cloud-based server machine, see if you can shut it down just a few minutes into the future. You can then watch this happen. Try something like:
 
-shutdown /s
+    shutdown /s
+
 Obviously, this might be useful to shutdown all library, department computers to save power after 6:00 pm.
 
