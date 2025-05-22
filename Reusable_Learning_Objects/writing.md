@@ -140,11 +140,11 @@ The takeaway message here is that for many writers, the writing is the idea/orig
 
 ## How to Reference in an Essay ##
 
-You can use [https://libguides.murdoch.edu.au/IEEE IEEE style] referencing or [https://libguides.murdoch.edu.au/APA APA], but the most important thing is that you pick one and remain faithful to the style guide. 
+You can use [IEEE](https://libguides.murdoch.edu.au/IEEE) referencing or [APA](https://libguides.murdoch.edu.au/APA), but the most important thing is that you pick one and remain faithful to the style guide. 
 
-Ensure that you know the difference [https://www.quora.com/What-is-the-difference-between-citation-and-reference between a reference list and a bibliography]. Remember that at university, we really only care about the articles that are in your reference list. The expectation is that you have read many more articles than the ones that you citing.
+Ensure that you know the [difference between a reference list and a bibliography](https://www.quora.com/What-is-the-difference-between-citation-and-reference). Remember that at university, we really only care about the articles that are in your reference list. The expectation is that you have read many more articles than the ones that you citing.
 
-The use of [https://wikipedia.org Wikipedia] for citations is controversial, but I don't think that it should be. In many areas, Wikipedia is a stunningly good resource and is an excellent starting point when you are learning about something new. While Wikipedia is fantastic, it is never the original source of truth or information on a topic. Remember that when we cite articles we want to cite the original source. As an example, take the famous Churchill quote below :
+The use of [Wikipedia](https://wikipedia.org) for citations is controversial, but I don't think that it should be. In many areas, Wikipedia is a stunningly good resource and is an excellent starting point when you are learning about something new. While Wikipedia is fantastic, it is never the original source of truth or information on a topic. Remember that when we cite articles we want to cite the original source. As an example, take the famous Churchill quote below :
 
 ```
 "...We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans,
