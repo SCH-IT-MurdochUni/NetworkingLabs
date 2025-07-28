@@ -19,7 +19,7 @@ Use a shared Office 365 document in Teams then start collaborating with your tea
 
 ![Alt text](../IMGs/Exemplar.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
 
-Exemplar work: the key is to get working quickly together with your shared document. Screenshot in anything valuable and fill in the provided table and a summarising paragraph at the end. Note that this example is deliberately blurry because we just want to give you a feel for what you might present at the end.]]
+Exemplar work: the key is to get working quickly together with your shared document. Screenshot in anything valuable and fill in the provided table and a summarising paragraph at the end. Note that this example is deliberately blurry because we just want to give you a feel for what you might present at the end.
 
 ## Locations ##
 Each group will only investigate a single location. These are provided as GPS coordinates which you can paste into the search function of google maps. The following are locations that you can use. Please ask your tutor about which group/location you should use. 
@@ -75,8 +75,6 @@ Start by:
 * If you have more time, can you work out whether there is geographic line of sight between the premises and a cell phone tower?
 
 You are limited on time, so use screenshots and write a 1 - 2 paragraph summary to present. There is a table that you can try to fill out in teams to keep you focused on comparing the options.
-
-![Alt text](../IMGs/Telstra.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
 
 ## Reflecting on the presentations ##
 
