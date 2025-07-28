@@ -16,8 +16,6 @@ In this lab, you will configure two different sophisticated Customer Presences E
 
 The Arstechnica article has a lot of rules and is quite detailed. You should read it in full, but to summarise the rules just around the placement of a WiFi Access point, you want it to be placed relatively high in a room, so that it is above most of the obstructions and also central in a house or office such that the distance between the WiFi AP and the majority of high bandwidth areas is short.
 
-[[File:1800ac.jpeg|right|thumb|x300px|alt#Linksys 1800ac|Linksys 1800ac]]
-
 As you will see, you don't want the placement of your Access Point (AP) to be dictated by wherever your broadband connection enters the house. 
 
 We will use the Mikrotik as a Router and the Linksys as an Access Point (AP). This lab will hopefully:
@@ -40,13 +38,10 @@ You should connect a cable between your device and the Mikrotik Cloud Core Switc
 
 Review the diagram to the right about the desk ports available and talk to your lab instructor who will talk you through the best way to connect to the data centre.
 
-[[File:ccs.png|left|thumb|x200px|alt#Cloud Core Switch|Cloud Core Switch]]
-
 The Cloud Core Switch is shown below, pay attention to the port numbers that you wire up in the data centre. Use the port number in the patch panel in the data centre that you connect to determine the username and password that you use in the table below. This workflow should prevent two groups from using the same PPPoE credentials.
 
 [[File:wiring_desk.png|Centre|thumb|x300px|alt#Wiring at the desk level|Wiring at the desk level]]
 
-![Alt text](../IMGs/Wiring_pp.png?raw=true "Wiring") <p style="text-align:center; font-style:italic;">Wiring</p>
 
 | Pod # | Username | Password | Data Centre Port No |
 |-------|----------|----------|---------------------|
