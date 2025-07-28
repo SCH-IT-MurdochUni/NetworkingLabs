@@ -46,7 +46,7 @@ The Cloud Core Switch is shown below, pay attention to the port numbers that you
 
 [[File:wiring_desk.png|Centre|thumb|x300px|alt#Wiring at the desk level|Wiring at the desk level]]
 
-![Alt text](../IMGs/wiring_pp.png?raw=true "Wiring") <p style="text-align:center; font-style:italic;">Wiring</p>
+![Alt text](../IMGs/Wiring_pp.png?raw=true "Wiring") <p style="text-align:center; font-style:italic;">Wiring</p>
 
 | Pod # | Username | Password | Data Centre Port No |
 |-------|----------|----------|---------------------|
