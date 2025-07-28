@@ -36,7 +36,7 @@ PPPoE is the authentication method most commonly used to securely authenticate c
 
 You should connect a cable between your device and the Mikrotik Cloud Core Switch located in the data centre. For the purposes of this lab, the cloud core router will be the ISP and is running a PPPoE server. Use the table below to ensure that you use a unique username and password to authenticate to the Cloud Core Router.
 
-[[File:Desk_ports.png|right|thumb|x400px|alt#The desk ports|The desk ports]]
+![Alt text](../IMGs/Desk_ports.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Desk Ports</p>
 
 Review the diagram to the right about the desk ports available and talk to your lab instructor who will talk you through the best way to connect to the data centre.
 
@@ -45,55 +45,20 @@ Review the diagram to the right about the desk ports available and talk to your 
 The Cloud Core Switch is shown below, pay attention to the port numbers that you wire up in the data centre. Use the port number in the patch panel in the data centre that you connect to determine the username and password that you use in the table below. This workflow should prevent two groups from using the same PPPoE credentials.
 
 [[File:wiring_desk.png|Centre|thumb|x300px|alt#Wiring at the desk level|Wiring at the desk level]]
-[[File:wiring_pp.png|Centre|thumb|x300px|alt#PPPoE patch panel wiring|PPPoE patch panel wiring]]
 
-{| class#"wikitable"
-|-
-! Pod #
-! Username
-! Password
-! Data Centre Port No
-|-
-| A
-| alpha
-| alpha
-| 17
-|-
-| B
-| beta
-| beta
-| 18
-|-
-| C
-| charlie
-| charlie
-| 19
-|-
-| D
-| delta
-| delta
-| 20
-|-
-| E
-| echo
-| echo
-| 21
-|-
-| F
-| foxtrot
-| foxtrot
-| 22
-|-
-| G
-| golf
-| golf
-| 23
-|-
-| H
-| hotel
-| hotel
-| 24
-|}
+![Alt text](../IMGs/wiring_pp.png?raw=true "Wiring") <p style="text-align:center; font-style:italic;">Wiring</p>
+
+| Pod # | Username | Password | Data Centre Port No |
+|-------|----------|----------|---------------------|
+| A     | alpha    | alpha    | 17                  |
+| B     | beta     | beta     | 18                  |
+| C     | charlie  | charlie  | 19                  |
+| D     | delta    | delta    | 20                  |
+| E     | echo     | echo     | 21                  |
+| F     | foxtrot  | foxtrot  | 22                  |
+| G     | golf     | golf     | 23                  |
+| H     | hotel    | hotel    | 24                  |
+
 
 ## Configuration of the hEX PoE Router for PPPoE ##
 
@@ -172,7 +137,7 @@ See if you can connect your smartphone to the WiFi network.
 
 ### Challenge 3: SSH Keys on the Mikrotik HexPoE ###
 
-Run through the following lab [[SSH Keys et al]]. When you have finished, see whether you can install your Linux machine's public key on the Mikrotik HexPoE. You should then be able to SSH from your Linux box.
+Run through the following lab [SSH Keys et al](../Reusable_Learning_Objects/ssh_keys.md). When you have finished, see whether you can install your Linux machine's public key on the Mikrotik HexPoE. You should then be able to SSH from your Linux box.
 <!-- Comment 
 
 ## Speed tests ##
