@@ -24,7 +24,7 @@ In this activity, we are looking for components that we learnt about in the lect
 
 In this activity, we will be obtaining monitor mode WiFi captures. We will be using the Linux method of obtaining these, but you should be aware that in most large scale, Cisco, Meraki, Aerohive, Ubiquiti et cetera networks, these monitor mode pcaps can be obtained through an unused AP. It is a common method of troubleshooting problems in WiFi netowrks.
 
-[[File:Basic_setup.png|right|thumb|x400px|alt#Basic lab setup|Basic lab setup]]
+![Alt text](../IMGs/Basic_setup.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
 
 ## Initial Setup ##
 
@@ -32,7 +32,7 @@ You should start by setting up a network as shown below. Remember that at the be
 
 To limit the number of computers required, you may wish to make the Windows Wireless device, in the diagram below, your phone or laptop.
 
-Setup a basic WiFi access Point. Nothing complicated required, just establish network connectivity and change the SSID. If you need more instruction then you can review the details in this link, but for this lab, you don't need to to any wiring in the data centre. A Linksys on your desk will work fine: https://csn.murdoch.edu.au/mediawiki/index.php/Broadband_CPE_Scenarios_with_Mikrotik_and_DD-WRT#Setup_the_Linksys.2FDD-WRT_AP_.28SSID.2C_TX_Power.2C_Channels.29
+Setup a basic WiFi access Point. Nothing complicated required, just establish network connectivity and change the SSID. If you need more instruction then you can review the details in this link, but for this lab, you don't need to to any wiring in the data centre. A Linksys on your desk will work fine. You should have completed the [Broadband CPE Scenarios](../broadband_cpe_scenarios.md) lab but you can refer back to this if necessary. 
 
 ''For the purposes of this lab, make sure that you set a channel on the 2.4 and the 5GHz band, and set the Wireless mode to B/G Mixed in the 2.4 GHZ band and A-only in the 5GHz band. Without doing these steps you may find it hard to see any data, why?''
 
