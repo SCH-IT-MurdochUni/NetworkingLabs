@@ -5,8 +5,8 @@
 | |  | | (_) | | | | | || (_) | |    | |  | | (_) | (_| |  __/
 |_|  |_|\___/|_| |_|_|\__\___/|_|    |_|  |_|\___/ \__,_|\___|
 
-                                                              
 ```
+
 These instructions assume that you are using Ubuntu Linux. You MUST turn off the wifi adapter in the graphical user interface in the top right of the screen in Ubuntu.
 
 ![Alt text](../IMGs/Turn_off_WiFi.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
