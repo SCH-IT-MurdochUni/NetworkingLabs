@@ -32,9 +32,9 @@ You should start by setting up a network as shown below. Remember that at the be
 
 To limit the number of computers required, you may wish to make the Windows Wireless device, in the diagram below, your phone or laptop.
 
-Setup a basic WiFi access Point. Nothing complicated required, just establish network connectivity and change the SSID. If you need more instruction then you can review the details in this link, but for this lab, you don't need to to any wiring in the data centre. A Linksys on your desk will work fine. You should have completed the [Broadband CPE Scenarios](../broadband_cpe_scenarios.md) lab but you can refer back to this if necessary. 
+Setup a basic WiFi access Point. Nothing complicated required, just establish network connectivity and change the SSID. If you need more instruction then you can review the details in this link, but for this lab, you don't need to to any wiring in the data centre. A Linksys on your desk will work fine. You should have completed the [Broadband CPE Scenarios](broadband_cpe_scenarios.md) lab but you can refer back to this if necessary. 
 
-''For the purposes of this lab, make sure that you set a channel on the 2.4 and the 5GHz band, and set the Wireless mode to B/G Mixed in the 2.4 GHZ band and A-only in the 5GHz band. Without doing these steps you may find it hard to see any data, why?''
+*For the purposes of this lab, make sure that you set a channel on the 2.4 and the 5GHz band, and set the Wireless mode to B/G Mixed in the 2.4 GHZ band and A-only in the 5GHz band. Without doing these steps you may find it hard to see any data, why?*
 
 ### Computers/lab specific setup ###
 
@@ -50,7 +50,7 @@ Note that we are unable to see important management frames like beacons, probe r
 
 ## Monitor Mode on Linux ##
 
-Follow the instructions here to put the Alpha USB Wifi adapter in monitor mode: [[Alpha_USB_in_monitor_mode]]
+Follow the instructions here to put the Alpha USB Wifi adapter in monitor mode: [Monitor Mode Lab](monitor_mode.md) 
 
  sudo iwconfig [adaptor_name] channel [Channel your AP is using]
 
