@@ -9,7 +9,7 @@
 ```
 These instructions assume that you are using Ubuntu Linux. You MUST turn off the wifi adapter in the graphical user interface in the top right of the screen in Ubuntu.
 
-![Alt text](../Turn_off_WiFi.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
+![Alt text](../IMGs/Turn_off_WiFi.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
 
 Usually you would do this as the first thing in the labs, but I have seen cases where there are permission denied errors unless this is done after this command sudo iwconfig wlan0 mode monitor
 
@@ -27,7 +27,7 @@ If you are on Ubuntu, you will get a wlx98oeu8eoh like adapter name If you are o
 
 # Install aircrack-ng
 
- sudo apt install aircrack-ng
+    sudo apt install aircrack-ng
 
 Put the WiFi adapter in Monitor Mode
 
