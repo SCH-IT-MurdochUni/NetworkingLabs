@@ -47,6 +47,6 @@ These are interesting talks, again given by a mere mortals:
 
 == Good Resources ==
 
-* [https://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959  Scott Berkun, Confessions of a Public Speaker] - Start with the free sample
-* [https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks TED Talks]
+* Book: [Confessions of a Public Speaker](https://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959  Scott Berkun, Confessions of a Public Speaker) - Start with the free sample
+* Ted talk: [The Secret Structure of Great Talks](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks TED Talks)
 
