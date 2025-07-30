@@ -95,7 +95,7 @@ In short, make sure you read the whole book and start trying to integrate some o
 
 I think the following Aristotle quote provides a nice summary of this section. 
 
-    Style to be good must be clear. Clearness is secured by using words that are current and ordinary.’ 
+    "Style to be good must be clear. Clearness is secured by using words that are current and ordinary."
         - Aristotle
 
 ## Digital tools to use 
