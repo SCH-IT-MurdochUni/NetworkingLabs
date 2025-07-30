@@ -95,10 +95,10 @@ In short, make sure you read the whole book and start trying to integrate some o
 
 I think the following Aristotle quote provides a nice summary of this section. 
 
- Style to be good must be clear. Clearness is secured by using words that are current and ordinary.’ 
- - Aristotle
+    Style to be good must be clear. Clearness is secured by using words that are current and ordinary.’ 
+        - Aristotle
 
-## Digital tools to use ##
+## Digital tools to use 
 
 There are numerous digital tools that you can use. These need to be used as tools and not as an excuse to be lazy and inarticulate in your writing. Using all the tools in the world will not transform poorly structured and worded writing into something genuinely meaningful. 
 
