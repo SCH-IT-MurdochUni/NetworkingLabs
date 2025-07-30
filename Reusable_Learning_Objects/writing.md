@@ -90,7 +90,7 @@ There is nothing wrong, really, with any word — all are good, but some are bet
 others. A matter of ear, a matter of reading the books that sharpen the ear." [1]
 ```
 
-If you need more convincing, you can read another author's favorite excerpts from the book in the article [here](http://www.jstor.org.libproxy.murdoch.edu.au/stable/25594676)
+If you need more convincing, you can read another author's favorite [excerpts from the book](http://www.jstor.org.libproxy.murdoch.edu.au/stable/25594676) in the article 
 In short, make sure you read the whole book and start trying to integrate some of the ideas that resonate with you into your writing.
 
 I think the following Aristotle quote provides a nice summary of this section. 
@@ -102,8 +102,8 @@ I think the following Aristotle quote provides a nice summary of this section.
 
 There are numerous digital tools that you can use. These need to be used as tools and not as an excuse to be lazy and inarticulate in your writing. Using all the tools in the world will not transform poorly structured and worded writing into something genuinely meaningful. 
 
-* [https://grammarly.com Grammarly] - Tool to check some basic spelling and grammar but do not rely too heavily on it. 
-* [https://studiosity.com Studiosity] - Greater feedback on structural/technical issues, see links in LMS
+* [Grammarly](https://grammarly.com) - Tool to check some basic spelling and grammar but do not rely too heavily on it. 
+* [Studiosity](https://studiosity.com) - Greater feedback on structural/technical issues, see links in LMS
 
 The most important aspect of these tools is that you use them to try to locate your weaknesses in writing. Are you consistently doing something wrong? Try not to rely on them to turn poor work into acceptable work but instead as a learning tool in your continual development.
 
@@ -188,7 +188,7 @@ You are not going to morph from being an average to a great writer overnight. It
  lot. Reading a lot really helps. Read anything you can get your hands on." - J.K. Rowling [4]
 ```
 
-I would also add that good writing generally requires you to revise and rewrite over and over. If you are wondering about the usage of a particular word, Guardian and Observer journalists have published their style guide here:  https://www.theguardian.com/guardian-observer-style-guide-a
+I would also add that good writing generally requires you to revise and rewrite over and over. If you are wondering about the usage of a particular word, Guardian and Observer journalists have published their style guide [here](https://www.theguardian.com/guardian-observer-style-guide-a)
 
 ## A class exercise ##
 
@@ -238,7 +238,7 @@ Many of the example that the students provide can exist in multiple categories. 
 Preventatives, how would the students arrange the topics. For example, within causes, should we list from most significant to least significant or most common to least common? We don't need to be Cardiologists to answer these questions, I don't know what is most significant or what the most common, we really just want to reveal that there are a number of ways that you can tackle any topic and whatever the topic the student chooses, it should not be chosen randomly.
  -->
 
-## References ##
+## References 
 
 [1] W. Strunk and E.B White, ''The Elements of Style.'' 4th ed. S.l.: Longman, 1999. Hardback. ISBN|0-205-31342-6 (hardback). S.l.: Longman, 2000. ISBN|0-205-30902-X (paperback). With a foreword by Roger Angell.
 

@@ -45,8 +45,8 @@ These are interesting talks, again given by a mere mortals, some of these are be
 * Dylan Beattie, [The Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U)
 * Karen Rucker, [Antenna Basics](https://www.youtube.com/watch?v=axUcybeamIk)
 
-== Good Resources ==
+## Good Resources
 
-* Book: [Confessions of a Public Speaker] (https://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959  Scott Berkun, Confessions of a Public Speaker) - Start with the free sample
-* Ted talk: [The Secret Structure of Great Talks] (https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks TED Talks)
+* Book, Scott Berkun, [Confessions of a Public Speaker](https://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959) Confessions of a Public Speaker - Start with the free sample 
+* Ted talk, Nancy Duarte, [The Secret Structure of Great Talks](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks) 
 
