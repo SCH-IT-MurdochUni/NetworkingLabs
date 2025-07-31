@@ -15,27 +15,27 @@
 
 In this lab, we will primarily focus on network forensics skills. You will learn how to extract text and images from network captures. You will also learn how to apply SSL/TLS keys to decrypt these transactions. This lab assumes that you are using Ubuntu.
 
-## Viewing and Storing Network Traffic ##
+## Viewing and Storing Network Traffic 
 
 Start Wireshark on your Ubuntu machine and start capturing on your primary network adaptor. You can use TCPdump to save and store this traffic, but for our purposes today is probably easier to display everything live in Wireshark.
 
-Do 5-10 minutes of casual web browsing. Try to visit many different web pages as we are interested in what will be recoverable. Include a visit to http://iot.murdoch.edu.au/mediawiki/index.php/Main_Page and type in some text into the search field in these websites, being mindful that your connection is being monitored. Then stop your packet capture and save the file as casualbrowsing.pcap.
+Do 5-10 minutes of casual web browsing. Try to visit many different web pages as we are interested in what will be recoverable. Include a visit to https://www.geocities.ws/oldternet/. Also visit: https://users3.smartgb.com/g/g.php?a=s&i=g36-29029-7f and type in some text into the search field in these websites, being mindful that your connection is being monitored. Then stop your packet capture and save the file as casualbrowsing.pcap.
 
-## Analyzing the Capture file ##
+## Analyzing the Capture file 
 
-### TCP Reassembly ###
+### TCP Reassembly
 
 The packets that you have been capturing contain payload data. If we have an idea about the contents and file formats being transferred, and the transaction is unencrypted, we may be able to turn the binary data back into something recognisable. In this section, we are going to show you how to reveal elements of a webpage transaction. 
 
-### Reassembling Images ###
+### Reassembling Images
 
 We can filter a specific image format, such as PNG or JPEG. You can do this by typing these words into the filter bar at the top of the page. Click on one of the identified images, then right-click on the ''Portable Network Graphics'' line in the lower Wireshark window. Select ''Export Selected Packet Bytes'' and save to the Desktop as image.png. Try opening your saved image.
 
-[[File:export_packets.png|centre|thumb|x450px|alt#Exporting images|Exporting images]]
+![Alt text](../IMGs/export_packets.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
 
 Try the same technique with JPEG.
 
-### Reassembling HTTP pages ###
+### Reassembling HTTP pages
 
 Another way that you can reassemble pages and images is by clicking File->Export Objects->HTTP. You will have to have stopped your capture to be able to do this. You can then select the individual elements or save all of the captured content into a file.
 
@@ -43,7 +43,7 @@ Another way that you can reassemble pages and images is by clicking File->Export
 
 You might think that searching for data through Wireshark is very time consuming but the better you understand the tools, the faster you can find that needle in a haystack. Go to ''Edit->Find Packet''. Then, find by String and Search Packet bytes. You can use the figure below as a guide. Enter a part of the string that you used in intsec-wiki.murdoch.edu.au.
 
-[[File:Wireshark_string_search.png|centre|thumb|x200px|alt#Finding a string within a packet|Finding a string within a packet]]
+![Alt text](../IMGs/Wireshark_string_search.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
 
 You should be able to locate the string you used when searching the IntSec Wiki, hidden in the packet. Note that this is becoming increasingly hard to do, as the Internet is being encrypted by default. Take a close look at: https://transparencyreport.google.com/https/overview to see how quickly the web is transitioning to HTTPS.
 
@@ -88,21 +88,20 @@ Now open Wireshark, capture on your network adaptor and then do some more web br
 
 Once you have done some browsing you can filter using the SSL filter. Note that the transactions are encrypted. We now want to point Wireshark at your SSL keys file. Go to edit->preferences->protocols then find TLS. If you have the latest version of Wireshark it is now TLS rather than SSL. Follow the image below and point Wireshark to the location of your (pre)Master-Secret log file. 
 
-[[File:tls_key_log.png|centre|thumb|x600px|alt#Setting the location of the SSL key in Wireshark|Setting the location of the SSL key in Wireshark]]
+![Alt text](../IMGs/Tls_key_log.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
 
 If everything has gone well you should now see all of your SSL transactions decrypted.
 
-[[File:decrypted_ssl.png|centre|thumb|x600px|alt#Note the tab at the bottom that reveals decrypted SSL|Note the tab at the bottom that reveals decrypted SSL]]
+![Alt text](../IMGs/Decrypted_ssl.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
 
-### Searching Decrypting SSL/TLS ###
+### Searching Decrypting SSL/TLS 
 
 I have found that the packet search function falls over and doesn't work as I expect when searching on decrypted data. To search for text within decrypted data I would go to File->Export-Packet-Disections->As-Plain-Text
 
-Once you have saved it in a file you can then use some more advanced tools and techniques for [[Searching Filesystems]].
+Once you have saved it in a file you can then use some more advanced tools and techniques for [searching filesystems](../Reusable_Learning_Objects/searching_file_systems.md).
 
-## Network Miner ##
+## Network Miner
 
 Go to http://www.netresec.com/?page#NetworkMiner It is a native Windows program. Emulation is required on Linux.
 
 Open your saved .pcap file in network miner and have a close look at what files have (not) been recovered from your browsing session. I tend to think that, while Wireshark is the swiss army knife of network analysis, for forensics based work, a Network Miner or commercial equivalent may be faster and more efficient.
-
