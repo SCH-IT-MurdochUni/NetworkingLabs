@@ -12,19 +12,19 @@ In this lab, we will demonstrate the vulnerabilities with WPA. These vulnerabili
 * An accurate idea of the vulnerabilities in WPA 
 * A good idea of how to securely implement WPA
 
-##Configure WPA##
+## Configure WPA ##
 
-Our first task is to configure WPA over the wireless network. Ensure that the wireless Windows PC can Ping the Wired PC. Refer to Basic AP Configuration if you need to. Please ensure that you keep the username as root and the password as admin. Use the WPA password: charlie12. Unlike the previous WEP cracking lab where we could pick any hex key, we must use a simple predictable password. When cracking WEP we were identifying the key based on a series of statistical attacks. Use '''WPA2 Personal and TKIP+AES'''.
+Our first task is to configure WPA over the wireless network. Ensure that the wireless Windows PC can Ping the Wired PC. Refer to Basic AP Configuration if you need to. Please ensure that you keep the username as root and the password as admin. Use the WPA password: charlie12. Unlike the previous WEP cracking lab where we could pick any hex key, we must use a simple predictable password. When cracking WEP we were identifying the key based on a series of statistical attacks. Use **WPA2 Personal and TKIP+AES**.
 
-Ensure that the wireless Windows PC can Ping the Wired PC. Refer to [[Broadband_CPE_Scenarios_with_Mikrotik_and_DD-WRT#WPA]] if you need to. '''Additionally, turn off the 5GHz radio and change the network mode on the 2.4 GHz radio to 802.11b/g Mixed. Remember that there are two radios, and you will need to set the 5GHz radio mode to disabled.'''
+Ensure that the wireless Windows PC can Ping the Wired PC. Refer to [WPA setion in Broadband_CPE_Scenarios](./broadband_cpe_senarios.md#wpa) if you need to. **Additionally, turn off the 5GHz radio and change the network mode on the 2.4 GHz radio to 802.11b/g Mixed. Remember that there are two radios, and you will need to set the 5GHz radio mode to disabled.**
 
 In this WPA cracking lab, we are brute-forcing the key. We are only able to identify the key if it is part of our password database. The more complex the key, the less likely it will appear in a password database. An alternative way of looking at this, the longer and more complex the key, the longer and more complex our password database must be. This will also increase the amount of computation required to break the key.
 
-[[File:common_wireless_lab_setup.png|centre|thumb|x400px|alt#Basic lab setup|Basic lab setup]]
+![setup](../IMGs/common_wireless_lab_setup.png "Basic lab setup")
 
 ## Aircrack and monitor mode ##
 
-Follow the instructions here to put the Alpha USB Wifi adapter in monitor mode: [[Alpha_USB_in_monitor_mode]]
+Follow the instructions here to put the Alpha USB Wifi adapter in monitor mode: [Alpha_USB_in_monitor_mode](./monitor_mode.md)
 
 ## Discover Network ##
 
@@ -34,11 +34,11 @@ We need to discover the channel and BSSID of our target network. Start Wireshark
 
 Put the interface in monitor mode and use wireshark to discover the bssid of the target. Copy this value to a text file for later.
 
-###Collecting the handshake in Wireshark###
+### Collecting the handshake in Wireshark ###
 
 Try capturing the encrypted handshake in wireshark. packets? Save the pcap on the Desktop.
 
-###Using Aerodump###
+### Using Aerodump ###
 
 Another alternative is using airodump. Type:
 
@@ -62,11 +62,13 @@ Note, if Kali Linux drops its LAN connection, you can bring it up with a:
 
 You can download a password list with:
 
-	wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt
+<!-- wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt -->
+	wget https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/Pwdb_top-1000000.txt
 
 AND
 
-	wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/xato-net-10-million-passwords-1000000.txt
+<!-- wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/xato-net-10-million-passwords-1000000.txt -->
+	wget https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/xato-net-10-million-passwords-1000000.txt
 
 For a larger list you can try: 
 
@@ -129,7 +131,6 @@ Can you crack the key? If you are working on this, please post your work or hope
 Ok, so you are cracking a test network setup by me. The passphrase is a flag, set by me. Now it is nothing personal related to me, but it may follow some similar formats to past flags that you have seen. Check out the hints below. Can you use the mentalist (https://en.kali.tools/?p#1310) wordlist generator to work smartly rather than throwing compute at the problem?
 
 #### Option 2: Brute force with a GPU and Hashcat #### 
-[[File:hashcat.png|right|thumb|x500px|alt#I ran hashcat on an Nvidia GPU in Microsoft Azure at a cost of $1.50 per hour, I was nowhere close to searching the keyspace 17 hours and ~$25.00 later  | I ran hashcat on an Nvidia GPU in Microsoft Azure at a cost of $1.50 per hour, I was nowhere close to searching the keyspace 17 hours and ~$25.00 later]]
 
 Can you brute force this key on a GPU? Check out the instructions below. So aircrack cannot utilize a GPU, but hashcat can. Start by installing hashcat:
 
@@ -145,7 +146,7 @@ You then need to compile the c code.
 
 You can then provide execute permissions.
 
-	chmod 777 cap2hccapx
+	chmod 755 cap2hccapx
 
 You can convert from aircrack-ng formatto hashcat formate with:
 
@@ -158,6 +159,9 @@ This should create a file called dd-wrt with the hashes in hashcat format. To us
 Ok but if it is truly random then we can use crunch again.
 
 	crunch 8 8 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ | hashcat -m 2500 -o cracked dd-wrt
+
+I ran hashcat on an Nvidia GPU in Microsoft Azure at a cost of $1.50 per hour, I was nowhere close to searching the keyspace 17 hours and ~$25.00 later
+![hashcat](../IMGs/Hashcat.png)
 
 ### Hints ###
 

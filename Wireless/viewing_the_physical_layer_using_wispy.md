@@ -21,7 +21,7 @@ In this lab we are going to use a product called Wi-Spy to investigate wireless 
 * How wide is each channel in the 2.4 GHz ISM band?
 * How wide is the spacing between the centre frequency of each channel?
 
-[[File:2_4Ghz_WiFi_chans.png|centre|thumb|x100px|alt#WiFi Channel Allocation in the 2.4 GHz Band|WiFi Channel Allocation in the 2.4 GHz Band]]
+![2.4Ghz wifi chans](../IMGs/2_4Ghz_WiFi_chans.png "WiFi Channel Allocation in the 2.4 GHz Band")
 
 ## Restore Factory defaults ##
 
@@ -71,23 +71,23 @@ In 802.11n, one of the ways they have tried to increase speeds is by using 40 MH
 
 ### DSSS spectral use ###
 
-[[File:DSSS.png|thumb|center|x200px|alt#DSSS Spectrum Usage|DSSS Spectrum Usage]]
+![DSSS](../IMGs/DSSS.png "DSSS Spectrum Usage")
 
 ### OFDM spectral use ###
 
-[[File:OFDM.png|thumb|center|x200px|alt#OFDM Spectrum Usage|OFDM Spectrum Usage]]
+![OFDM](../IMGs/OFDM.png "OFDM Spectrum Usage")
 
 ### Mobile Usage ###
 
 Put your mobile next to the Wi-Spy device and make a call to your lab partner. Can you notice a change in the graphs? Why/why not?
 
-###Bluetooth###
+### Bluetooth ###
 
 Try setting up a bluetooth network between phones and transferring some files. Is frequency hopping evident/visible?
 
 ## Install inSSIDer on Windows ##
 
-Download and install [http://inssider.software.informer.com/2.1/ inSSIDer] on a Windows computer. With a wireless adaptor plugged in, run the program and examine the resulting output. Think about the difference between using a wireless card with inSSIDer and a spectrum analyser, such as the Wi-Spy.
+Download and install [inSSIDer](http://inssider.software.informer.com/2.1/) on a Windows computer. With a wireless adaptor plugged in, run the program and examine the resulting output. Think about the difference between using a wireless card with inSSIDer and a spectrum analyser, such as the Wi-Spy.
 
 * What are the benefits of each tool?
 * If an additional eduroam AP was requested for this lab, what channel would you deploy it on?

@@ -226,7 +226,7 @@ Create a file in: /var/www/html/
 
 You can create a file of a given size using:
 	
-	dd if#/dev/zero of#output.dat  bs#1M  count#100
+	dd if=/dev/zero of=output.dat  bs=1M  count=100
 
 Download this file from the Linux client by with:
 
