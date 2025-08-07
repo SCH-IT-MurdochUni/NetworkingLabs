@@ -18,7 +18,7 @@ We will be using aircrack-ng. We want to encourage your interest in network and 
 
 You should start by setting up a network as shown below.
 
-[[File:common_wireless_lab_setup.png|centre|thumb|x400px|alt#Basic lab setup|Basic lab setup]]
+![Alt text](../IMGs/Basic_setup.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
 
 ##Configure WEP##
 

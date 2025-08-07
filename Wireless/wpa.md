@@ -12,15 +12,15 @@ In this lab, we will demonstrate the vulnerabilities with WPA. These vulnerabili
 * An accurate idea of the vulnerabilities in WPA 
 * A good idea of how to securely implement WPA
 
-##Configure WPA##
+## Configure WPA
 
 Our first task is to configure WPA over the wireless network. Ensure that the wireless Windows PC can Ping the Wired PC. Refer to Basic AP Configuration if you need to. Please ensure that you keep the username as root and the password as admin. Use the WPA password: charlie12. Unlike the previous WEP cracking lab where we could pick any hex key, we must use a simple predictable password. When cracking WEP we were identifying the key based on a series of statistical attacks. Use '''WPA2 Personal and TKIP+AES'''.
 
-Ensure that the wireless Windows PC can Ping the Wired PC. Refer to [[Broadband_CPE_Scenarios_with_Mikrotik_and_DD-WRT#WPA]] if you need to. '''Additionally, turn off the 5GHz radio and change the network mode on the 2.4 GHz radio to 802.11b/g Mixed. Remember that there are two radios, and you will need to set the 5GHz radio mode to disabled.'''
+Ensure that the wireless Windows PC can Ping the Wired PC. Refer to [[Broadband_CPE_Scenarios_with_Mikrotik_and_DD-WRT#WPA]] if you need to. '''Additionally, turn off the 5GHz radio and change the network mode on the 2.4 GHz radio to 80Broadband_CPE_Scenarios_with_Mikrotik_and_DD2.11b/g Mixed. Remember that there are two radios, and you will need to set the 5GHz radio mode to disabled.'''
 
 In this WPA cracking lab, we are brute-forcing the key. We are only able to identify the key if it is part of our password database. The more complex the key, the less likely it will appear in a password database. An alternative way of looking at this, the longer and more complex the key, the longer and more complex our password database must be. This will also increase the amount of computation required to break the key.
 
-[[File:common_wireless_lab_setup.png|centre|thumb|x400px|alt#Basic lab setup|Basic lab setup]]
+![Alt text](../IMGs/Basic_setup.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
 
 ## Aircrack and monitor mode ##
 
