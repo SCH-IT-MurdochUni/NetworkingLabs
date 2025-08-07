@@ -32,7 +32,7 @@ You should start by setting up a network as shown below. Remember that at the be
 
 To limit the number of computers required, you may wish to make the Windows Wireless device, in the diagram below, your phone or laptop.
 
-Setup a basic WiFi access Point. Nothing complicated required, just establish network connectivity and change the SSID. If you need more instruction then you can review the details in this link, but for this lab, you don't need to to any wiring in the data centre. A Linksys on your desk will work fine. You should have completed the [Broadband CPE Scenarios](broadband_cpe_scenarios.md) lab but you can refer back to this if necessary. 
+Setup a basic WiFi access Point. Nothing complicated required, just establish network connectivity and change the SSID. If you need more instruction then you can review the details in this link, but for this lab, you don't need to to any wiring in the data centre. A Linksys on your desk will work fine. You should have completed the [Broadband CPE Scenarios](broadband_cpe_senarios.md) lab but you can refer back to this if necessary. 
 
 *For the purposes of this lab, make sure that you set a channel on the 2.4 and the 5GHz band, and set the Wireless mode to B/G Mixed in the 2.4 GHZ band and A-only in the 5GHz band. Without doing these steps you may find it hard to see any data, why?*
 
@@ -52,11 +52,11 @@ Note that we are unable to see important management frames like beacons, probe r
 
 Follow the instructions here to put the Alpha USB Wifi adapter in monitor mode: [Monitor Mode Lab](monitor_mode.md) 
 
- sudo iwconfig [adaptor_name] channel [Channel your AP is using]
+    sudo iwconfig [adaptor_name] channel [Channel your AP is using]
 
 Open wireshark from within your VM with:
 
- sudo wireshark
+    sudo wireshark
 
 You should be able to capture traffic in monitor mode on your wireless interface. What is different in the monitor mode output? What do you think that monitor mode does? Compare the previous output that you saved earlier. Discuss with your group and chat with your tutor.
 
@@ -103,19 +103,19 @@ The following diagrams on the right show what you should see when you have ident
 
 ### RTS ### 
 
-[[File:dot11_rts.png|thumb|center|x200px|alt#Request to Send Messaging|Request to Send Messaging]]
+![rts](../IMGs/dot11_rts.png "Request to Send Messaging")<p style="text-align:center; font-style:italic;">Request to Send Messaging</p>
 
 ### CTS ###
 
-[[File:dot11_cts.png|thumb|center|x200px|alt#Clear to Send Messaging|Clear to Send Messaging]]
+![cts](../IMGs/dot11_cts.png "lear to Send Messaging")<p style="text-align:center; font-style:italic;">Clear to Send Messaging</p>
 
 ### Ping ###
 
-[[File:dot11_rts_cts_ping.png|thumb|center|x200px|alt#Ping|Ping]]
+![rts_cts_ping](../IMGs/dot11_rts_cts_ping.png "Ping")<p style="text-align:center; font-style:italic;">Ping</p>
 
 ### Ack ###
 
-[[File:dot11_rts_cts_ping_ack.png|thumb|center|x200px|alt#Ack|Ack]]
+![dot11_rts_cts_ping_ack](../IMGs/dot11_rts_cts_ping_ack.png "Ack")<p style="text-align:center; font-style:italic;">Ack</p>
 
 ## Questions ##
 
@@ -133,7 +133,7 @@ See if you can answer the following questions.
 * What is the distribution of packet sizes? Break into:
 * * < 500 bytes
 * * < 1000 bytes
-* * ># 1000 bytes
+* * \>= 1000 bytes
 * Do you believe that your captured distribution is normal? Why, why not?
 * What percentage of data frames are retransmitted?
 * Why do you think packets are being lost?
@@ -144,13 +144,15 @@ Once you have got comfortable with looking at large network packet captures in W
 
 Now you can start searching the file with more traditional tools. Try the following
 
- cat monitor_mode.txt | grep Probe
- cat monitor_mode.txt | grep Your_SSID
- cat monitor_mode.txt | grep Apple
+```
+cat monitor_mode.txt | grep Probe
+cat monitor_mode.txt | grep Your_SSID
+cat monitor_mode.txt | grep Apple
+```
 
 Finally, you may notice that some people's phones will leak the SSID's of APs that they have connected to in the probe request. You can filter probe requests with:
 
- cat monitor_mode.txt | grep "Probe Request"
+    cat monitor_mode.txt | grep "Probe Request"
 
 Is there one that frequently comes up? Eduroam, Starbucks, McDonalds.
 

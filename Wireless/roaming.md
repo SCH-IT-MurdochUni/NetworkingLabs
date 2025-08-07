@@ -12,8 +12,6 @@ Work together in pairs, or groups of pairs, to configure two APs as one ESS netw
 
 We are going to implement a network that looks like this:
 
-[[File:Roaming.jpg|right|600px|thumbnail| The physical wiring of a small ESS (Extended Service Set) Network]]
-
 ```
           +--------+
           | Router |
@@ -26,7 +24,10 @@ We are going to implement a network that looks like this:
   +----+----+    +----+----+
 ```
 
-##Plan##
+The physical wiring of a small ESS (Extended Service Set) Network would look like this: 
+![Roaming](../IMGs/Roaming.jpg "The physical wiring of a small ESS (Extended Service Set) Network")
+
+## Plan ##
 
 Before you decide on which channels/frequencies to use, you should examine the current channels in use. To do this, you can use a site survey tool. See below for some software that you can use on your chosen platform. With the new lab setup, the best advice is to open the Windows Virtual machine and inSSIDer is already installed.
 
@@ -38,41 +39,41 @@ Before you decide on which channels/frequencies to use, you should examine the c
 
 Identify the currently least used frequencies in your area, and then mark your preferences on the whiteboard at the front of the room. For the purposes of this lab, we will simply disable the 2.4GHz radio to keep the channel allocation simple, but please think carefully about how you might best use the 2.4 GHz frequency in a crowded RF environment.
 
-##Configuration##
+## Configuration ##
 
 ### Computers/lab specific setup ###
 
 Currently the machines that we use in the labs are Virtual machines that sit within the Standard Operating Environment (SOE) Windows host. For these labs, you should use the Ubuntu OR Windows VM and make sure that your virtual network adaptor is in bridged mode. By being in bridged mode you will be able to obtain an IP address on the 192.168.1.x network and avoid the complications with NAT. You will likely need to make these changes in virtual box and then toggle your network interface, within the VM, down and then up. Remember unless you have an IP address on the 192.168.1.x subnet then you are going to find connectivity in this lab to be difficult.
 
-###IP Addressing###
+### IP Addressing ###
 
 By default, both of your APs will have IP addresses of 192.168.1.1. You must change the IP address of one of your APs to 192.168.88.2 and the other to 192.168.88.3. Leave the IP address of your Mikrotik router to 192.168.88.1.
 
-###DHCP###
+### DHCP ###
 
 Turn off the DHCP server on your access points. Leave it on in your server.
 
-###Cabling###
+### Cabling ###
 
 Run a network cable between from the LAN side of Router into each of the two wireless APs. The network cable will go between the LAN ports on devices, this will be a layer 2 network.
 
-###SSID Configuration###
+### SSID Configuration ###
 
 Ensure that the SSID of your APs matches exactly.
 
 Under the Wireless-Advanced Settings tab: TX Power # 10dBm Channel “Save and Apply changes”. Do this for the 5 GHz radio and ensure the 2.4 GHz interface is disabled.
 
-###Configure Clients###
+### Configure Clients ###
 
 Configure one or more laptops or mobile phones as wireless clients of your network. Two or three clients should be ample as more will just make it difficult to determine which client is associating with each access point.
 
-###Roaming###
+### Roaming ###
 
 Monitor the “associations” occurring on each access point Status->sys-info. It will only get association information periodically so be patient.
 
 You will probably find that the client “locks onto” one access point and will not roam, in this case, you may need to or switch the AP off entirely. Try performing a continuous ping from a wired PC. How many packets do you lose when an AP fails and the client is forced to switch between APs. This is an example of a layer two roam, because the device will keep the same IP address. Another benefit is that heavily overlapped cells offer redundancy and fault tolerance.
 
-###Questions###
+### Questions ###
 
 * A range of different software packages for different platforms were provided. What would be most convenient for a consultant doing this work day-to-day?
 * An ESS must share a common Ethernet Backbone. Why is this necessary?
