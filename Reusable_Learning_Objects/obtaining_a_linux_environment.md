@@ -27,6 +27,7 @@ Virtual box offers a virtualised environment to run an operating system. The ima
 *  Virtual Box
 *  VMware
 *  Parallels for MAC
+*  KVM on Linux
 
 You can download VirtualBox at the link below, but if you are in the South St labs, running windows, this will already be done: 
 
@@ -93,7 +94,9 @@ In future weeks labs might refer to getting your lab partner to test or try to d
 
 To perform these tasks, we want your Linux Virtual machine's network interface to be accessible from your Windows or MacOS machine. Set the network adapter to bridged and select your network adapter which connects to the Internet. Please seek assistance from your tutor with this.
 
-[[File:bridged.png|center|frame|x400px|alt#This is where you can change the network adapter to bridged so that you have bi-directional network access between the Ubuntu Virtual Machine and your Windows or OSX OS - Note that this can be problematic on some work networks such as eduroam| This is where you can change the network adapter to bridged so that you have bi-directional network access between the Ubuntu Virtual Machine and your Windows or OSX OS - Note that this can be problematic on some work networks such as eduroam]]
+<!-- [[File:bridged.png|center|frame|x400px|alt#This is where you can change the network adapter to bridged so that you have bi-directional network access between the Ubuntu Virtual Machine and your Windows or OSX OS - Note that this can be problematic on some work networks such as eduroam| This is where you can change the network adapter to bridged so that you have bi-directional network access between the Ubuntu Virtual Machine and your Windows or OSX OS - Note that this can be problematic on some work networks such as eduroam]] -->
+
+![Bridged example](../IMGs/Bridged.png?raw=true "Bridged Interface") <p style="text-align:center; font-style:italic;">This is where you can change the network adapter to bridged so that you have bi-directional network access between the Ubuntu Virtual Machine and your Windows or OSX OS - Note that this can be problematic on some work networks such as eduroam</p>
 
 ### Troubleshooting at home 
 
@@ -148,6 +151,12 @@ If you cannot get a virtual machine to run in Linux today then these are your op
 
 Click on the search tool in your mac and search for the terminal. It will look like:
 
+<div style="text-align: center;">
+
+![terminal in macos](../IMGs/Get_mac_terminal.png?raw=true "Terminal in MacOS") <p style="text-align:center; font-style:italic;">Terminal in MacOS</p>
+
+</div>
+
 #### Windows ####
 
 Go here: https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab#pivot:overviewtab and "Get" Ubuntu from the Microsoft store. See "Get and Launch Ubuntu" below.
@@ -165,7 +174,11 @@ Then you need to follow the following steps to install WSL. See "Run Powershell 
 * Type the following in the PowerShell window: 
  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
-Now you should be able to go back and click on the start bar and open Ubuntu. When you are successful, you will be asked to create a user account. See "Windows running Ubuntu" slideshow below.
+Now you should be able to go back and click on the start bar and open Ubuntu. When you are successful, you will be asked to create a user account. See "Windows running Ubuntu" below.
+
+![wsl ubuntu](../IMGs/Get_and_launch_ubuntu.png?raw=true "Get and Launch Ubuntu") <p style="text-align:center; font-style:italic;">Get and Launch Ubuntu</p>
+
+
 
 ## The network doesn't work in my VM at school or Work ##
 
