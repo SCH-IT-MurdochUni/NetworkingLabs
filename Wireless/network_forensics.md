@@ -61,7 +61,7 @@ HTTPS relies on Transport Layer Security, previously SSL. This is what has been 
 
 First, we want to set an environment variable:
 
-	export SSLKEYLOGFILE#/home/murdoch/sslkeylog.log
+	export SSLKEYLOGFILE=/home/murdoch/sslkeylog.log
 
 Note that if you are not working in the labs, the path will be different. You can make the path whatever you like. After you have set this environment variable, you should check.
 
