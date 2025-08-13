@@ -1,0 +1,8 @@
+#!/bin/bash
+
+input="test_key_responses.csv"
+while IFS=',' read -r f1 f2
+do
+  deluser "$f1"
+  rm -rf /home/"$f1"/
+done < "$input"
