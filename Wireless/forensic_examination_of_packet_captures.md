@@ -28,7 +28,7 @@ Investigate the following network packet capture and try to answer the following
 * What is the user interested in? (Hint: DNS)
 * What is the colour of the little mermaid's hair? (Hint: Recover HTTP Objects)
 
-Use AllPlayNoWork.pcap.zip in LMS
+Use AllPlayNoWork.pcap, which is inside forensics.zip, in LMS
 
 ## Scenario 2 ##
 
@@ -41,11 +41,11 @@ Questions to answer:
 * What is Ann's IP address?
 * What is Ann's MAC address and what vendor built her PC?
 
-Use Forensics.zip to download the zipped .pcap file to examine
+Use forensics.pcap, which is inside forensics.zip to examine. You will need NetworkMiner to complete this.
 
 ## Scenario 3 ##
 
-Ann has organised to meet up with a shady figure, known as Dark Tangent. You are a forensic investigator. Can you figure out their destination? Use evidence.pcap.zip in LMS to download the file to examine.
+Ann has organised to meet up with a shady figure, known as Dark Tangent. You are a forensic investigator. Can you figure out their destination? Use evidence.pcap, which is inside forensics.zip, in LMS.
 
 This puzzle was run at DEFCON 2010. 221 teams of experts played. The winners worked solved it in 5 hours. Even with the answers, you will not solve this puzzle in the tutorial.
 
