@@ -272,7 +272,7 @@ This has been growing as a preferred software model over the last decade. Typica
 
 You will be familiar with this but I am probably just using new terms to categorise this familiar task. You will probably be familiar with installing an alternative web browser from the internet. In Windows, you would be familiar with .exe files. Which are executables that will install programs? In MacOS these are .dmg files.
 
-You can also obtain software for Linux this way, On your Ubuntu system, visit the Google Chrome webpage and install Chrome. Note that while the file extension is a .deb there are many different ways to package binaries, most notably .rpm which is used by Red Hat type distributions. If you already have Chrome or would just like to try something new, have a look at installing [https://www.opera.com/ Opera], currently my browser of choice.
+You can also obtain software for Linux this way, On your Ubuntu system, visit the Google Chrome webpage and install Chrome. Note that while the file extension is a .deb there are many different ways to package binaries, most notably .rpm which is used by Red Hat type distributions. If you already have Chrome or would just like to try something new, have a look at installing [Opera](https://www.opera.com/), currently my browser of choice.
 
 ### Downloading and Installing a binary a trusted repository ###
 
@@ -316,7 +316,7 @@ If you are learning software development and want an easy environment to compile
 
 To get the tools to compile C programs, make sure that build-essential is installed.
 
- sudo apt install build-essential
+	 sudo apt install build-essential
 
 Ok so lets take a hello_world example:
 

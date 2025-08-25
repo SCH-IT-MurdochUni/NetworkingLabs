@@ -18,8 +18,11 @@ This lab will introduce you to Amazon EC2 web services. By the end of this lab y
 
 Note that this lab is designed around using Amazon EC2 Web services, but you are not restricted to this choice at all. Just like we encourage studnets to try VirtualBox and Vmware, you are encouraged to compare and choose between: 
 * [Amazon EC2](https://aws.amazon.com/ec2/)
+* [Amazon Lightsail](https://aws.amazon.com/lightsail/)
 * [Microsoft Azure](https://portal.azure.com/)
 * [Digital Ocean](https://www.digitalocean.com/)
+* [Vultr](https://www.vultr.com/)
+
 
 This lab assumes that you have viewed the weekly videos and that you have an account with Amazon EC2. The lab is written around you using your Linux VM that are running, or the lab machines, but it should work just fine on MacOS or Windows. Just like Linux, you will need to ensure that you are executing your ssh commands in the same directory as the .pem file that you download from Amazon.
 

@@ -6,7 +6,7 @@
 
 In this lab, we will look at how command-line Linux servers can offer services. This lab will also continue our exploration of the command line, superusers, networking, and firewalls. We will continue to expand your knowledge of the command line by extracting compressed files and moving them between Internet-connected machines. 
 
-If you are an External student, an online student, or a transnational student then complete this before proceeding: [[Linux Services#External Online & Transnational students]]. The reason that you must do this as an external, online on transnational student is because we need to set you up with two virtual machines on on your personal laptop/desktop.
+If you are an External student, an online student, or a transnational student then complete this before proceeding: [External Online and Transnational students](#external-online-and-transnational-students). The reason that you must do this as an external, online on transnational student is because we need to set you up with two virtual machines on on your personal laptop/desktop.
 
 If you are attempting this activity from the South St campus, you may need to reconfigure the Virtual Network adaptors. This video should show you how: https://echo360.net.au/media/6d282595-0fe6-4d11-9103-e25553cbae72/public
 
@@ -214,7 +214,7 @@ Download the top ten books from Gutenberg in UTF format. https://www.gutenberg.o
 
 Compress them using the techniques in this lab and then scp them to your lab partner.
 
-## External Online & Transnational students ##
+## External Online and Transnational students ##
 
 To complete the lab above you may need two virtual machines. So start by cloning your current virtual machine in VirtualBox. You will need to stop it first, then right click and clone it. 
 	
