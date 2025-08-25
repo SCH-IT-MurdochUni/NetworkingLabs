@@ -57,7 +57,7 @@ At some stage, you probably would have visited Google.com and searched for somet
 
 ## Decrypting SSL/TLS ##
 
-HTTPS relies on Transport Layer Security, previously SSL. This is what has been protecting the capture of all of our websites. There are a range of methods that can be used to decrypt it. I will assume a simple one, where you have access to the machine being monitored. So in this example, we will decrypt our own SSL/TLS transactions. Note that you can use Windows and [https://resources.infosecinstitute.com/decrypting-ssl-tls-traffic-with-wireshark/ here] is a link on how to make that work, but these instructions assume that you are using ubuntu.
+HTTPS relies on Transport Layer Security, previously SSL. This is what has been protecting the capture of all of our websites. There are a range of methods that can be used to decrypt it. I will assume a simple one, where you have access to the machine being monitored. So in this example, we will decrypt our own SSL/TLS transactions. Note that you can use Windows and [here](https://www.infosecinstitute.com/resources/hacking/decrypting-ssl-tls-traffic-with-wireshark/) is a link on how to make that work, but these instructions assume that you are using ubuntu.
 
 First, we want to set an environment variable:
 
@@ -93,6 +93,18 @@ Once you have done some browsing you can filter using the SSL filter. Note that 
 If everything has gone well you should now see all of your SSL transactions decrypted.
 
 ![Alt text](../IMGs/Decrypted_ssl.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
+
+### Reassembling Images From Decrypted SSL/TLS
+
+After you have decrypted SSL/TLS traffic. We can also apply a filter on image formats, such as PNG or JPEG. You can do this by typing these words into the filter bar at the top of the page. Note that sometimes the user uploaded image is stored as part of an HTTP form. You might need to dive into the HTTP form to locate the image. 
+
+![Alt text](../IMGs/upload_form_img.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
+
+Once you have located the image. Click on the identified image, then right-click on the ''Portable Network Graphics'' line in the lower Wireshark window. Select ''Export Selected Packet Bytes'' and save to the Desktop as image.png. Try opening your saved image. 
+
+![Alt text](../IMGs/export_packets_ssl.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
+
+Try the same technique with JPEG.
 
 ### Searching Decrypting SSL/TLS 
 
