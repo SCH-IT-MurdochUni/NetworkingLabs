@@ -19,6 +19,9 @@ In this lab, we will configure 802.1X authentication between for the wireless cl
 
 At the beginning of every lab, you should restore factory defaults to remove the previous group's settings. To do this, Administration->Factory Defaults->Yes, apply, ok.
 
+![Alt text](../IMGs/factory_defaults.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Please restore factory defaults using only the web browser</p>
+
+
 To complete this lab you will need one Ubuntu Linux PC, which will act as the wired FreeRadius server. We will also need at least two client machines, I would use one Ubuntu Linux client and one Windows client. You may also wish to attempt to authenticate using your phone or tablet.
 
 [[File:radius_lab.png|centre|thumb|x500px|alt#Basic lab setup|Basic lab setup]]

@@ -9,6 +9,10 @@
 
 This lab should be completed in groups of two. With your lab partner, carefully review the description below and the associated diagram. Please also go into the data centre to look at the physical setup to ensure you understand the topology. 
 
+Please ensure that before you finish the lab you restore factory defaults via the web interface only as shown in the image below. Please also keep the username as root and the password as admin.
+
+![Alt text](../IMGs/factory_defaults.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Please restore factory defaults using only the web browser</p>
+
 * The MikroTik hEX PoE on your desk is the customer provided broadband router.
 * The UFiber Nano is the CPE (Customer Presences Equipment) which would sit in the customers household or office.
 * In GPON terms the UFiber Nano is an ONU (Optical Network Unit)

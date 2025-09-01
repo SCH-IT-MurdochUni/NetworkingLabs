@@ -14,6 +14,8 @@
 
 In this lab, you will configure two different sophisticated pieces of Customer Premises Equipment (CPE). Many home users and very small offices might use a broadband router like the Linksys WiFi Router as the only device in their network. This works for small homes and offices, but frequently the location where the wired broadband connection enters a building might be the worst possible location for a WiFi Access point. Please spend 10 minutes carefully reading the [semi scientific guide to WiFi access point placement](https://arstechnica.com/gadgets/2020/02/the-ars-technica-semi-scientific-guide-to-wi-fi-access-point-placement/). This Arstechnica article has a lot of rules, you should read it in full, but to summarise; the placement of a WiFi Access point, should be relatively high, so that it is above most of the obstructions and is central in a house or office.
 
+
+
 Hopefully you can appreciate that you don't want the placement of your Access Point (AP) to be dictated by wherever your broadband connection enters the house. 
 
 We will use the Mikrotik as a Router and the Linksys as an Access Point (AP). This lab will hopefully:

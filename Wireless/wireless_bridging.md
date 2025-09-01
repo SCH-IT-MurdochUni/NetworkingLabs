@@ -18,6 +18,9 @@ This week we investigate bridging with wireless 802.11 networks. The purpose of 
 
 As usual, when following labs, you should turn the transmission power down to 10dB, choose a unique SSID and change the default channel.
 
+Please ensure that before you finish the lab you restore factory defaults via the web interface only as shown in the image below. Please also keep the username as root and the password as admin.
+
+![Alt text](../IMGs/factory_defaults.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Please restore factory defaults using only the web browser</p>
 
 ## Basic lab setup
 
