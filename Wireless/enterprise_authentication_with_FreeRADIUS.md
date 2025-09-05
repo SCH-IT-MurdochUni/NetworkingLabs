@@ -13,18 +13,18 @@
                                                                      
 ```
 
-In this lab, we will configure 802.1X authentication between for the wireless clients and the AP. We will use the Ubuntu OS and the FreeRadius server. Many ISPs use FreeRadius to authenticate broadband customers. Many Enterprises also use FreeRadius for authenticating wired and wireless devices connecting to the LAN. Eduroam is based on a hierarchy of RADIUS servers.
-
 ## Restore Factory defaults 
 
 At the beginning of every lab, you should restore factory defaults to remove the previous group's settings. To do this, Administration->Factory Defaults->Yes, apply, ok.
 
 ![Alt text](../IMGs/factory_defaults.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Please restore factory defaults using only the web browser</p>
 
+## Lab Overview
+In this lab, we will configure 802.1X authentication between for the wireless clients and the AP. We will use the Ubuntu OS and the FreeRadius server. Many ISPs use FreeRadius to authenticate broadband customers. Many Enterprises also use FreeRadius for authenticating wired and wireless devices connecting to the LAN. Eduroam is based on a hierarchy of RADIUS servers.
 
 To complete this lab you will need one Ubuntu Linux PC, which will act as the wired FreeRadius server. We will also need at least two client machines, I would use one Ubuntu Linux client and one Windows client. You may also wish to attempt to authenticate using your phone or tablet.
 
-[[File:radius_lab.png|centre|thumb|x500px|alt#Basic lab setup|Basic lab setup]]
+![setup](../IMGs/Radius_lab.png "Basic lab setup")
 
 ## RADIUS Installation and Configuration
 
@@ -39,7 +39,6 @@ In a terminal window, type:
 	sudo apt install freeradius (to install freeradius)
 
 ### Add a RADIUS client
-[[File:clients2.png|right|thumb|x500px|alt#These are the changes you might make in clients.conf|These are the changes you might make in clients.conf]]
 The radius client is the AP. You will need to specify the IP address and the secret key
 
 To do this, type:
@@ -48,15 +47,20 @@ To do this, type:
 
 Have a good long look at the configuration file and edit it yourself. You will have to use your initiative here.
 
+![Alt text](../IMGs/Clients2.png?raw=true "These are the changes you might make in clients.conf") <p style="text-align:center; font-style:italic;">These are the changes you might make in clients.conf</p>
+
 ### Add RADIUS users
-[[File:users.png|right|thumb|x500px|alt#In the users file, you only need to uncomment a single line like is shown|In the users file, you only need to uncomment a single line like is shown]]
 Have a good look at /etc/freeradius/users
 
 To do this, type:
 
 	sudo nano /etc/freeradius/3.0/users
 
-Add a few users. Once again, you will have to use your initiative here, I tend to use the 'bob' example found further down the file. After editing these files, stop freeradius
+Add a few users. Once again, you will have to use your initiative here, I tend to use the 'bob' example found further down the file. 
+
+![Alt text](../IMGs/Users.png?raw=true "In the users file, you only need to uncomment a single line like is shown") <p style="text-align:center; font-style:italic;">In the users file, you only need to uncomment a single line like is shown</p>
+
+After editing these files, stop freeradius
 
 	sudo service freeradius stop
 
@@ -69,12 +73,12 @@ If all is well, start FreeRadius in debugging mode with:
 	sudo freeradius -X
 
 If you get an error saying that the port is already bound or in use then:
-[[File:APdot1x_new.png|right|thumb|x600px|alt#The configuration on your AP will look something like this. Remember to point your AP at your RADIUS server and to match up those keys|The configuration on your AP will look something like this. Remember to point your AP at your RADIUS server and to match up those keys]]
+
 	ps -e | grep radius
 
 Then:
 
-	sudo kill The pid of free_radius
+	sudo kill The_pid_of_free_radius
 
 Then re-run 
 
@@ -83,6 +87,9 @@ Then re-run
 ## AP Configuration
 
 Configure your AP with a unique SSID. Then under Wireless->Security, you should Specify WPA2 Enterprise & WPA3 Enterprise. Enter the IP of the radius server. Use the key that you specified in clients.conf
+
+![Alt text](../IMGs/APdot1x_new.png?raw=true "The configuration on your AP will look something like this. Remember to point your AP at your RADIUS server and to match up those keys") <p style="text-align:center; font-style:italic;">The configuration on your AP will look something like this. Remember to point your AP at your RADIUS server and to match up those keys</p>
+
 
 ## Client Configuration
 
@@ -97,7 +104,7 @@ Verify your configuration by connecting a few different users. Have a look at th
 
 ## Challenge 
 
-Refer back to your [[WPA_Cracking]]. Compare the complexity of this with a guide to cracking WPA Enterprise. What is the difference?
+Refer back to your [WPA_Cracking](./wpa.md). Compare the complexity of this with a guide to cracking WPA Enterprise. What is the difference?
 
 https://null-byte.wonderhowto.com/how-to/hack-wpa-wpa2-enterprise-part-1-0165303/
 
