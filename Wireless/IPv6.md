@@ -9,7 +9,7 @@
 
 In this lab, we will explore the default behaviour of Mobile broadband with an emphasis on addressing. Before we start looking at the addressing or performance of these networks, let's start with a baseline. Start by deploying the Ubuntu Virtual Machine in the labs. 
 
-[[File:ipv6.png|right|700px|thumbnail| Remember that in IPv6 address shortening, consecutive blocks of zeros can be replaced with "::" once per address. Choose the option that correctly represents the shortened form of the given IPv6 addresses.]]
+![Alt text](../IMGs/Ipv6.png?raw=true "Remember that in IPv6 address shortening, consecutive blocks of zeros can be replaced with :: once per address. Choose the option that correctly represents the shortened form of the given IPv6 addresses.") <p style="text-align:center; font-style:italic;">Remember that in IPv6 address shortening, consecutive blocks of zeros can be replaced with "::" once per address. Choose the option that correctly represents the shortened form of the given IPv6 addresses.</p>
 
 ## Basic Network Baselining ##
 
@@ -20,13 +20,14 @@ Open a terminal an type:
 	ip a
 
 What is your IP address? Is it IPv4, or IPv6? Is it private/public? Confirm your IPv6 predictions here:
+
 	https://ipv6test.google.com/
 
 Then go here:
 
 	https://whatismyipaddress.com/
 
-'''Write your address on the board under the heading Wired LAN'''
+**Write your address on the board under the heading Wired LAN**
 
 Does it correctly resolve your location and IP?
 
@@ -61,13 +62,14 @@ Open a terminal an type:
 	ip a
 
 What is your IP address? Is it IPv4, or IPv6? Is it private/public? Confirm your IPv6 predictions here:
+
 	https://ipv6test.google.com/
 
 Then go here:
 
 	https://whatismyipaddress.com/
 
-'''Write your address on the board under the heading Eduroam'''
+**Write your address on the board under the heading Eduroam**
 
 Does it correctly resolve your location and IP?
 
@@ -105,13 +107,14 @@ Open a terminal and type:
 If you did not get an IPv6 address and are an android user, try enabling IPv6 here: https://nordvpn.com/blog/ipv6-enable-or-disable/#enable-disable-ipv6-on-android
 
 What is your IP address? Is it IPv4, or IPv6? Is it private/public? Confirm your IPv6 predictions here:
+
 	https://ipv6test.google.com/
 
 Then go here:
 
 	https://whatismyipaddress.com/
 
-'''Write your addresses on the board under the heading Mobile Broadband'''
+**Write your addresses on the board under the heading Mobile Broadband**
 
 Does it correctly resolve your location and IP?
 
