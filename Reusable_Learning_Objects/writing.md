@@ -109,7 +109,7 @@ The most important aspect of these tools is that you use them to try to locate y
 
 ## Structure ##
 
-The image to the right [2] describes the overall structure that will work for most essays. Note that introductions should narrow in focus from beginning to end. The conclusion of a document should end with broader implications and future directions. The best way to structure the content within the body is described in greater detail below. Remember that there is no absolute right or wrongs here, you will have to use your best judgement. This is a great generic guide [here](https://www.monash.edu/rlo/quick-study-guides/writing-essays Monash University).
+The image to the right [2] describes the overall structure that will work for most essays. Note that introductions should narrow in focus from beginning to end. The conclusion of a document should end with broader implications and future directions. The best way to structure the content within the body is described in greater detail below. Remember that there is no absolute right or wrongs here, you will have to use your best judgement. This is a great generic [essay writing guide](https://www.monash.edu/rlo/quick-study-guides/writing-essays).
 
 Many students don't put enough thought into how they structure their document. Remember that if your thoughts are unclear, then there is no way that when you come to write it will be any clearer. The lesson here is that clarity in your thought process will lead to clarity in the narrative of your writing. Clarity of thought on a topic should hopefully improve as you read more, so the pre-requisite for all of this is that you have done a lot of reading on the topic and have had the time to sit back and reflect on what you have read. The takeaway message: read a lot and read with as much lead time on your deadline as possible. 
 
@@ -188,7 +188,7 @@ You are not going to morph from being an average to a great writer overnight. It
  lot. Reading a lot really helps. Read anything you can get your hands on." - J.K. Rowling [4]
 ```
 
-I would also add that good writing generally requires you to revise and rewrite over and over. If you are wondering about the usage of a particular word, Guardian and Observer journalists have published their style guide [here](https://www.theguardian.com/guardian-observer-style-guide-a)
+I would also add that good writing generally requires you to revise and rewrite over and over. If you are wondering about the usage of a particular word, [Guardian and Observer journalists have published their style guide](https://www.theguardian.com/guardian-observer-style-guide-a)
 
 ## A class exercise ##
 
