@@ -28,9 +28,21 @@ In this lab, we will learn how to control the lab lighting using a computer. Thi
 
 The lab you are sitting in contains network-accessible lighting. Look directly above you and make a note of the FIXTURE NUMBER noted one your light. Note the command provided below.
 
-	curl -i -X PUT -H 'Content-Type: application/json' -d '{"target": "fixture","num": '''FIXTURENUMBER''',"intensity": '''255''',"red": '''255''',"green": '''0''',"blue": '''0''',"temperature": '''255''',"fade": '''1.0''',"path": "Default"}' http://10.50.41.230/api/override
+```
+curl -i -X PUT -H 'Content-Type: application/json' -d '{
+	"target": "fixture",
+	"num": "FIXTURENUMBER",
+	"intensity": "255",
+	"red": "255",
+	"green": "0",
+	"blue": "0",
+	"temperature": "255",
+	"fade": "1.0",
+	"path": "Default"
+}' http://10.50.41.230/api/override
+```
 
-Copy the line above into a text editor, and then change the '''FIXTURENUMBER''' to the light found on your computer overhead. Once you have edited this in a text editor, Open a terminal, the black box on the side of your Desktop. Copy and paste the edited command from your text editor into the terminal. Did your light turn on? What was the colour? Change the values to change the light to your favourite colour.
+Copy the line above into a text editor, and then change the FIXTURENUMBER to the light found on your computer overhead. Once you have edited this in a text editor, Open a terminal, the black box on the side of your Desktop. Copy and paste the edited command from your text editor into the terminal. Did your light turn on? What was the colour? Change the values to change the light to your favourite colour.
 
 How do you think you could switch the light off? Play with the parameters and ask for help if you need some guidance.
 
