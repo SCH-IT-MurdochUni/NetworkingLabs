@@ -14,7 +14,7 @@ __        __   _       ____                  _
 ```
 
 
-This lab will introduce you to Amazon EC2 web services. By the end of this lab you will have a virtual machine running at a location of your choosing and serving files via an Apache web server. In subsequent weeks we will link this virtual machine to DNS.
+This lab will introduce you to Amazon EC2 web services. By the end of this lab you will have a virtual machine running at a location of your choosing and serving files via an Nginx web server. In subsequent weeks we will link this virtual machine to DNS.
 
 Note that this lab is designed around using Amazon EC2 Web services, but you are not restricted to this choice at all. Just like we encourage studnets to try VirtualBox and Vmware, you are encouraged to compare and choose between: 
 * [Amazon EC2](https://aws.amazon.com/ec2/)
@@ -22,6 +22,7 @@ Note that this lab is designed around using Amazon EC2 Web services, but you are
 * [Microsoft Azure](https://portal.azure.com/)
 * [Digital Ocean](https://www.digitalocean.com/)
 * [Vultr](https://www.vultr.com/)
+* [Binary Lane](https://www.binarylane.com.au/)
 
 
 This lab assumes that you have viewed the weekly videos and that you have an account with Amazon EC2. The lab is written around you using your Linux VM that are running, or the lab machines, but it should work just fine on MacOS or Windows. Just like Linux, you will need to ensure that you are executing your ssh commands in the same directory as the .pem file that you download from Amazon.
@@ -35,7 +36,7 @@ For the purposes of the signup, being a Business or School and using your Murdoc
 ## Launch an Ubuntu Machine in EC2 ##
 * Launch a new instance (virtual machine)
 * Follow the steps on the AWS site. 
-* Instance type - Pick a "free tier eligible" Ubuntu 20.04 Instance.
+* Instance type - Pick a "free tier eligible" Ubuntu 24.04 Instance.
 * Configure the instance details - You can leave everything as the default.
 * Add storage - The default is to create a virtual machine with an 8GB hard drive. That's fine, leave it at the default.
 * Add tags - There is no need to add any tags so continue to "Configure Security Group".
@@ -58,21 +59,21 @@ Open Powershell, the Linux command line or the MacOS terminal on yur device. The
 
 You should now have SSH access to your cloud machine. 
 
-## Install Apache ##
+## Install Nginx ##
 
 Once you have command-line access to your virtual machine, the apt repositories may be out of date. Before you install anything, it is often a good idea to update them with 
 
 	sudo apt update
 
-Install the Apache Web Server using:
+Install the Nginx Web Server using:
 
-	sudo apt install apache2
+	sudo apt install nginx-full
 
 Test by visiting your new webserver. On your machine sitting in front of you, you should be able to type the Amazon machine's IP into your web browser.
 
 ## Edit index.html on the Webserver and test ##
 
-Once the machine has been launched, try to modify /var/www/html/index.html with
+Once the machine has been launched, try to create /var/www/html/index.html with
 
 	nano /var/www/html/index.html
 
@@ -97,9 +98,9 @@ This command should download the weekly reading into your /home/ubuntu directory
 Now we can try to access that pdf file remotely via a web browser. You will need to add that file name preciscely to the end of your website string.
 
 If you have difficulties accessing the file via a browser, here are some potential issues:
-* At times Apache has changed the default directory from which it serves HTML.  /var/www or /var/www/html are common.  One way to find out where the files are being served from is to locate the existing "index.html" file and place your files in the same directory.
+* At times Nginx has changed the default directory from which it serves HTML.  /var/www or /var/www/html are common.  One way to find out where the files are being served from is to locate the existing "index.nginx-debian.html" file and place your files in the same directory.
 * Rights and ownership can also be an issue.
-** Some Apache installs require the owner to be the user www-data.
+** Some Nginx installs require the owner to be the user www-data.
 ** Check that there are Read rights to the file.
 
 ## Create Links in index.html ##
@@ -125,7 +126,9 @@ If you won't be using your instance anymore, you may wish to shut it down or ter
 
 At the most simple level, you want to ''click on your name in EC2 and go to My Billing Dashboard''. See the image to the right. You should be able to reconcile the costs that you see here.
 
-You will also want to set a budget, with an alert as well. Make sure that you follow the slideshow below, to set an actual budget and an alert. To get started ''click on your name in EC2 and go to My Billing Dashboard'' then look for the AWS budgets link, as indicated in the first image in the slideshow below. Then follow the text description below the slideshow to setup a budget with alerts.
+You will also want to set a budget, with an alert as well. Make sure that you follow the slideshow below, to set an actual budget and an alert. To get started ''click on your name in EC2 and go to My Billing Dashboard'' then look for the AWS budgets link, as indicated in the first image in the slideshow below. Then follow the text description below the slideshow to setup a budget with alerts. 
+
+If you encounter a random shutdown of your cloud VM, you might created a type of VM instance called a spot instance. For Azure and AWS, they all provide such type of VM intance: [Azure's spot VM](https://azure.microsoft.com/en-us/products/virtual-machines/spot), [AWS's spot VM](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html). Spot VM instance will have a much lower cost than on-demand VM instances, but it requires your application is flexible to interruptions and it not suitable for regular website hosting. The common usage would be running data analysis programs or batch jobs. 
 
 ## Challenges ##
 

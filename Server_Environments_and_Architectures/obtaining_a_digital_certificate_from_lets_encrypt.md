@@ -27,7 +27,7 @@ Before starting to ensure that you have an A record pointing to the IP address o
 
 	ssh -i pemkey.pem ubuntu@[yourdomain-name-goes-here.com]
 
-I will also assume that you are running the Apache web server and have current access. You could use a web browser or from the CLI you could:
+I will also assume that you are running the Nginx web server and have current access. You could use a web browser or from the CLI you could:
 
 	wget http://[yourdomain-name-goes-here.com]
 
@@ -39,7 +39,7 @@ You should, for testing purposes have TCP port 22, 80 and 443 available through 
 
 	https://certbot.eff.org/
 
-Select I'm using "Apache" on "Linux (snap)". This will provide you with the instructions that you can follow. Complete all the steps on the command prompt.
+Select I'm using "Nginx" on "Linux (snap)". This will provide you with the instructions that you can follow. Complete all the steps on the command prompt.
 
 To confirm that your site is set up properly, visit your website in your browser and look for the lock icon. Click on the lock icon to see if you can tell who issued the certificate.
 

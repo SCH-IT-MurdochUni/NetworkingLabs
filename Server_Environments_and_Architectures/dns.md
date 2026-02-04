@@ -13,7 +13,9 @@ A major objective of this exercise is to develop familiarity with the components
 
 WARNING - Some cloud service providers won't let you use a country-code top-level domain (ccTLD) that is from an OFAC-sanctioned country.
 OFAC is a United States government department that is responsible for sanctions against other countries and are based on United Nations mandated sanctions in addition to US national security reasons and foreign policy.
+
 Current OFAC-sanctioned countries: https://worldpopulationreview.com/country-rankings/ofac-countries
+
 DigitalOcean - DNS QuickStart & How-Tos: https://docs.digitalocean.com/products/networking/dns/getting-started/quickstart/
 
 # Ensure you have access to a Cloud-based virtual machine #
@@ -22,13 +24,13 @@ Launch an Ubuntu machine in your cloud service provided cloud. Ensure that you o
 
 The configuration of the virtual machine is not the focus of this lab.  We recommend that you keep it simple so that we can move past this "revision element" and on to the substance of the lab. If you lack confidence in setting up a virtual machine, then redo the existing [Amazon EC2 Web Services](amazon_ec2_web_services.md) lab and commit some serious time to building your confidence.
 
-If you are completing this lab at home or on your own, follow the steps for last weeks lab.  Once your cloud-based virtual machine is configured and running  you should ssh into the server and install the Apache webserver as follows:
+If you are completing this lab at home or on your own, follow the steps for last weeks lab.  Once your cloud-based virtual machine is configured and running  you should ssh into the server and install the Nginx webserver as follows:
  
- sudo apt install apache2
+ sudo apt install nginx-full
 
 *  Record the Public IP Address of your cloud based virtual machine EC2: _________________________________________________
 
-Open a browser and verify that your web server is running at that address.  You should see the Apache welcome page. Do not continue with this lab until you have reached this step.
+Open a browser and verify that your web server is running at that address.  You should see the Nginx welcome page. Do not continue with this lab until you have reached this step.
 
 # Obtaining and linking a domain name #
 
@@ -57,3 +59,5 @@ If you won't be using your instance anymore, you may wish to shut it down or ter
 At the most simple level, you want to ''click on your name in EC2 and go to My Billing Dashboard''. See the image to the right. You should be able to reconcile the costs that you see here.
 
 You will also want to set a budget, with an alert as well. Make sure that you follow the slideshow below, to set an actual budget and an alert. To get started ''click on your name in EC2 and go to My Billing Dashboard'' then look for the AWS budgets link, as indicated in the first image in the slideshow below. Then follow the text description below the slideshow to setup a budget with alerts.
+
+If you encounter a random shutdown of your cloud VM, you might created a type of VM instance called a spot instance. For Azure and AWS, they all provide such type of VM intance: [Azure's spot VM](https://azure.microsoft.com/en-us/products/virtual-machines/spot), [AWS's spot VM](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html). Spot VM instance will have a much lower cost than on-demand VM instances, but it requires your application is flexible to interruptions and it not suitable for regular website hosting. The common usage would be running data analysis programs or batch jobs. 
