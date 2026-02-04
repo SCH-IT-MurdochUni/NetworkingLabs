@@ -10,17 +10,17 @@ If you are an External student, an online student, or a transnational student th
 
 If you are attempting this activity from the South St campus, you may need to reconfigure the Virtual Network adaptors. This video should show you how: https://echo360.net.au/media/6d282595-0fe6-4d11-9103-e25553cbae72/public
 
-## Apache Web Server ##	
+## Nginx Web Server ##	
 
-Let's start by installing and configuring the Apache webserver. Start by deploying the Ubuntu Operating system. Once you have booted into Ubuntu, open a terminal and type:
+Let's start by installing and configuring the Nginx webserver. Start by deploying the Ubuntu Operating system. Once you have booted into Ubuntu, open a terminal and type: 
 
 	sudo apt update
 
 This command will consult the repositories about the latest software available for the distribution. Type
 
-	sudo apt install apache2
+	sudo apt install nginx-full
 
-This command will install the Apache web server. While we are installing software on our machines, let's install two additional pieces of software. Type
+This command will install the Nginx web server. While we are installing software on our machines, let's install two additional pieces of software. Type
 
 	sudo apt install nmap
 
@@ -38,18 +38,26 @@ Find out what your Ethernet IP address is with:
 You'll also see a reference to the 127.0.0.1 address we used earlier.
 Trade IP addresses with your partner and see if you can access each others web page. Their page should look identical to yours. If you have problems then ensure that you log out of the gateway.
 
-Make some changes to the html of your Apache web page with:
+Make some changes to the html of your Nginx web page with:
 
-	nano /var/www/html/index.html 
+	nano /var/www/html/index.nginx-debian.html
 OR
-	gedit /var/www/html/index.html
+	gedit /var/www/html/index.nginx-debian.html
 
 Two questions:
 
-*  Did you get permissions errors when editing /var/www/html/index.html - how might you fix that?
+*  Did you get permissions errors when editing /var/www/html/index.nginx-debian.html - how might you fix that?
 *  What is the difference between nano and gedit?
 
-Make some changes to your index.html page and get your partner to check your page.
+Make some changes to your index.nginx-debian.html page and get your partner to check your page.
+
+Try to create a new page under the html of your Nginx web page:
+
+	nano /var/www/html/index.html
+OR
+	gedit /var/www/html/index.html
+
+Check you web page and get your partner to check you page. Think about where is your index.nginx-debian.html
 
 ## Nmap ##
 
@@ -59,13 +67,13 @@ Type:
 
 Nmap is a port scanning tool and will tell you what ports are open on a machine connected to the Internet. Have a look at the results. Can you identify any of the services that are running?
 
-Try removing apache2 and then re-running the nmap test. 
+Try removing nginx and then re-running the nmap test. 
 
-	sudo apt remove apache2
+	sudo apt remove nginx-full
 
-What has changed and why? Reinstall Apache2 with:
+What has changed and why? Reinstall nginx with:
 
-	sudo apt install apache2
+	sudo apt install nginx-full
 
 ## UFW ## 
 

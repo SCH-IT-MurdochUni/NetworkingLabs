@@ -12,9 +12,9 @@
 |_____|_| |_|\_/ |_|_|  \___/|_| |_|_| |_| |_|\___|_| |_|\__|
 ```
 
-This lab is designed to get you up and running in a Linux environment as quickly as possible. In this week the goal is to get the Linux environment on your Windows or OSX operating system running on the computer sitting in front of you. Internal South St students are encouraged to do this in the labs, and then go home and re-do the task on their own computer. External students, as well as Singapore and Dubai-based students, will complete this on their own computers in class.
+This lab is designed to get you up and running in a Linux environment as quickly as possible. In this week the goal is to get the Linux environment on your Windows or OSX operating system running on the computer sitting in front of you. Internal South St students are encouraged to do this in the labs, and then go home and re-do the task on their own computer. Online students, as well as Singapore and Dubai-based students, will complete this on their own computers in class.
 
-Note for completing in the South St labs: You will need to log into the Windows environment. You can log into the lab PCs using your Murdoch University username nad password credentials. Once logged in, make sure you wait for scripts that copying Virtual Machines to finish, and then start Windows in VMware. The credentials, username and password for Windows running in a virtual machine are:
+Note for completing in the South St labs: You will need to log into the Windows environment. You can log into the lab PCs using your Murdoch University username and password credentials. Once logged in, make sure you wait for scripts that copying Virtual Machines to finish, and then start Windows in VMware. The credentials, username and password for Windows running in a virtual machine are:
 * ''username: murdoch''
 * ''password: student''
 Once running Windows in VMware, you will have sufficient privileges to install Virtual box within that system to complete this lab.
@@ -81,12 +81,15 @@ Next week you will start to learn the Linux command line and get a bit more prof
 
 Spend some time reading about what we mean by the word distro. Read and think about the different Linux distros and their use. Feel free to have a read here: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/ 
 
+You can also checkout the distro ranking by DistroWatch.com: https://distrowatch.com/dwres.php?resource=popularity 
+
 Consider whether you would like to try something different at home. If you have time in the labs, this is the perfect time to try downloading a different distro and playing with it in Virtualbox.
 
 Some of your local mirrors will distribute many different Linux Operating Systems.
 
 * Perth: https://mirror.aarnet.edu.au/pub/
-* Singapore or Dubai http://download.nus.edu.sg/mirror/
+* Dubai: https://mirror.maeen.sa/
+* Singapore: http://download.nus.edu.sg/mirror/
 
 ## External and Dubai/Singapore Students 
 
@@ -100,11 +103,11 @@ To perform these tasks, we want your Linux Virtual machine's network interface t
 
 ### Troubleshooting at home 
 
-#### Apple M1 
+#### Apple M-chip 
 
-If you have an Apple M1 based computer, then great, these processors are amazing, but they do not run on x86_64 instruction sets that traditional Intel and AMD based processors would run. Instead they run a bespoke architecture based on the ARM instruction set. The ARM instruction set is currently used in mobile platforms, like phones and tablets but is also making its way into the server market. 
+If you have an Apple M-chip based computer, then great, these processors are amazing, but they do not run on x86_64 instruction sets that traditional Intel and AMD based processors would run. Instead they run a bespoke architecture based on the ARM instruction set. The ARM instruction set is currently used in mobile platforms, like phones and tablets but is also making its way into the server market. 
 
-To get virtualisation setup on your Apple M1, a past ICT171 has generously produced this content to help M1 Mac users: https://echo360.net.au/media/7ab80f6f-b405-431d-bcec-a9f60a88eba7/public 
+To get virtualisation setup on your Apple M-chips, a past ICT171 has generously produced this content to help M-chip Mac users: https://echo360.net.au/media/7ab80f6f-b405-431d-bcec-a9f60a88eba7/public 
 
 You are using a different, but free virualisation tool on the Mac, and will be installing the ARM based version of Ubuntu. As with all these detours, working through these things is the learning so please don't view it as a barrier to your learning.
 
@@ -112,11 +115,11 @@ You are using a different, but free virualisation tool on the Mac, and will be i
 
 If you experience errors stating that "VT-x" or "VT-d" is not available, you may need to turn on virtualisation in your bios. Every computer manufacturer has a different method to access the bios; you may need to google “HP how to turn on virtualisation bios” or “Dell how to turn on virtualisation bios”. 
 
-For Apple or OSX this should already be enabled. Note that if you have very new MAC, with an M1 processor, then you may need to chat with your tutor and unit coordinator. The new apples do not use x86_64 chips and thus, the way to do virtualisation is currently a moving target.
+For Apple or OSX this should already be enabled. Note that if you have very new MAC, with an M-chip processor, then you may need to chat with your tutor and unit coordinator. The new apples do not use x86_64 chips and thus, the way to do virtualisation is currently a moving target.
 
 If you get stuck on this step or do not feel confident, then ask your tutor. Also, do lots of reading until you are confident that you know what you are doing. See the link below:
 
-* https://forums.virtualbox.org/viewtopic.php?f#6&t#87752
+* https://forums.virtualbox.org/viewtopic.php?t=87752
 
 ## Extra ##
 
@@ -139,7 +142,7 @@ Remember that VirtualBox is just one of many approaches to doing this. If you ar
 * VMware
 * Parallels for MAC
 
-If you don't like VMware, feel free to research about and try one of the others. In this unit, we want to teach you ways of working with servers, but ultimately leave the tool choice up to you. This is why when we come to Cloud Computing, you will use both Amazon EC2 as well as Microsoft Azure.
+If you don't like VirtualBox, feel free to research about and try one of the others. In this unit, we want to teach you ways of working with servers, but ultimately leave the tool choice up to you. This is why when we come to Cloud Computing, you will use both Amazon EC2 as well as Microsoft Azure.
 
 If you find yourself with more free time and you feel like you are pretty advanced, then please work through for your system.
 
