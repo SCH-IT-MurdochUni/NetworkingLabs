@@ -14,10 +14,17 @@
 
 This lab is designed to get you up and running in a Linux environment as quickly as possible. In this week the goal is to get the Linux environment on your Windows or OSX operating system running on the computer sitting in front of you. Internal South St students are encouraged to do this in the labs, and then go home and re-do the task on their own computer. Online students, as well as Singapore and Dubai-based students, will complete this on their own computers in class.
 
-Note for completing in the South St labs: You will need to log into the Windows environment. You can log into the lab PCs using your Murdoch University username and password credentials. Once logged in, make sure you wait for scripts that copying Virtual Machines to finish, and then start Windows in VMware. The credentials, username and password for Windows running in a virtual machine are:
-* ''username: murdoch''
-* ''password: student''
-Once running Windows in VMware, you will have sufficient privileges to install Virtual box within that system to complete this lab.
+Note for completing in the South St labs: You will need to log into the Windows environment. You can log into the lab PCs using your Murdoch University username and password credentials. Once logged in, make sure you wait for scripts that copying Virtual Machines to finish. <del>And then start Windows in VMware. The credentials, username and password for Windows running in a virtual machine are:</del>
+* <del>''username: murdoch''</del>
+* <del>''password: student''</del>
+
+<del>Once running Windows in VMware, you will have sufficient privileges to install Virtual box within that system to complete this lab.</del>
+
+The strikethrough content might reflect the day to day experience of your IT life. The original idea of this lab is to use VMware to simulate your Windows laptop and you will install VirtualBox in it then create and install an Ubuntu 24.04 virtual machine. Such approach of running VM in another VM is called nested virtualization. 
+
+The world is evolving, we upgraded to Windows 11 in 2026 S1. Unfortunately, Windows 11 introduced a new security feature called Virtualization Based Security (VBS) with UEFI lock, which might break this nested virtualization in Windows and it is validated by our test before running this unit. 
+
+To proceed in South St labs, please just use the installed VirtualBox on the computer. And feel free to download and install VirtualBox on your own computer. 
 
 ## Virtualisation 
 
