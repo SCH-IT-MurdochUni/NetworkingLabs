@@ -66,7 +66,8 @@ If you are working from home, download and install virtualbox: https://www.virtu
 
 ```
  *Get and Launch Ubuntu
- *Choose 2048 MB Memory if you have enough to spare'' 
+ *Choose 4096 MB or 8192MB Memory if you have enough to spare'' 
+ *Choose 2 core or 4 core if you have enough to spare'' 
  *Follow the defaults as shown''
  *Follow the defaults as shown''
  *Follow the defaults as shown''
