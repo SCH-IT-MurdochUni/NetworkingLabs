@@ -20,9 +20,9 @@ In this lab, you will become more familiar with the Ubuntu Desktop environment, 
 Familiarise yourself with the Ubuntu Desktop environment. Work with the students around you, and your tutor, to do the following. 
 
 * Open Firefox to check that the Internet works - If you are an internal South St student then your tutor will explain how this works in Linux.
-* Start Libre Office and type some text
+* Start Libre Office Writer and type some text
 * Open the file manager and navigate up and down the directory structure
-* Install a program from the Ubuntu Software Centre
+* Install a program from the Ubuntu Software Centre / APP Centre
 
 If you place the terminal and the file browser side by side then it may help to visualise the changes that you make on the command line.
 
@@ -148,9 +148,9 @@ Open a new terminal and type
  
 	 ip a
 
-Ping is a connectivity test that you can use to determine whether two devices are connected. If you are on the South St campus, can you ping your neighbour?
+Ping is a connectivity test that you can use to determine whether two devices are connected. If you are on the South St campus, can you ping Data Centre's Router IP?
 
-	 ping [neighborsipaddress]
+	 ping 134.115.148.1
 
 If you are completing from home can you ping Google's DNS server
 
