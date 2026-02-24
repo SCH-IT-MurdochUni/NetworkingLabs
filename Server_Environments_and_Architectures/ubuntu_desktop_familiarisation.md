@@ -58,9 +58,9 @@ Then graphically edit it with:
 
 	 gedit testfile
 
-Depending on the version of your distribution, you may not have gedit. In this case, you could try:
+Depending on the version of your distribution, you may not have gedit. In this case, you could try install it:
 
-	 featherpad testfile
+	 sudo apt install gedit
 
 Copy in a few paragraphs from an online article on Google. Save and exit. Now try:
 

@@ -52,7 +52,8 @@ We will now use the .iso image file, that you Download below in Virtual box.
 
 This is a lightweight variant of Ubuntu linux that should be low on storage memory for your system.
 
-*  https://lubuntu.me/downloads/
+* Official Website: https://lubuntu.me/downloads/
+* The actual download page would be: https://cdimage.ubuntu.com/lubuntu/releases/noble/release/
 
 If you have a powerful computer with more than 8GB of RAM, then you can try a regular ubunt image: 
 
@@ -65,7 +66,9 @@ If you are still unsure, consult with your tutor about which image to download.
 If you are working from home, download and install virtualbox: https://www.virtualbox.org/wiki/Downloads. After it is installed, start Virtualbox, then:
 
 ```
- *Get and Launch Ubuntu
+ *Start VirtualBox
+ *Create a new virtual machine
+ *Type the name, put the downloaded iso file into iso selection and uncheck unattended install
  *Choose 4096 MB or 8192MB Memory if you have enough to spare'' 
  *Choose 2 core or 4 core if you have enough to spare'' 
  *Follow the defaults as shown''
