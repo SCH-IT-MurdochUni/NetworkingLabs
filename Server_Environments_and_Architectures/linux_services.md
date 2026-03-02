@@ -8,7 +8,9 @@ In this lab, we will look at how command-line Linux servers can offer services. 
 
 If you are an External student, an online student, or a transnational student then complete this before proceeding: [External Online and Transnational students](#external-online-and-transnational-students). The reason that you must do this as an external, online on transnational student is because we need to set you up with two virtual machines on on your personal laptop/desktop.
 
-If you are attempting this activity from the South St campus, you may need to reconfigure the Virtual Network adaptors. This video should show you how: https://echo360.net.au/media/6d282595-0fe6-4d11-9103-e25553cbae72/public
+If you are attempting this activity from the South St campus, it should already be configured correctly. 
+
+If you does not see any ip address start with 134.115 from "ip a" command, please reach your tutor for help or try to troubleshoot by following this video: https://echo360.net.au/media/6d282595-0fe6-4d11-9103-e25553cbae72/public .
 
 ## Nginx Web Server ##	
 
@@ -36,7 +38,8 @@ Find out what your Ethernet IP address is with:
 	ip a
 
 You'll also see a reference to the 127.0.0.1 address we used earlier.
-Trade IP addresses with your partner and see if you can access each others web page. Their page should look identical to yours. If you have problems then ensure that you log out of the gateway.
+Try to find IPs other than the previous mentioned 127.0.0.1 and try to think about is it a public IP address or a private IP address. 
+Trade IP addresses with your partner and see if you can access each others web page. Their page should look identical to yours. 
 
 Make some changes to the html of your Nginx web page with:
 
