@@ -73,6 +73,7 @@ Nmap is a port scanning tool and will tell you what ports are open on a machine 
 Try removing nginx and then re-running the nmap test. 
 
 	sudo apt remove nginx-full
+	sudo apt autoremove
 
 What has changed and why? Reinstall nginx with:
 
