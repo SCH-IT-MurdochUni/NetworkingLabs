@@ -8,7 +8,7 @@ In this lab, we will look at how command-line Linux servers can offer services. 
 
 If you are an External student, an online student, or a transnational student then complete this before proceeding: [External Online and Transnational students](#external-online-and-transnational-students). The reason that you must do this as an external, online on transnational student is because we need to set you up with two virtual machines on on your personal laptop/desktop.
 
-If you are attempting this activity from the South St campus, it should already be configured correctly. 
+If you are attempting this activity from the South St campus, it should already be configured correctly. Please use the Ubuntu-22.04 virtual machine in the VMware Workstation Pro. The password for that virtual machine would be "student".
 
 If you does not see any ip address start with 134.115 from "ip a" command, please reach your tutor for help or try to troubleshoot by following this video: https://echo360.net.au/media/6d282595-0fe6-4d11-9103-e25553cbae72/public .
 
