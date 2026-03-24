@@ -101,12 +101,12 @@ echo $temp
 
 When you update your code, you will now need to run the code with sudo, so that the code is running with the privileges required to access the temperature probe.
 
-	sudo ./lighting.sh
+	sudo ./temperature_visualisation.sh
 
 #### Tasks ####
 * Use your knowledge of looping from the previous section to continually check and print the temperature for 2 minutes.
 * See if you can integrate the line below to show this in Fahrenheit:
-	temp#$((temp * 9/5 + 32))
+	temp=$((temp * 9/5 + 32))
 
 ## Using your hands to warm the sensor up ##
 
