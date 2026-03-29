@@ -197,6 +197,24 @@ You will also want to set a budget, with an alert as well. To get started ''clic
 
 If you encounter a random shutdown of your cloud VM, you might created a type of VM instance called a spot instance. For Azure and AWS, they all provide such type of VM intance: [Azure's spot VM](https://azure.microsoft.com/en-us/products/virtual-machines/spot), [AWS's spot VM](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html). Spot VM instance will have a much lower cost than on-demand VM instances, but it requires your application is flexible to interruptions and it not suitable for regular website hosting. The common usage would be running data analysis programs or batch jobs. 
 
+## Common issues ##
+
+After you created the VM in the cloud and downloaded the private key for your VM. You might encounter this error when you try to ssh into your VM on Windows.
+
+![ssh_windows_error](../IMGs/azure_permission_error.png)
+
+This is usually caused by the default permission inheritation in Windows. To access the permission setting of this private key file, you can right click on the file, choose Security -> Advanced. By default, you will see a set of inherited permissions already there. 
+
+![ssh_windows_orig](../IMGs/ssh_key_permission_windows.png)
+
+To quickly fix this issue, you might need to click on the Disable interitance and remove all the existing permissions. Then add yourself (via your student ID) to the permission list to gain permission to this private key file. Which should looks like this: 
+
+![ssh_windows_after](../IMGs/ssh_key_permission_windows_after.png)
+
+Then try to use this key to login to your cloud VM, it should work after this permission change. 
+
+Think about why you might encounter this error. You might encounter the same issue in your future journey with Linux. How would you fix this issue in a Linux system?
+
 ## Challenges ##
 
 ### Challenge 1 ###
