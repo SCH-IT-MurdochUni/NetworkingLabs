@@ -203,15 +203,15 @@ After you created the VM in the cloud and downloaded the private key for your VM
 
 ![ssh_windows_error](../IMGs/azure_permission_error.png)
 
-This is usually caused by the default permission inheritation in Windows. To access the permission setting of this private key file, you can right click on the file, choose Security -> Advanced. By default, you will see a set of inherited permissions already there. 
+This is usually caused by the default permission inheritance in Windows. To access the permission setting of this private key file, you can right click on the file, choose Security -> Advanced. By default, you will see a set of inherited permissions already there. 
 
 ![ssh_windows_orig](../IMGs/ssh_key_permission_windows.png)
 
-To quickly fix this issue, you might need to click on the Disable interitance and remove all the existing permissions. Then add yourself (via your student ID) to the permission list to gain permission to this private key file. Which should looks like this: 
+To quickly fix this issue, you might need to click on the Disable inheritance and remove all the existing permissions. Then add yourself (via your student ID if using our lab machine) to the permission list to assign full control permission to this private key file. Which should look like this: 
 
 ![ssh_windows_after](../IMGs/ssh_key_permission_windows_after.png)
 
-Then try to use this key to login to your cloud VM, it should work after this permission change. 
+Then, try to use this key to login to your cloud VM. It should work after this permission change. 
 
 Think about why you might encounter this error. You might encounter the same issue in your future journey with Linux. How would you fix this issue in a Linux system?
 
