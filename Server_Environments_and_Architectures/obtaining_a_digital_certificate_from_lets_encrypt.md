@@ -25,13 +25,13 @@ Much of this information is sourced from: https://letsencrypt.org/getting-starte
 
 Before starting to ensure that you have an A record pointing to the IP address of your server. To verify that you have met this prerequisite, you should be able to ssh from your local machine. For example, the following should be successful
 
-	ssh -i pemkey.pem ubuntu@[yourdomain-name-goes-here.com]
+	ssh -i pemkey.pem yourusername@yourdomain-name-goes-here.com
 
 I will also assume that you are running the Nginx web server and have current access. You could use a web browser or from the CLI you could:
 
 	wget http://[yourdomain-name-goes-here.com]
 
-If these tests fail, go back to the Amazon EC2 server lab and the DNS lab and make sure these tests work before you proceed. Check that the firewall in your Amazon machine has port 22, 80 and 443 open.
+If these tests fail, go back to the Create Your Cloud Server lab and the DNS lab and make sure these tests work before you proceed. Check that the firewall in your cloud machine has port 22, 80 and 443 open.
 
 ## Obtaining your digital certificate from Let's Encrypt ##
 

@@ -213,5 +213,5 @@ Take the script that you have created and get it to run at boot time. You can ch
 
 ## Challenge 2 ##
 
-See the image at the top of the page. Explore neofetch and figlet. Think about how they could be used to display information when users login. See if you can work out how to use them in the Linux message of the day to craft a unique greeting when a user logs in. See [[Linux_MOTD]]
+See the image at the top of the page. Explore neofetch and figlet. Think about how they could be used to display information when users login. See if you can work out how to use them in the Linux message of the day to craft a unique greeting when a user logs in. Hint: Linux MOTD
 
