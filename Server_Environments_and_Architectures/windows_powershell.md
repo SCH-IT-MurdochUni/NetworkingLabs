@@ -15,7 +15,7 @@ __        ___           _
 
 ## PowerShell Introduction ##
 
-PowerShell is the newest and most powerful offering from Microsoft providing a command shell and configuration toolkit built on the .NET framework. More interesting still, is the fact that PowerShell also supports the management of network devices and Linux machines, and also can be installed on Linux. As you will see at the end of this lab, Linux can also be installed on Windows too.
+PowerShell is the newest and most powerful offering from Microsoft providing a command shell and configuration toolkit built on the .NET framework. More interesting still, is the fact that PowerShell also supports the management of network devices and Linux machines, and also can be installed on Linux. 
 
 Windows has a long history of supporting command line and scripting tools. Even before PowerShell arrived on the scene, the Windows Scripting Host (WSH) provided support for power users to develop their own scripts and interact directly with operating system objects.
 
@@ -25,7 +25,7 @@ Let’s look at a few small examples. We will use the PowerShell integrated scri
 
 The ISE will have 2 panes. The top pane is an editor for writing scripts, and the bottom pane is simply a command shell. You can type commands directly into that pane in the same way that you would use a command line. Try the “get-help” command in this pane to see it in action.
 
-PowerShell was designed for automating tasks in the Windows environment. Any windows server machine, such as one that you access through: https://portal.azure.com/ will work for this activity. If you are running Windows natively then you can choose to use that, alternatively, you can load up a Windows Server image and the RDP in. After this, start by opening Windows Powershell ISE. Remember to right-click and "Run as Administrator".
+PowerShell was designed for automating tasks in the Windows environment. Any windows server machine, such as one that you access through: https://portal.azure.com/ will work for this activity. If you are running Windows natively then you can choose to use that, alternatively, you can load up a Windows Server image and the RDP in. After this, start by opening Windows Powershell ISE. Remember to right-click and "Run as Administrator". 
 
 Our very first PS script is a one liner. Using the write-host command create a script to write “Hello World” to the console. If you are unsure, you can first try “get-help write-host” in the command prompt pane. Now let’s move onto using a variable in this script. We can create a variable using the below syntax:
 
@@ -47,8 +47,8 @@ operation on the command prompt in the bottom pane. You may then get individual 
 
 As you’ll see many of these have aliases that are identical to Linux, try things like rm, cp, mv, ps or kill
 
-Powershell Basic Backup[edit]
-Before we get started let's install the iis webserver. Click this link to see the instructions.
+### Powershell Basic Backup ###
+Before we get started, you might need to install the IIS server. If you are with on-campus lab, the windows 10 VM has been already set up. If you are deploying Windows Server locally or on Azure, you might need to install the IIS server. Click [this link](https://learn.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2#InstallIIS85onWindowsServer2012R2) to see the instructions.
 
 Now we will play with the following script. Make sure you change the username component then save it as unknown_script.ps1 and then execute it. What do you think it is doing?
 ```
