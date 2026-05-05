@@ -54,7 +54,7 @@ For the purposes of the signup for student subscription, please use your Murdoch
 * Subscription - To use student free credit, please select "Azure for Students".
 * Resource group - Give it a name like "Web Server Resource Group".
 * Virtual machine name - Give it a meaningful name so that you can easily identify later. 
-* Region - Pick up one from the recommended region. The one close to us would be "Australia East".
+* Region - Pick up one from the recommended region. The one close to us would be "Australia East" or "East Asia".
 * Availability zone - You don't need to change it unless the VM size you wanted is not available at this zone. At the moment you can leave it as the default.
 * Most of the configuration not mentioned can be leave as the default. 
 * Image - Pick "Ubuntu Server 24.04 LTS".
