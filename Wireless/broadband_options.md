@@ -17,7 +17,7 @@ In this activity you will work collaboratively in groups of 3-4 on a single docu
 
 Use a shared Office 365 document in Teams then start collaborating with your team mates to lay out the best broadband options for these areas. You will have 90 minutes to write up a document, and in the final 30 minutes, each group will present their document to the class at the front. Remember to be as supportive as possible to those that are presenting, we want a community of learners that help each other in this unit.
 
-![Alt text](../IMGs/Exemplar.png?raw=true "Exemplar") <p style="text-align:center; font-style:italic;">Exemplar</p>
+![Alt text](../IMGs/Exemplar.png?raw=true "Exemplar") *Exemplar*
 
 Exemplar work: the key is to get working quickly together with your shared document. Screenshot in anything valuable and fill in the provided table and a summarising paragraph at the end. Note that this example is deliberately blurry because we just want to give you a feel for what you might present at the end.
 
