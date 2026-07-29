@@ -25,7 +25,7 @@ Exemplar work: the key is to get working quickly together with your shared docum
 Each group will only investigate a single location. These are provided as GPS coordinates which you can paste into the search function of google maps. The following are locations that you can use. Please ask your tutor about which group/location you should use. 
 
 * Group 1: -42.1367384, 146.230251
-* Group 2: -32.0464909, 115.823378
+* Group 2: -34.6930219, 117.3584884
 * Group 3: -32.0749463, 116.876121
 * Group 4: -33.7190614, 115.030120
 * Group 5: -33.6666766, 115.044301
