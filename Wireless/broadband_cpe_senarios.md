@@ -58,7 +58,7 @@ Pay attention to the port numbers that you wire up in the data centre. Use the p
 
 Note that the Mikrotik CCS, has PoE. Apart from powering your Mikrotik Hex PoE using a power adapter as shown in the above diagram, you can also power it using the PoE port on the Mikrotik CCS. As there is a copper cable connecting the Mikrotik CCS to the Mikrotik HeX PoE on your desk, cabling the router correctly between the data centre and port the WAN/PoE port on your HeX PoE should turn it on.
 
-Once you have turned it on, plug a cable into one of the LAN ports and connect to the default webpage at 192.168.88.1 using a web browser. The default username is admin with no password, please keep it this way for lab purposes. 
+Once you have turned it on, plug a cable into one of the LAN ports and connect to the default webpage at 192.168.88.1 using a web browser. The default username is admin and the default password can be found on the sticker on the Mikrotik HeX PoE, you can also try admin. Please try to use admin as the password when asked to change the default password. 
 
 If you can't access the device at this IP address or the default username and password do not work then reset configuration:
 * unplug the device from power
