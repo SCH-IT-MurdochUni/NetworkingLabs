@@ -34,31 +34,29 @@ PPPoE is the authentication method most commonly used to securely authenticate c
 
 You should connect a cable between your device and the Mikrotik Cloud Core Switch located in the data centre. For the purposes of this lab, the cloud core router will be the ISP and is running a PPPoE server. Use the table below to ensure that you use a unique username and password to authenticate to the Cloud Core Router.
 
-![Alt text](../IMGs/Desk_ports.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Desk Ports</p>
-
-Review the diagram to the right about the desk ports available and talk to your lab instructor who will talk you through the best way to connect to the data centre.
-
-The Cloud Core Switch is shown below, pay attention to the port numbers that you wire up in the data centre. Use the port number in the patch panel in the data centre that you connect to determine the username and password that you use in the table below. This workflow should prevent two groups from using the same PPPoE credentials.
-
-![Alt text](../IMGs/Wiring_desk.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Desk Ports</p>
-
-
-
 | Pod # | Username | Password | Data Centre Port No |
 |-------|----------|----------|---------------------|
-| A     | alpha    | alpha    | 17                  |
-| B     | beta     | beta     | 18                  |
-| C     | charlie  | charlie  | 19                  |
-| D     | delta    | delta    | 20                  |
-| E     | echo     | echo     | 21                  |
-| F     | foxtrot  | foxtrot  | 22                  |
+| A     | alpha    | alpha    | 16                  |
+| B     | beta     | beta     | 17                  |
+| C     | charlie  | charlie  | 18                  |
+| D     | delta    | delta    | 19                  |
+| E     | echo     | echo     | 20                  |
+| F     | foxtrot  | foxtrot  | 21                  |
 | G     | golf     | golf     | 23                  |
 | H     | hotel    | hotel    | 24                  |
+
+Review the diagram below about the desk ports available and talk to your lab instructor who will talk you through the best way to connect to the data centre.
+
+![Alt text](../IMGs/Desk_ports.png?raw=true "Desk Ports") *Desk Ports*
+
+![Alt text](../IMGs/Wiring_desk.png?raw=true "Wiring Ports") *Wiring Ports*
+
+Pay attention to the port numbers that you wire up in the data centre. Use the port number in the patch panel in the data centre that you connect to determine the username and password that you use in the table below. This workflow should prevent two groups from using the same PPPoE credentials. 
 
 
 ## Configuration of the hEX PoE Router for PPPoE ##
 
-Note that the Mikrotik CCS, has PoE. As there is a copper cable connecting the Mikrotik CCS to the Mikrotik HeX PoE on your desk, cabling the router correctly between the data centre and port the WAN/PoE port on your HeX PoE should turn it on.
+Note that the Mikrotik CCS, has PoE. Apart from powering your Mikrotik Hex PoE using a power adapter as shown in the above diagram, you can also power it using the PoE port on the Mikrotik CCS. As there is a copper cable connecting the Mikrotik CCS to the Mikrotik HeX PoE on your desk, cabling the router correctly between the data centre and port the WAN/PoE port on your HeX PoE should turn it on.
 
 Once you have turned it on, plug a cable into one of the LAN ports and connect to the default webpage at 192.168.88.1 using a web browser. The default username is admin with no password, please keep it this way for lab purposes. 
 
