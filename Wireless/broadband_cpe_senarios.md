@@ -131,7 +131,7 @@ See if you can connect your smartphone to the WiFi network.
 
 ### Challenge 3: SSH Keys on the Mikrotik HexPoE 
 
-Run through the following lab [SSH Keys et al](../Reusable_Learning_Objects/ssh_keys.md). When you have finished, see whether you can install your Linux machine's public key on the Mikrotik HexPoE. You should then be able to SSH from your Linux box.
+Run through the following lab [SSH Keys et al](../Reusable_Learning_Objects/ssh_keys.md). When you have finished, see whether you can install your Linux machine's public key on the Mikrotik HexPoE. You should then be able to SSH from your Linux box. Note, for Mikrotik, you might need to import the SSH keys from WebFig or CLI. 
 
 ## Challenge 4: Speed tests 
 
@@ -146,7 +146,7 @@ Create a file in: /var/www/html/
 
 You can create a file of a given size using:
 	
-	dd if#/dev/zero of#output.dat  bs#1M  count#100
+	dd if=/dev/zero of=output.dat  bs=1M  count=100
 
 Download this file from the Linux client by with:
 

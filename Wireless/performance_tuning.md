@@ -33,7 +33,7 @@ On the Ubuntu Linux machine, make sure you have an internet connection, then ins
 
 Then create a large 1000MB file:
 
-	dd if#/dev/zero of#output.dat  bs#1000M  count#1
+	dd if=/dev/zero of=output.dat  bs=1000M  count=1
 
 Then move it into the web directory, and name it to test.
 

@@ -7,7 +7,7 @@
                              |___/     
 ```
 
-I have written this activity with the idea that you will complete this in class as well as at home on your own Linux machine. If you are doing this in the labs, you will need to do this simultaneously with your partner next to you, as you will be sshing into each other's machines. At home, I suspect it may vary depending on your approach. If you do not yet have your own Linux machine at home, please see: [[Your own mobile Linux box]]
+I have written this activity with the idea that you will complete this in class as well as at home on your own Linux machine. If you are doing this in the labs, you will need to do this simultaneously with your partner next to you, as you will be sshing into each other's machines. At home, I suspect it may vary depending on your approach. If you do not yet have your own Linux machine at home, please see: [Obtaining a Linux environment](../Reusable_Learning_Objects/obtaining_a_linux_environment.md)
 
 ## Installing and running OpenSSH-server 
 
@@ -76,5 +76,5 @@ After this, the following one line should log you into your server without a pas
 
 ## Contemplation and Discussion
 
-Please chat with your partner and tutor about how you plan to approach [[Your own mobile Linux box]].
+Please chat with your partner and tutor about how you plan to approach [Obtaining a Linux environment](../Reusable_Learning_Objects/obtaining_a_linux_environment.md).
 
