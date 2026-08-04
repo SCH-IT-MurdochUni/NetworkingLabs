@@ -30,7 +30,7 @@ PPPoE is the authentication method most commonly used to securely authenticate c
 
 ### Resetting the Devices ###
 
-It is important that you can quickly reset the devices and gain access to them. Pleaes follow the [device resetting](../Wireless/device_resetting.md) procedures. 
+It is important that you can quickly reset the devices and gain access to them. Please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
 
 ## Cabling to the ISP/CCR 
 
@@ -158,8 +158,5 @@ Compare the speed of the HTTP download with the file share. Take some time to di
 
 ## Restore Factory defaults 
 
-At the end of every lab you should restore factory defaults. To do this:
-
-* On the Linksys: Administration->Factory Defaults->Yes, apply, ok.
-* On the Mikrotik: Quick Set->Reset Configuration
+At the end of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
 
