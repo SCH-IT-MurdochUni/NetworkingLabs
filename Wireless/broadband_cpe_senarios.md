@@ -30,7 +30,7 @@ PPPoE is the authentication method most commonly used to securely authenticate c
 
 ### Resetting the Devices ###
 
-It is important that you can quickly reset the devices and gain access to them. Pleaes follow the [device resetting](../Reusable_Learning_Objects/device_resetting.md) procedures. 
+It is important that you can quickly reset the devices and gain access to them. Pleaes follow the [device resetting](../Wireless/device_resetting.md) procedures. 
 
 ## Cabling to the ISP/CCR 
 
