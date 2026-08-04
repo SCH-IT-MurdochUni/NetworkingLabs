@@ -20,5 +20,5 @@ Ideally you should reset your two devices using the Web browser at the beginning
 If you need to use the physical reset button: 
 
 * Mikrotik: Remove power -> Hold down Reset button using pen/pin -> Insert power while holding reset button until light flashes (approx 5 secs)
-* Linksys DD-WRT: Remove power -> Hold down Reset button using pen/pin -> Insert power while holding reset buttor for 10 seconds.
+* Linksys DD-WRT: Hold down Reset button using pen/pin for 5 seconds until the LED goes off. No need to unplug the device.
 
