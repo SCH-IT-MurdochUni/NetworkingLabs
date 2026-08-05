@@ -52,7 +52,7 @@ Conceptually, you will be implementing the following logical network architectur
           ┌─────────▼┐  ┌─▼─────────┐
           │ Laptop   │  │ Phone     │
           └──────────┘  └───────────┘
-`` 
+```
 
 We will use the Mikrotik as a Router and the Linksys as an Access Point (AP). This lab will hopefully:
 
