@@ -18,7 +18,9 @@ This week we investigate bridging with wireless 802.11 networks. The purpose of 
 
 As usual, when following labs, you should turn the transmission power down to 10dB, choose a unique SSID and change the default channel.
 
-Please ensure that before you finish the lab you restore factory defaults via the web interface only as shown in the image below. Please also keep the username as root and the password as admin.
+## Restore Factory defaults 
+
+At the beginning of the lab, you may need to restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. Please also try to keep usernames as root nand passwords as admin where possible.
 
 ![Alt text](../IMGs/factory_defaults.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Please restore factory defaults using only the web browser</p>
 
@@ -76,3 +78,6 @@ Before finishing the lab, connect a wired PC to each WDS AP. Show that it can ob
 
 Capture some WDS frames using monitor mode. To get a client device in monitor mode, make sure you follow the instructions to put the Alpha USB Wifi adapter in monitor mode: [Monitor Mode Lab](monitor_mode.md). What do they look like?
 
+## Restore Factory defaults 
+
+At the end of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 

@@ -156,7 +156,6 @@ Finally, you may notice that some people's phones will leak the SSID's of APs th
 
 Is there one that frequently comes up? Eduroam, Starbucks, McDonalds.
 
-## Restore Factory Defaults ##
+## Restore Factory defaults 
 
-At the end of every lab you should restore factory defaults to remove the previous group's settings. To do this, Administration->Factory Defaults->Yes, apply, ok.
-
+At the end of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
