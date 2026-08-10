@@ -74,7 +74,5 @@ Before finishing the lab, connect a wired PC to each WDS AP. Show that it can ob
 
 ## Challenge 2: Capturing WDS Frames
 
-Capture some WDS frames using monitor mode. To get a client device in monitor mode, make sure you follow the instructions for the Alpha_USB_in_monitor_mode
-
-What do they look like?
+Capture some WDS frames using monitor mode. To get a client device in monitor mode, make sure you follow the instructions to put the Alpha USB Wifi adapter in monitor mode: [Monitor Mode Lab](monitor_mode.md). What do they look like?
 
