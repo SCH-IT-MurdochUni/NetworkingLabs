@@ -26,6 +26,8 @@ At the beginning of the lab, you may need to restore factory defaults. To do thi
 
 ## Basic lab setup
 
+![Alt text](../IMGs/Wireless_bridging.png?raw=true  "Desk Ports") <p style="text-align:center; font-style:italic;">Lab Topology</p>
+
 In this method of bridging the left most AP operates as a standard AP and the other rightmost AP is used in client bridged mode (Wireless->Basic-Settings->Wireless-Mode. Switch the mode from AP mode to Client Bridge. In this mode, the client bridge will act like a regular WiFi station and connect to the AP. As the devices we are using actually bridge the WiFi Chip and the LAN switch into one logical device, the PC shown on the right-hand side should be able to obtain an IP from the DHCP server running on the AP mode device.
 
 Start by changing the IP address of the bridge that is going to be put into client mode. We cannot have two devices with the same IP so change it to 192.168.1.2. Be mindful that when you save and apply these IP address changes you will need to point your browser to the new IP address. So you now need to point your browser to 192.168.1.2.
