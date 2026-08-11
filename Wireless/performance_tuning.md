@@ -88,3 +88,6 @@ You should copy the template onto another sheet so that all students can see oth
 
 * Experiment! Which collection of settings gives you the best single-user performance in this scenario. Are your single user enhancements likely to yield the best throughput for all?
 
+## Restore Factory defaults 
+
+At the end of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 

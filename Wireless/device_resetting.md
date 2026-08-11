@@ -21,3 +21,6 @@ If you need to use the physical reset button:
 * Mikrotik: Remove power -> Hold down Reset button using pen/pin -> Insert power while holding reset button until light flashes (approx 5 secs)
 * Linksys DD-WRT: Hold down Reset button using pen/pin for 5 seconds until the LED goes off. No need to unplug the device.
 
+### Note for Linksys DD-WRT ###
+
+* If you find your Linksys is running stock firmware, e.g., showing the Linksys logo, not the DD-WRT page. Please contact your tutor/UC to get it reflashed later. 

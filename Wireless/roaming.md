@@ -32,7 +32,7 @@ The physical wiring of a small ESS (Extended Service Set) Network would look lik
 Before you decide on which channels/frequencies to use, you should examine the current channels in use. To do this, you can use a site survey tool. See below for some software that you can use on your chosen platform. With the new lab setup, the best advice is to open the Windows Virtual machine and inSSIDer is already installed.
 
 * Windows (http://www.techspot.com/downloads/5936-inssider.html)
-* Android device (WiFi Analyser: https://play.google.com/store/apps/details?id#com.farproc.wifi.analyzer&hl#en)
+* Android device (WiFi Analyser: https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer&hl=en)
 * MacOS (See: http://osxdaily.com/2012/07/31/wi-fi-scanner-mac-os-x-mountain-lion/)
 * iOS (Network Analyzer Light: https://itunes.apple.com/au/app/network-analyzer-lite-wifi/id562315041)
 * Linux (sudo apt install linssid)
