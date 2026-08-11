@@ -9,13 +9,9 @@
 
 These instructions assume that you are using Ubuntu Linux. You MUST turn off the wifi adapter in the graphical user interface in the top right of the screen in Ubuntu.
 
-![Alt text](../IMGs/Turn_off_WiFi.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Basic Lab Setup</p>
+## Connect the adaptor
 
-Usually you would do this as the first thing in the labs, but I have seen cases where there are permission denied errors unless this is done after this command sudo iwconfig wlan0 mode monitor
-
-## Connect the adapted and establish a baseline
-
-First, we must connect the USB directly to our Linux Virtual Machine. Click VM at the top of your virtual machines. You will click:
+First, we must connect the USB Wireless adatpor directly to our Linux Virtual Machine. Click VM at the top of your virtual machines. You will click:
 
     VM->Removeable Devices->Realtek 802.11n NIC->connect
 
@@ -30,6 +26,10 @@ If you are on Ubuntu, you will get a wlx98oeu8eoh like adapter name If you are o
     sudo apt install aircrack-ng
 
 ## Put the WiFi adapter in Monitor Mode
+
+Follow the step in the diagram below. You are switching off the ability for the OS to control the Wifi adaptor because you are gonig to control this via the command line. 
+
+![Alt text](../IMGs/Turn_off_WiFi.png?raw=true "Basic Lab Setup") <p style="text-align:center; font-style:italic;">Turn off WiFi in Ubuntu</p>
 
 You must strictly follow the instructions below to get a reliable monitor mode. Do this one line at a time. Note that if you are on Ubuntu, you must substitute wlx93048324, or whatever your adaptor name is, into the part that says wlan0 below.
 
