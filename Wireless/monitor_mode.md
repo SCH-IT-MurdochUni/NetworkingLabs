@@ -41,3 +41,10 @@ You must strictly follow the instructions below to get a reliable monitor mode. 
 
 Now you should be able to capture on your wireless interface in monitor mode.
 
+## Wireshark
+
+You may now wish to capture raw frames in monitor mode. You should be able to see them with: 
+
+    sudo wireshark
+
+Then select your wireless network adaptor
