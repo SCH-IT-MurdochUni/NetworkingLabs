@@ -28,7 +28,7 @@ In this activity, we will be obtaining monitor mode WiFi captures. We will be us
 
 ## Initial Setup ##
 
-You should start by setting up a network as shown below. Remember that at the beginning of every lab you should restore factory defaults to remove the previous group's settings. To do this, Administration->Factory Defaults->Yes, apply, ok.
+At the start of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
 
 To limit the number of computers required, you may wish to make the Windows Wireless device, in the diagram below, your phone or laptop.
 
