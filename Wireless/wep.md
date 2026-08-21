@@ -16,7 +16,7 @@ We will be using aircrack-ng. We want to encourage your interest in network and 
 
 ## Lab Setup ##
 
-You should start by setting up a network as shown below.
+You should start by setting up a network as shown below, but remember that at the start of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
 
 ![setup](../IMGs/common_wireless_lab_setup.png "Basic lab setup")
 
@@ -86,3 +86,6 @@ What you are looking at is Wireshark->Edit->Preferences->Protocols->IEEE 802.11-
 
 Plug in the key to decrypt your own data frames. The process is the same for WPA.
 
+## Restore Factory defaults 
+
+At the end of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
