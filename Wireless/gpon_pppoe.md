@@ -44,18 +44,26 @@ Please ensure you understand the cabling. Note that on the UFiber Nano, you shou
 
 ## Authenticating with the ISP ##
 
-![Alt text](../IMGs/Cabling_dc.png?raw=true "Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.") <p style="text-align:center; font-style:italic;">Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.</p>
+![Alt text](../IMGs/Cabling_dc.png?raw=true "Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.") <p style="text-align:center; font-style:italic;">Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.This username and wpallword list below is based on the NATO phonetic alphabet https://en.wikipedia.org/wiki/NATO_phonetic_alphabet</p>
 
 | Pod \# | Username | Password | Data Centre Port No | ONU Label | ONU Username | ONU Password |
 |-------|----------|----------|----------------------|-----------|--------------|--------------|
 | A     | alpha    | alpha    | A                    | alpha     | alpha        | alpha        |
-| B     | beta     | beta     | B                    | beta      | beta         | beta         |
+| B     | bravo    | bravo    | B                    | bravo     | bravo        | bravo        |
 | C     | charlie  | charlie  | C                    | charlie   | charlie      | charlie      |
 | D     | delta    | delta    | D                    | delta     | delta        | delta        |
 | E     | echo     | echo     | E                    | echo      | echo         | echo         |
 | F     | foxtrot  | foxtrot  | F                    | foxtrot   | foxtrot      | foxtrot      |
 | G     | golf     | golf     | G                    | golf      | golf         | golf         |
 | H     | hotel    | hotel    | H                    | hotel     | hotel        | hotel        |
+| I     | india    | india    | I                    | india     | india        | india        |
+| J     | juliett  | juliett  | J                    | juliet    | juliet       | juliet       |
+| K     | kilo     | kilo     | K                    | kilo      | kilo         | kilo         |
+| L     | lima     | lima     | L                    | lima      | lima         | lima         |
+| M     | mike     | mike     | M                    | mike      | mike         | mike         |
+| N     | november | november | N                    | november  | november     | november     |
+| O     | oscar    | oscar    | O                    | oscar     | oscar        | oscar        |
+| P     | papa     | papa     | P                    | papa      | papa         | papa         |
 
 To reiterate, each group of two students will have two Mikrotik HeX PoE routers. One router will be cabled into the GPON network, the other will have a direct copper connection to the CCS. Each will authenticate with different but matched credentials using PPPoE. 
 
