@@ -44,9 +44,9 @@ Please ensure that before you finish the lab you restore factory defaults. To do
 
 ![Alt text](../IMGs/Cabling_dc.png?raw=true "Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.") <p style="text-align:center; font-style:italic;">Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.This username and password list below is based on the NATO phonetic alphabet https://en.wikipedia.org/wiki/NATO_phonetic_alphabet</p>
 
-Each group connects one router to the GPON (Fibre) patch panel (left) and one router to the Router (Copper) patch panel (right), then uses the matching credentials below. **The GPON (Fibre) router uses ports A–H and the associated ONU. The Router (Copper) router uses pods I–P, which map to data centre ports 16–21 and 23–24 and have no ONU.**
+Each group connects on Mikrotik router to the GPON (Fibre) patch panel (left) and one Mikrotik router to the Router (Copper) patch panel (right), then uses the matching credentials below. **The GPON (Fibre) uses ports A–H and the associated ONU. The Router (Copper) uses pods I–P, which map to data centre ports 16–21 and 23–24 and have no ONU.**
 
-### GPON (Fibre) router — ports A–H ###
+### GPON (Fibre) — ports A–H ###
 
 Cable from the WAN Interface on the hEX PoE through to the Data Centre. Patch this connection through to one of the ports under the GPON label. Note that individual ports are labelled: A, B, C, D, E, F, G, H.  These letters match the respective ONUs marked Alpha, Beta, Charlie, Delta, Echo, Foxtrot, Golf, Hotel. 
 
@@ -63,9 +63,9 @@ Please ensure you understand the cabling. Note that on the UFiber Nano, you shou
 | G     | golf     | golf     | G                    | golf      | golf         | golf         |
 | H     | hotel    | hotel    | H                    | hotel     | hotel        | hotel        |
 
-### Router (Copper) router — pods I–P ###
+### Router (Copper) — pods I–P ###
 
-Cable from the WAN Interface on the hEX PoE through to the Data Centre. Patch this connection through to one of the ports under the Router (Copper) label. Note that individual pods are labelled: I, J, K, L, M, N, O, P and they map to the data centre ports 16–21 and 23–24 (port 22 is skipped). This router connects straight to the copper patch panel, so there is no ONU. 
+Cable from the WAN Interface on the hEX PoE through to the Data Centre. Patch this connection through to one of the ports under the Router (Copper) label. Note that individual pods are labelled: I, J, K, L, M, N, O, P and they map to the data centre ports 16–21 and 23–24 (port 22 is skipped). 
 
 | Pod \# | Username | Password | Data Centre Port No |
 |-------|----------|----------|----------------------|
