@@ -7,12 +7,6 @@
                                                          
 ```
 
-## Restore Factory defaults 
-
-Please ensure that before you finish the lab you restore factory defaults via the web interface only as shown in the image below. Please also keep the username as root and the password as admin.
-
-![Alt text](../IMGs/factory_defaults.png?raw=true "Desk Ports") <p style="text-align:center; font-style:italic;">Please restore factory defaults using only the web browser</p>
-
 ## Lab Overview
 
 ![Alt text](../IMGs/New_GPON_top.png?raw=true "Physical GPON Topology") <p style="text-align:center; font-style:italic;">Physical GPON Topology</p>
@@ -29,22 +23,34 @@ This lab should be completed in groups of two. With your lab partner, carefully 
 
 When you look at this topology try to remember that the Passive Optical Splitter and the CPE equipment can be separated by quite large distances. Note, however, that this is a multiaccess broadband network.
 
-What we will do today is work in groups. Each group will connect one Mikrotik to the GPON Network, the other group will connect to the Copper Network labeled 'Router' and we will do some bandwidth tests. To perform these bandwidth tests we will also need to implement a port forward on the Mikrotik router. 
+What we will do today is work in groups. Each group will connect one Mikrotik to the GPON Network and another Mikrotik to the Copper Network labeled 'Router', and we will do some bandwidth tests. To perform these bandwidth tests we will also need to implement a port forward on the Mikrotik router. 
 
+Each group connects **two** MikroTik hEX PoE routers to the ISP, one on each of the following paths:
+
+* **GPON (Fibre)** — ports **A–H**. This router connects through the GPON patch panel and an ONU (Alpha–Hotel).
+* **Router (Copper)** — pods **I–P** (data centre ports **16–21 and 23–24**). This router connects directly to the Router (Copper) patch panel. There is no ONU on this path.
+
+Both routers authenticate to the same PPPoE server using the credentials that match their patch panel port. The bandwidth tests are then run between the two routers in your group.
 
 ## Basic MikroTik Configuration ##
 
-This lab will work most smoothly if you start from the Ubuntu Virtual machine. It may also be simpler if you remove the NAT adapter. Go to the VMware menu bar at the top - VM > settings > remove the NAT adapter (network adapter 1). Leaving the bridged network (net adapter 2) in place. Cable from your computer to the LAN port on your hEX PoE sitting in front of you on the desk. Ensure that your computer gets an IP address in the subnet range 192.168.88.2-254. If not check your cabling and see if you can reset the configuration on your hEX PoE. You should be able to browse to and see the configuration page of your hEX PoE at 192.168.88.1. By default, the username is admin and there is no password to access the device. One thing to check is that your Computers LAN link has negotiated 1000Mb/s with the MikroTik hEX PoE. We found that a 10Mb/s half-duplex link was incorrectly negotiated when using the onboard NIC on the computer.
+This lab will work most smoothly if you start from the Ubuntu Virtual machine. Cable from your computer to the LAN port on your hEX PoE sitting in front of you on the desk. Ensure that your computer gets an IP address in the subnet range 192.168.88.2-254. If not check your cabling and see if you can reset the configuration on your hEX PoE. You should be able to browse to and see the configuration page of your hEX PoE at 192.168.88.1. By default, the username is admin and there is no password to access the device. One thing to check is that your Computers LAN link has negotiated 1000Mb/s with the MikroTik hEX PoE. We found that a 10Mb/s half-duplex link was incorrectly negotiated when using the other NICs on the computer. 
 
-**Before you do anything make sure you reset the configuration of your hEX PoE by clicking the Reset Configuration button at the bottom of the page**
+## Restore Factory defaults 
+
+Please ensure that before you finish the lab you restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
+
+## Authenticating with the ISP ##
+
+![Alt text](../IMGs/Cabling_dc.png?raw=true "Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.") <p style="text-align:center; font-style:italic;">Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.This username and password list below is based on the NATO phonetic alphabet https://en.wikipedia.org/wiki/NATO_phonetic_alphabet</p>
+
+Each group connects one router to the GPON (Fibre) patch panel (left) and one router to the Router (Copper) patch panel (right), then uses the matching credentials below. **The GPON (Fibre) router uses ports A–H and the associated ONU. The Router (Copper) router uses pods I–P, which map to data centre ports 16–21 and 23–24 and have no ONU.**
+
+### GPON (Fibre) router — ports A–H ###
 
 Cable from the WAN Interface on the hEX PoE through to the Data Centre. Patch this connection through to one of the ports under the GPON label. Note that individual ports are labelled: A, B, C, D, E, F, G, H.  These letters match the respective ONUs marked Alpha, Beta, Charlie, Delta, Echo, Foxtrot, Golf, Hotel. 
 
 Please ensure you understand the cabling. Note that on the UFiber Nano, you should see a little green link light displayed when your MikroTik hEX PoE has been plugged in correctly. These UFiber Nanos, which are ONUs will connect to the Ubiquiti UFiber Nano, the OLT. The MicroTik CCR will authenticate the PPPoE connection which is made via the MikroTik hEX PoE. I know that this is a lot to take in.
-
-## Authenticating with the ISP ##
-
-![Alt text](../IMGs/Cabling_dc.png?raw=true "Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.") <p style="text-align:center; font-style:italic;">Each group will have two Mikrotik routers. Each group will wire one Mikrotik into the GPON (Fibre) patch pannel and the other into the Router (Copper) patch pannel. If you are in the first port A then use Alpha and Alpha et cetera.This username and wpallword list below is based on the NATO phonetic alphabet https://en.wikipedia.org/wiki/NATO_phonetic_alphabet</p>
 
 | Pod \# | Username | Password | Data Centre Port No | ONU Label | ONU Username | ONU Password |
 |-------|----------|----------|----------------------|-----------|--------------|--------------|
@@ -56,18 +62,25 @@ Please ensure you understand the cabling. Note that on the UFiber Nano, you shou
 | F     | foxtrot  | foxtrot  | F                    | foxtrot   | foxtrot      | foxtrot      |
 | G     | golf     | golf     | G                    | golf      | golf         | golf         |
 | H     | hotel    | hotel    | H                    | hotel     | hotel        | hotel        |
-| I     | india    | india    | I                    | india     | india        | india        |
-| J     | juliett  | juliett  | J                    | juliet    | juliet       | juliet       |
-| K     | kilo     | kilo     | K                    | kilo      | kilo         | kilo         |
-| L     | lima     | lima     | L                    | lima      | lima         | lima         |
-| M     | mike     | mike     | M                    | mike      | mike         | mike         |
-| N     | november | november | N                    | november  | november     | november     |
-| O     | oscar    | oscar    | O                    | oscar     | oscar        | oscar        |
-| P     | papa     | papa     | P                    | papa      | papa         | papa         |
 
-To reiterate, each group of two students will have two Mikrotik HeX PoE routers. One router will be cabled into the GPON network, the other will have a direct copper connection to the CCS. Each will authenticate with different but matched credentials using PPPoE. 
+### Router (Copper) router — pods I–P ###
 
-Authenticate with the ISP by using the "Quick Set" configuration page on the MikroTik hEX PoE. What IP address does the ISP provide you with? What is special about this IP Address range? If you are not sure then have a search online.
+Cable from the WAN Interface on the hEX PoE through to the Data Centre. Patch this connection through to one of the ports under the Router (Copper) label. Note that individual pods are labelled: I, J, K, L, M, N, O, P and they map to the data centre ports 16–21 and 23–24 (port 22 is skipped). This router connects straight to the copper patch panel, so there is no ONU. 
+
+| Pod \# | Username | Password | Data Centre Port No |
+|-------|----------|----------|----------------------|
+| I     | india    | india    | 16                   |
+| J     | juliett  | juliett  | 17                   |
+| K     | kilo     | kilo     | 18                   |
+| L     | lima     | lima     | 19                   |
+| M     | mike     | mike     | 20                   |
+| N     | november | november | 21                   |
+| O     | oscar    | oscar    | 23                   |
+| P     | papa     | papa     | 24                   |
+
+To reiterate, each group of two students will have two Mikrotik HeX PoE routers. One router will be cabled into the GPON network, the other will have a direct copper connection to the CCS. Each will authenticate with different but matched credentials using PPPoE. e.g. Pod A for GPON and Pod I for Router (Copper) in Group 1 and Pod B for GPON and Pod J for Router (Copper) in Group 2. 
+
+Authenticate with the ISP by using the "Quick Set" configuration page on the MikroTik hEX PoE. What IP address does the ISP provide you with? What is special about this IP Address range? If you are not sure then have a search online. 
 
 ## Speed tests ##
 
@@ -90,7 +103,7 @@ What is special about this directory? Why did we need sudo to copy it?
 
 ## Creating a port forward rule on the MikroTik hEX PoE ##
 
-In this section you are going to create a port forward from your Mikrotik to your Ubuntu Linux box. Also, ensure that you can ping the Internet-facing address of the other group's MikroTik hEX PoE. If you can't, troubleshoot before moving on. I would recommend unplugging your computer from the 134.114.148.x network to remove any ambiguity over which NIC the computer will use to send messages out. Again, make sure you can ping the other groups WAN IP address before moving on. **If you have connectivity problems, make sure that the NAT checkbox is checked and you have applied the configuration on the MikroTik hEX PoE.**
+In this section you are going to create a port forward from your Mikrotik to your Ubuntu Linux box. Also, ensure that you can ping the Internet-facing address of the other group's MikroTik hEX PoE. If you can't, troubleshoot before moving on. I would recommend turn off the interface with an IP address from 134.115.148.x or unplugging your computer from the 134.115.148.x network to remove any ambiguity over which NIC the computer will use to send messages out. Again, make sure you can ping the other groups WAN IP address before moving on. **If you have connectivity problems, make sure that the NAT checkbox is checked and you have applied the configuration on the MikroTik hEX PoE.**
 
 We are going to put a port forward on the hEX PoE sitting on your desk. All groups should do this. This port forward will take any TCP connection hitting the Internet-facing side of your hEX PoE and direct it to the IP address of your LAN based Linux PC.
 
@@ -139,3 +152,6 @@ It can transfer at rates up to 2.488 Gbps TX and 1.244 Gbps RX and can be split 
 
 * I have noticed weirdness where, in this network, two GPON houses cannot directly connect, which is why this lab specifies that connections occur between Devices GPON ONUs and Routers that directly connect to the ISP
 
+## Restore Factory defaults 
+
+At the end of every lab you should restore factory defaults. To do this, please follow the [device resetting](../Wireless/device_resetting.md) procedures. 
