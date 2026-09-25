@@ -13,7 +13,7 @@
       |_|                          
 ```
 
-In this activity you will work collaboratively in groups of 3-4 on a single document. You goal is to lay out the broadband options for a customer based on their location. You will need to consider the wired broadband options available, as well as the wireless broadband options. 
+In this activity you will work collaboratively in groups of 3-4 on a single document in office 365. You goal is to lay out the broadband options for a customer based on their location. You will need to consider the wired broadband options available, as well as the wireless broadband options. 
 
 Use a shared Office 365 document in Teams then start collaborating with your team mates to lay out the best broadband options for these areas. You will have 90 minutes to write up a document, and in the final 30 minutes, each group will present their document to the class at the front. Remember to be as supportive as possible to those that are presenting, we want a community of learners that help each other in this unit.
 
